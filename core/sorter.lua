@@ -14,7 +14,11 @@
 -- a mod name string to the sort string, so items are sorted.
 -- @param modname The name of the mod to sort
 function zythum_sort_mod (modname)
-  zythum_sortmod = modname.sub(0, 5)
+  local oldmod = zythum_sortmod or 'none'
+
+  zythum_sortmod = string.sub(modname, 0, 5)
+
+  zythum_log('mod: ' .. oldmod .. ' -> ' .. zythum_sortmod)
 end
 
 
@@ -27,7 +31,7 @@ end
 function zythum_find (item)
   if data.raw.recipe[item] then return item end
 
-  zythum_log('Failed to find recipe for item ' .. item)
+  zythum_log('itm: ' .. item .. ' -> ?')
 end
 
 
@@ -36,10 +40,16 @@ end
 -- new group, subgroup and order
 -- @param item The name of the recipe in the data table
 -- @param group The top group of the item
--- @param subgroup The subgroup of the item
 -- @param order The order string of the item
-function zythum_sort (item, group, subgroup, order)
+function zythum_sort (item, group, order)
+  local group_final = 'zythum-' .. group
+  local order_final = zythum_sortmod .. '-' ..order
+  local item_final = zythum_find(item)
 
+  zythum_log('itm: ' .. item_final .. ' -> ' .. group_final)
+  
+  data.raw.recipe[item_final].subgroup = group_final
+  data.raw.recipe[item_final].order = order_final
 end
 
 
