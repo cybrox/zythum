@@ -12,7 +12,8 @@ Zythum will not add any research or items and will also not be dependent on any 
 The following item groups will be present in the crafting UI when the mod is loaded.
 
 - **zythum-collecting** Items related to collecting and gathering basic resources from the game world
-- **zythum-logistics** Items related to moving items and fluids around in your factories
+- **zythum-transport** Items related to moving items and fluids around in your factories
+- **zythum-logistics** Items related to moving items and fluids with logistic robots
 - **zythum-automation** Items related to automating the flow of items and fluids in your factory
 - **zythum-production** Items related to processing and producing items in your factory
 - **zythum-energy** Items related to producing and storing energy in order to keep your factory powered
@@ -28,3 +29,114 @@ The following item groups will be present in the crafting UI when the mod is loa
 - **zythum-armory** Defensive items and armor
 - **zythum-decorative** Decorative items
 - **zythum-other** Items that don't fit it any category
+
+## Item subgroups 
+- **zythum-collecting**
+ - **01** Hand tools for mining and destruction
+ - **02** Hand tools for repairing and constructing
+ - **03** Coal and electric mining drills row 1
+ - **04** Coal and electric mining drills row 2
+ - **05** Oil and water pumps for collecting resources
+ - **07** Basic storage chests
+ - **08** Large storage chests and warehouses
+ - **10** Fluid storage
+
+- **zythum-transport** 
+ - **01** Transport belts
+ - **02** Underground transport belts
+ - **03** Transport belt splitter
+ - **06** Pipes
+ - **07** Underground pipes
+ - **08** Fluid pumps
+
+- **zythum-logistics**
+ - **01** Blueprints and blueprint handling
+ - **02** Logistic robot related buildings and charging stations
+ - **03** Logistic robot parts and assets
+ - **04** Logistic storage chests and warehouse
+ - **06** Wires and connector for logistics networks
+
+- **zythum-automation** 
+ - **01** Base level inserters, nothing fancy here
+ - **02** Stack inserters
+
+- **zythum-production** 
+ - **01** Basic Furnaces
+ - **03** Basic Factories
+ - **05** Basic Oil Related Factories
+ - **06** Basic Chemical Related Factories
+ - **10** Science and research buildings
+
+- **zythum-energy** 
+ - **01** Steam power related items
+ - **02** Other type of power generators
+ - **04** Energy storage and accumulators
+ - **06** Energy distribution items
+ - **08** Energy containing items (fuel value providers)
+
+- **zythum-chemistry**
+ - **01** Basic chemical resource processing
+ - **02** Basic intermediate chemical resources
+ - **04** Hard chemical items
+ - **06** Chemical fuel sources
+
+- **zythum-intermediate**
+ - **01** Science pack and research related items
+ - **02** Electronic circuits and their components
+ - **04** Random intermediate items
+ - **10** Factorio end game items
+
+- **zythum-modules**
+ - **01** Module and effect transmission related buildings
+ - **02** Speed modules
+ - **03** Productivity modules
+ - **04** Effectivity modules
+
+- **zythum-vehicles**
+ - **01** Locomotives and cargo wagons
+ - **02** Rails
+ - **03** Train-flow related items
+ - **05** All kind of vehicles
+ - **07** All kind of vehicle ammunition
+
+- **zythum-resources**
+ - **01** Wood and synthetic wood related items
+ - **02** Basic resources and minerals
+ - **04** Basic but a bit more processed materials
+
+- **zythum-plates**
+ - **01** Basic first level plates
+ - **02** Basic second level plates
+
+- **zythum-liquids**
+ - **01** Barrels and other liquid containers
+ - **02** Filling barrels and containers
+ - **04** Emptying barrels and containers
+ - **06** Barelled liquids
+ - **07** Liquid processing
+
+- **zythum-alien**
+ - **01** Alien artifacts
+
+- **zythum-defense**
+ - **01** Walls and gates
+ - **02** Turrets and other active defensive structures
+ - **04** Radars and other passive defensive structures
+
+- **zythum-armory**
+ - **01** Weapons
+ - **03** Ammunition
+ - **05** Grenades, mines, capsules and other small items
+ - **06** Basic and modular armor
+ - **07** Supportive armor modules
+ - **08** Power based armor modules
+ - **09** Offensive based armor modules
+
+- **zythum-decorative**
+ - **01** Landfill terraforming
+ - **02** Waterfill terraforming
+ - **03** Floors
+ - **04** Lights
+
+- **zythum-other**
+ - **01** Food
