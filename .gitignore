@@ -1,0 +1,3 @@
+# Ignore build directory and builds
+dist/
+zythum_*.zip
