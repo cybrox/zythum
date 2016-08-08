@@ -7,3 +7,26 @@ Zythum will not add any research or items and will also not be dependent on any 
 
 ## Supported mods
 - **base** `>= 13.0.0`
+
+## Item groups 
+The following item groups will be present in the crafting UI when the mod is loaded.
+
+group | description
+--- | --- 
+**zythum-collecting** | Items related to collecting and gathering basic resources from the game world
+**zythum-logistics** | Items related to moving items and fluids around in your factories
+**zythum-automation** | Items related to automating the flow of items and fluids in your factory
+**zythum-production** | Items related to processing and producing items in your factory
+**zythum-energy** | Items related to producing and storing energy in order to keep your factory powered
+**zythum-chemistry** | All kind of chemical recipes
+**zythum-intermediate** | Intermediate products used for further processing
+**zythum-modules** | All kind of modules
+**zythum-vehicles** | All kind of vehicles and trains
+**zythum-resources** | Basic resources
+**zythum-plates** | Basic materials from resources such as plates or similar
+**zythum-liquids** | Basic liquids and liquid handling recipes
+**zythum-alien** | Alien technology recipes
+**zythum-defense** | Defensive structures
+**zythum-armory** | Defensive items and armor
+**zythum-decorative** | Decorative items
+**zythum-other** | Items that don't fit it any category
