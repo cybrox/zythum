@@ -9,5 +9,6 @@
 
 require('config')
 
--- load mod internal data and libraries from the core
+-- Load mod internal data and libraries from the core
 require('core.debug')
+require('core.sorter')
