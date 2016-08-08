@@ -38,11 +38,11 @@ end
 --- Actually sort an item into a group.
 -- This function will actually sort the given item into its
 -- new group, subgroup and order
--- @param item The name of the recipe in the data table
 -- @param group The group of the item
 -- @param row The row of the item in the group
 -- @param order The position of the item in the row
-function zythum_sort (item, group, row, order)
+-- @param item The name of the recipe in the data table
+function zythum_sort (group, row, order, item)
   local group_final = 'zythum-' .. group .. '-' .. row
   local order_final = zythum_sortmod .. '-' ..order
   local item_final = zythum_find(item)
