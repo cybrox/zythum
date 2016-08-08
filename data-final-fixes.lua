@@ -8,3 +8,6 @@
 -- desc: Past-load after all other mods, initialize sorting
 
 require('config')
+
+-- load mod internal data and libraries from the core
+require('core.debug')
