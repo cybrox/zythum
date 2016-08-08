@@ -9,12 +9,12 @@
 
 require('config')
 
--- Load mod prototypes in order to append them to the game
-require('prototypes.item-groups')
-
 -- Load mod internal data and libraries from the core
 require('core.debug')
 require('core.sorter')
+
+-- Load mod prototypes in order to append them to the game
+require('prototypes.item-groups')
 
 -- Load separate sorting files for mods in order to rearrange them
 require('mods.base')

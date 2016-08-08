@@ -45,13 +45,23 @@ end
 -- @param item The name of the recipe in the data table
 function zythum_sort (group, row, order, item)
   local group_final = 'zythum-' .. group .. '-' .. row
-  local order_final = zythum_sortmod .. '-' ..order
+  local order_final = zythum_sortmod .. '_' .. zythum_order(order)
   local item_final = zythum_find(item)
 
   zythum_log('itm: ' .. item_final .. ' -> ' .. group_final)
   
   data.raw.recipe[item_final].subgroup = group_final
   data.raw.recipe[item_final].order = order_final
+end
+
+
+--- Get an order letter from a provided number
+-- This function will return a letter based on the input number in
+-- order to correctly sort items and categories in the UI
+-- @param number the input number
+function zythum_order (number)
+  if number > 24 then return 'z' end
+  return string.sub('abcdefghijklmnopqrstuvxyz', number, number)
 end
 
 

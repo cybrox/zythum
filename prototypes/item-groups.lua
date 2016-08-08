@@ -15,7 +15,7 @@ for index, group in pairs(zythum_cfg_newitemgroups) do
   data:extend({{
     type = "item-group",
     name = group,
-    order = 'zy-' .. index,
+    order = 'zy_' .. zythum_order(index),
     icon = '__zythum__/assets/categories/' .. group_icon .. '.png',
   }})
 end
