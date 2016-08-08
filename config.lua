@@ -23,6 +23,7 @@ zythum_cfg_newitemgroups = {
   -- These groups should contain the machines necessary for the process,
   -- not the items themselfes. Since those are not as commonly used.
   "zythum-collecting",
+  "zythum-transport",
   "zythum-logistics",
   "zythum-automation",
 
