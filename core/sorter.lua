@@ -27,9 +27,7 @@ end
 function zythum_find (item)
   if data.raw.recipe[item] then return item end
 
-  if zythum_debug then
-    zythum_log('Failed to find recipe for item ' .. item)
-  end
+  zythum_log('Failed to find recipe for item ' .. item)
 end
 
 
