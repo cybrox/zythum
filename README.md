@@ -3,10 +3,14 @@
 
 This mod was inspired by [ZGroupChange](https://mods.factorio.com/mods/Progsy/ZGroupChange), however, while ZGroupChange provides renaming for some famous mods and even adds some new items and technology, it highly depends on all of the supported core mods to be loaded. It will otherwise fail, hide items, or mess up your UI.
 
-Zythum will not add any research or items and will also not be dependent on any specific mods. It uses a completely different approach than ZGroupChange, meaning every single item will be assigned a group and not just batches of items from other mods. This way, the mod will not cause any weird behaviour with custom modpacks.
+**zythum** will not add any research or items and will also not be dependent on any specific mods. It uses a completely different approach than ZGroupChange, meaning every single item will be assigned a group and not just batches of items from other mods. This way, the mod will not cause any weird behaviour with custom modpacks.
+
+[LICENSE](https://github.com/cybrox/zythum/blob/master/LICENSE.md) |
+[CONTRIBUTING](https://github.com/cybrox/zythum/blob/master/CONTRIBUTING.md) |
+[CHANGELOG](https://github.com/cybrox/zythum/blob/master/CHANGELOG.md)
 
 ## Supported mods
-- **base** `>= 13.0.0`
+- **base** refv 13.0
 
 ## Item groups 
 The following item groups will be present in the crafting UI when the mod is loaded.
