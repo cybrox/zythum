@@ -10,7 +10,7 @@
 
 -- Automatically generate item groups from config
 local group_index = 0
-for group in pairs(zythum_cfg_newitemgroups) do
+for index, group in pairs(zythum_cfg_newitemgroups) do
   data:extend({{
     type = "item-group",
     name = group,
