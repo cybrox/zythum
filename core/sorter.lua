@@ -30,7 +30,9 @@ end
 -- @param item The name of the item to find
 -- @return table Table for the item's data
 function zythum_find (item)
-  if data.raw.recipe[item] then return item end
+  for index, filter in pairs(zythum_cfg_datafindgroups) do
+    if data.raw[filter][item] then return filter, item end
+  end
 
   zythum_log('itm: ' .. item .. ' -> ?')
 end
@@ -46,12 +48,12 @@ end
 function zythum_sort (group, row, order, item)
   local group_final = 'zythum-' .. group .. '-' .. row
   local order_final = zythum_sortmod .. '_' .. zythum_order(order)
-  local item_final = zythum_find(item)
+  local data_final, item_final = zythum_find(item)
 
   zythum_log('itm: ' .. item_final .. ' -> ' .. group_final)
   
-  data.raw.recipe[item_final].subgroup = group_final
-  data.raw.recipe[item_final].order = order_final
+  data.raw[data_final][item_final].subgroup = group_final
+  data.raw[data_final][item_final].order = order_final
 end
 
 

@@ -16,6 +16,29 @@ zythum_cfg_enabledebug = true
 zythum_cfg_numsubgroups = 10
 
 
+-- List of keys in the global data array to search in
+zythum_cfg_datafindgroups = {
+  'recipe',
+  'item',
+  'fluid',
+
+  'gun',
+  'ammo',
+  'armor',
+  'tool',
+  'module',
+  'capsule',
+  'rail-planner',
+
+  'mining-tool',
+  'repair-tool',
+  'rail-planner',
+  'blueprint-book',
+  'blueprint',
+  'deconstruction-item'
+}
+
+
 -- List of custom groups to add to the game
 zythum_cfg_newitemgroups = {
 
