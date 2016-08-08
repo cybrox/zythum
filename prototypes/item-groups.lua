@@ -135,3 +135,21 @@ data:extend({
     icon = "__zythum__/assets/categories/placeholder.png",
   },
 })
+
+
+
+-- Automatically generate 10 rows of subgroups for all zythum categories
+for group in pairs(data.raw['item-group']) do
+  if string.sub(group, 0, 6) == 'zythum' then
+    for i = 1, 10 do 
+      data:extend({
+          {
+            type = "item-subgroup",
+            name = group .. '-' .. i,
+            group = group,
+            order = i
+          },
+        })
+    end
+  end
+end
