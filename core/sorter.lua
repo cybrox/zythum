@@ -18,6 +18,7 @@ function zythum_sort_mod (modname)
 
   zythum_sortmod = string.sub(modname, 0, 5)
 
+  zythum_log(' ')
   zythum_log('mod: ' .. oldmod .. ' -> ' .. zythum_sortmod)
 end
 
