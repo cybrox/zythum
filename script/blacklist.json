@@ -1,5 +1,8 @@
 {
   "blacklist": [
-    "base"
+    "base",
+    "5dim_core",
+    "add-loader",
+    "Advanced_Personal_Defense"
   ]
 }
