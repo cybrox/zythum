@@ -30,8 +30,9 @@ for mod in f:lines() do
   pcall(load_mod)
 end
 
-
-template_string = '-- zythum sorter\n-- tidy up your factorio ui\n--\n-- file: mods/base.lua\n-- link: factorio.com\n-- author: cybrox\n-- refver: 0.13\n\nzythum_sort_mod(\'MODNAME\')\n\n\n'
+template_file = io.open('mods/_template.lua', 'r')
+template_string = template_file:read("*all")
+template_file:close()
 
 already_processed = {}
 for index, rawdata in pairs(data) do
@@ -60,6 +61,6 @@ for index, rawdata in pairs(data) do
   end
 end
 
-f_output = io.open('import/' .. import_path .. '.txt', 'w')
+f_output = io.open('import/' .. import_path .. '.lua', 'w')
 f_output:write(template_string)
 f_output:close()
