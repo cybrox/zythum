@@ -20,4 +20,4 @@ zythum_sort('transport',     07, 01, 'pipe-to-ground-v2')
 zythum_sort('transport',     07, 02, 'pipe-to-ground-v3')
 
 -- Recipes for category zythum-logistics
-zythum_sort('logistics',     00, 00, 'roboportmk2')
+zythum_sort('logistics',     02, 01, 'roboportmk2')
