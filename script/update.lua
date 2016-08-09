@@ -119,7 +119,7 @@ store_api_page(data.results)
 print('OK: Fetching factorio mod database 1/' .. napi)
 
 -- Request the remaining pages in order to get all mod information
-if single == false then
+if do_single == false then
   for i = 2, napi do
     sock.sleep(10)
     local data = load_api_page(i)
