@@ -11,6 +11,7 @@ import_mods = 'none'
 
 if import_path == '' then os.exit() end
 
+
 data = {}
 function data:extend(raw)
   for index, info in pairs(raw) do
@@ -19,6 +20,10 @@ function data:extend(raw)
     print('OK: ' .. import_path .. ': Loaded prototype from file ' .. import_mods .. ' at ' .. index .. ' ('..ix..')')
   end
 end
+
+function crash_trigger()
+end
+
 
 local f = io.popen("ls " .. import_base .. import_path)
 for mod in f:lines() do 
