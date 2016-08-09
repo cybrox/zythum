@@ -8,30 +8,13 @@ base = 'https://mods.factorio.com'
 mapi = '/api/mods?q=&tags=&order=alpha&page_size=25&page='
 http = require('socket.http')
 sock = require('socket')
-json = require('json')
+json = require('lunajson')
 
 modsite_mods = {}
-projcet_mods = {}
 ignored_mods = {}
 updates_mods = ''
 
-function load_mod_mods ()
-  local readme = io.open('README.md', 'r')
-  local payload = readme:read("*all")
-  readme:close()
-
-  for i in string.gmatch(payload, '\n%- +%[[^`]+`[^`]+`') do
-    local name = string.sub(string.match(i, '%[.*%]'), 2, -2)
-    local vers = string.match(i, '[0-9]+%.[0-9]+%.[0-9]+')
-
-    local obj = {
-      name = name,
-      version = vers
-    }
-
-    table.insert(projcet_mods, obj)
-  end
-end
+do_single = (arg[1] == 'single')
 
 
 function load_ign_mods ()
@@ -100,6 +83,29 @@ function url_encode (str)
 end
 
 
+function file_exists (file)
+  local finame = file:gsub(' ', '+')
+  local handle = io.open('mods/' .. finame .. '.lua', 'r')
+  
+  if handle ~= nil then
+    local data = handle:read("*all")
+    local vers = '0.0.0'
+
+    io.close(handle)
+
+    vers = string.match(data, '[0-9]+%.[0-9]+%.[0-9]+')
+    if vers == nil then vers = '0.0.0' end
+
+    return {
+      name = file,
+      version = vers
+    }
+  else
+    return nil
+  end
+end
+
+
 function fprint (str)
   updates_mods = updates_mods .. str .. '\n'
 end
@@ -113,16 +119,14 @@ store_api_page(data.results)
 print('OK: Fetching factorio mod database 1/' .. napi)
 
 -- Request the remaining pages in order to get all mod information
-for i = 2, napi do
-  sock.sleep(10)
-  local data = load_api_page(i)
-  store_api_page(data.results)
-  print('OK: Fetching factorio mod database ' .. i .. '/' .. napi)
+if single == false then
+  for i = 2, napi do
+    sock.sleep(10)
+    local data = load_api_page(i)
+    store_api_page(data.results)
+    print('OK: Fetching factorio mod database ' .. i .. '/' .. napi)
+  end
 end
-
--- Load all implemented mods from the readme file
-print('OK: Fetching local mod database')
-load_mod_mods()
 
 -- Load all mods from the ignore list
 print('OK: Fetching local blacklist database')
@@ -142,10 +146,7 @@ for index, mod in pairs(modsite_mods) do
 
   -- If our mod is not blacklisted, check if it exists in our repo
   if is_blacklisted == false then
-    local is_indexed = nil
-    for index, lmod in pairs(projcet_mods) do
-      if mod.find == lmod.name then is_indexed = lmod end
-    end
+    local is_indexed = file_exists(mod.find)
 
     -- Output a require warning, if the mod was not yet indexed by us
     if is_indexed == nil then
