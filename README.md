@@ -63,7 +63,7 @@ The following item groups will be present in the crafting UI when the mod is loa
  - **05** Oil and water pumps for collecting resources
  - **07** Basic storage chests
  - **08** Large storage chests and warehouses
- - **10** Fluid storage
+ - **09** Fluid storage
 
 - **zythum-transport** 
  - **01** Transport belts
@@ -83,13 +83,15 @@ The following item groups will be present in the crafting UI when the mod is loa
 - **zythum-automation** 
  - **01** Base level inserters, nothing fancy here
  - **02** Stack inserters
+ - **03** Smart inserters
+ - **04** 90° inserters
 
 - **zythum-production** 
- - **01** Basic Furnaces
+ - **01** Basic Furnaces / Mashers
  - **03** Basic Factories
  - **05** Basic Oil Related Factories
  - **06** Basic Chemical Related Factories
- - **10** Science and research buildings
+ - **09** Science and research buildings
 
 - **zythum-energy** 
  - **01** Steam power related items
@@ -108,13 +110,14 @@ The following item groups will be present in the crafting UI when the mod is loa
  - **01** Science pack and research related items
  - **02** Electronic circuits and their components
  - **04** Random intermediate items
- - **10** Factorio end game items
+ - **09** Factorio end game items
 
 - **zythum-modules**
  - **01** Module and effect transmission related buildings
  - **02** Speed modules
  - **03** Productivity modules
  - **04** Effectivity modules
+ - **05** Pollution modules
 
 - **zythum-vehicles**
  - **01** Locomotives and cargo wagons
@@ -161,6 +164,7 @@ The following item groups will be present in the crafting UI when the mod is loa
  - **02** Waterfill terraforming
  - **03** Floors
  - **04** Lights
+ - **05** Monuments
 
 - **zythum-other**
  - **01** Food
