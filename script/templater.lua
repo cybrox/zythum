@@ -16,7 +16,7 @@ function data:extend(raw)
   for index, info in pairs(raw) do
     table.insert(data, info)
     ix = info.type .. ':' .. info.name or '?'
-    print('OK: Loaded prototype from ' .. import_mods .. ' at ' .. index .. ' ('..ix..')')
+    print('OK: Loaded prototype from file ' .. import_mods .. ' at ' .. index .. ' ('..ix..')')
   end
 end
 
