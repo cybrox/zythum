@@ -6,7 +6,8 @@
 -- author: cybrox
 -- refver: 0.13
 
-zythum_sort_mod('base')
+-- Tricking a bit here to enforce base as first sorting order
+zythum_sort_mod('aaaaa-base')
 
 
 -- Recipes for category zythum-collecting
