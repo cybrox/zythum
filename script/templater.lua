@@ -16,7 +16,7 @@ function data:extend(raw)
   for index, info in pairs(raw) do
     table.insert(data, info)
     ix = info.type .. ':' .. info.name or '?'
-    print('OK: Loaded prototype from file ' .. import_mods .. ' at ' .. index .. ' ('..ix..')')
+    print('OK: ' .. import_path .. ': Loaded prototype from file ' .. import_mods .. ' at ' .. index .. ' ('..ix..')')
   end
 end
 
@@ -61,6 +61,12 @@ for index, rawdata in pairs(data) do
   end
 end
 
-f_output = io.open('mods/' .. import_path .. '.lua', 'w')
-f_output:write(template_string)
-f_output:close()
+local final_count = 0
+for _ in pairs(already_processed) do final_count = final_count + 1 end
+if final_count == 0 then
+  print('OK: ' .. import_path .. ': Loaded no prototypes for mod')
+else
+  f_output = io.open('mods/' .. import_path .. '.lua', 'w')
+  f_output:write(template_string)
+  f_output:close()
+end

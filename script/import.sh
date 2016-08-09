@@ -64,8 +64,17 @@ if [[ -e "./info.json" ]]; then
       fi
     done
 
+    echo ""
+    echo "OK: Now processing prototypes"
     ls "$IMPORTLOC/__final" | while read FILE; do
-      lua ./script/templater.lua "$FILE"
+      RESP=`lua ./script/templater.lua "$FILE"`
+      NFLN=`echo $RESP | grep "Loaded no prototypes"`
+      MOUT=$(echo $FILE| cut -d'_' -f 1)
+      if [[ "$NFLN" != "" ]]; then
+        mv "$IMPORTLOC/__final/$MOUT" "$IMPORTLOC/__trash/$MOUT"
+      fi
+
+      echo "$RESP"
     done
   else
     echo "ER: Import directory invalid!"
