@@ -61,6 +61,6 @@ for index, rawdata in pairs(data) do
   end
 end
 
-f_output = io.open('import/' .. import_path .. '.lua', 'w')
+f_output = io.open('mods/' .. import_path .. '.lua', 'w')
 f_output:write(template_string)
 f_output:close()
