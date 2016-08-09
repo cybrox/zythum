@@ -10,13 +10,11 @@
 
 -- Automatically generate item groups from config
 for index, group in pairs(zythum_cfg_newitemgroups) do
-  local group_icon = (zythum_cfg_enabledebug) and 'placeholder' or group
-
   data:extend({{
     type = "item-group",
     name = group,
     order = 'zy_' .. zythum_order(index),
-    icon = '__zythum__/assets/categories/' .. group_icon .. '.png',
+    icon = '__zythum__/assets/categories/' .. group .. '.png',
   }})
 end
 
