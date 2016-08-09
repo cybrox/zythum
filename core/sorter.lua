@@ -16,7 +16,7 @@
 function zythum_sort_mod (modname)
   local oldmod = zythum_sortmod or 'none'
 
-  zythum_sortmod = string.sub(modname, 0, 5)
+  zythum_sortmod = string.sub(modname, 0, 8)
 
   zythum_log(' ')
   zythum_log('mod: ' .. oldmod .. ' -> ' .. zythum_sortmod)
@@ -52,6 +52,9 @@ function zythum_sort (group, row, order, item)
   local group_final = 'zythum-' .. group .. '-' .. row
   local order_final = zythum_sortmod .. '_' .. zythum_order(order)
   local data_final, item_final = zythum_find(item, false)
+
+  -- ignore items that are not found!
+  if item_final == nil then return end
 
   zythum_log('itm: ' .. item_final .. ' -> ' .. group_final)
   
