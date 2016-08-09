@@ -7,6 +7,31 @@
 IMPORTLOC=./import
 IMPORTDIR=$1
 
+
+function mname {
+  NVFILE=$(echo $1| cut -d'_' -f 1)
+
+  CURCNT=2
+  NEXCNT=3
+  while [ $CURCNT -le 10 ]; do
+    NVFILEADD=$(echo $FILE| cut -d'_' -f $CURCNT)
+    NVFILENXT=$(echo $FILE| cut -d'_' -f $NEXCNT)
+
+    if [[ "$NVFILENXT" != "" ]]; then
+      NVFILE="$NVFILE+$NVFILEADD"
+    else
+      NVFILE=`echo $NVFILE | tr + _`
+      break
+    fi
+
+    CURCNT=$((CURCNT + 1))
+    NEXCNT=$((NEXCNT + 1))
+  done
+
+  echo "$NVFILE"
+}
+
+
 rm -rf "$IMPORTLOC"
 mkdir -p "$IMPORTLOC"
 mkdir -p "$IMPORTLOC/__final"
@@ -40,7 +65,7 @@ if [[ -e "./info.json" ]]; then
       echo "OK: Found imported mod $FILE"
 
       if [[ -d "$IMPORTLOC/$FILE" ]]; then
-        NVFILE=$(echo $FILE| cut -d'_' -f 1)
+        NVFILE=$(mname $FILE)
 
         if [[ -d "$IMPORTLOC/$FILE/prototypes" ]]; then
           echo "OK: Loading prototypes for mod $NVFILE"
@@ -69,9 +94,9 @@ if [[ -e "./info.json" ]]; then
     ls "$IMPORTLOC/__final" | while read FILE; do
       RESP=`lua ./script/templater.lua "$FILE"`
       NFLN=`echo $RESP | grep "Loaded no prototypes"`
-      MOUT=$(echo $FILE| cut -d'_' -f 1)
       if [[ "$NFLN" != "" ]]; then
-        mv "$IMPORTLOC/__final/$MOUT" "$IMPORTLOC/__trash/$MOUT"
+        #mv "$IMPORTLOC/__final/$FILE" "$IMPORTLOC/__trash/$FILE"
+        echo "a"
       fi
 
       echo "$RESP"
