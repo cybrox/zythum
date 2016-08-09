@@ -11,26 +11,26 @@ This mod was inspired by [ZGroupChange](https://mods.factorio.com/mods/Progsy/ZG
 
 ## Supported mods
 - **base** `>= 13.0 `
-- [BigWoodenPowerPole](https://mods.factorio.com/mods/Klonan/BigWoodenPowerPole) `>= 0.0.3`
-- [20x20ArmorMK2](https://mods.factorio.com/mods/Neonit/20x20ArmorMK2) `>= 0.0.3`
-- [5dim_automatization](https://mods.factorio.com/mods/McGuten/5dim%5Fautomatization) `>= 0.13.1`
-- [5dim_battlefield](https://mods.factorio.com/mods/McGuten/5dim%5Fbattlefield) `>= 0.13.1`
-- [5dim_decoration](https://mods.factorio.com/mods/McGuten/5dim%5Fdecoration) `>= 0.13.1`
-- [5dim_energy](https://mods.factorio.com/mods/McGuten/5dim%5Fenergy) `>= 0.13.1`
-- [5dim_logistic](https://mods.factorio.com/mods/McGuten/5dim%5Flogistic) `>= 0.13.1`
-- [5dim_mining](https://mods.factorio.com/mods/McGuten/5dim%5Fmining) `>= 0.13.1`
-- [5dim_module](https://mods.factorio.com/mods/McGuten/5dim%5Fmodule) `>= 0.13.1`
-- [5dim_resources](https://mods.factorio.com/mods/McGuten/5dim%5Fresources) `>= 0.13.1`
-- [5dim_vehicle](https://mods.factorio.com/mods/McGuten/5dim%5Fvehicle) `>= 0.13.1`
-- [additionaloilrefineries](https://mods.factorio.com/mods/IhanaMies/additionaloilrefineries) `>= 1.1.0`
-- [AddAssemblerBatteries](https://mods.factorio.com/mods/DRY411S/AddAssemblerBatteries) `>= 0.13.1`
+- [20x20 Armor MK2](https://mods.factorio.com/mods/Neonit/20x20ArmorMK2) `>= 0.0.3`
+- [5dim Automatization](https://mods.factorio.com/mods/McGuten/5dim%5Fautomatization) `>= 0.13.1`
+- [5dim Battlefield](https://mods.factorio.com/mods/McGuten/5dim%5Fbattlefield) `>= 0.13.1`
+- [5dim Decoration](https://mods.factorio.com/mods/McGuten/5dim%5Fdecoration) `>= 0.13.1`
+- [5dim Energy](https://mods.factorio.com/mods/McGuten/5dim%5Fenergy) `>= 0.13.1`
+- [5dim Logistic](https://mods.factorio.com/mods/McGuten/5dim%5Flogistic) `>= 0.13.1`
+- [5dim Mining](https://mods.factorio.com/mods/McGuten/5dim%5Fmining) `>= 0.13.1`
+- [5dim Module](https://mods.factorio.com/mods/McGuten/5dim%5Fmodule) `>= 0.13.1`
+- [5dim Resources](https://mods.factorio.com/mods/McGuten/5dim%5Fresources) `>= 0.13.1`
+- [5dim Vehicle](https://mods.factorio.com/mods/McGuten/5dim%5Fvehicle) `>= 0.13.1`
+- [Additional Oil Refineries](https://mods.factorio.com/mods/IhanaMies/additionaloilrefineries) `>= 1.1.0`
+- [Add Assembler Batteries](https://mods.factorio.com/mods/DRY411S/AddAssemblerBatteries) `>= 0.13.1`
 - [Advanced-Drills](https://mods.factorio.com/mods/Neomore/Advanced%2DDrills) `>= 0.1.7`
 - [Advanced-Electric](https://mods.factorio.com/mods/Neomore/Advanced%2DElectric) `>= 0.1.2`
 - [Advanced-Logistics](https://mods.factorio.com/mods/Neomore/Advanced%2DLogistics) `>= 0.1.1`
 - [Advanced-Tanks](https://mods.factorio.com/mods/Neomore/Advanced%2DTanks) `>= 0.1.1`
-- [AfraidOfTheDark](https://mods.factorio.com/mods/binbinhfr/AfraidOfTheDark) `>= 1.0.13`
+- [Afraid Of The Dark](https://mods.factorio.com/mods/binbinhfr/AfraidOfTheDark) `>= 1.0.13`
 - [Agent Orange](https://mods.factorio.com/mods/Ranakastrasz/Agent+Orange) `>= 0.0.6`
 - [Aircraft](https://mods.factorio.com/mods/zingo2/Aircraft) `>= 1.0.7`
+- [Big Wooden Power Pole](https://mods.factorio.com/mods/Klonan/BigWoodenPowerPole) `>= 0.0.3`
 
 ## Item groups 
 The following item groups will be present in the crafting UI when the mod is loaded.
