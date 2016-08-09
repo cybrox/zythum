@@ -24,7 +24,7 @@ if [[ -e "./info.json" ]]; then
 
       if [[ ! -d "$IMPORTDIR/$FILE" && "$FILE" =~ .*\.zip ]]; then
         unzip "$IMPORTDIR/$FILE" -d "$IMPORTLOC" > /dev/null 2>&1
-        rm "$IMPORTDIR/$FILE"
+        #rm "$IMPORTDIR/$FILE"
         echo "OK: Unzipped and moved mod $FILE"
       else
         mv "$IMPORTDIR/$FILE" "$IMPORTLOC"
@@ -45,7 +45,17 @@ if [[ -e "./info.json" ]]; then
         if [[ -d "$IMPORTLOC/$FILE/prototypes" ]]; then
           echo "OK: Loading prototypes for mod $NVFILE"
           cp -R "$IMPORTLOC/$FILE/prototypes" "$IMPORTLOC/__final/"
-          mv "$IMPORTLOC/__final/prototypes" "$IMPORTLOC/__final/$NVFILE"
+          mkdir -p "$IMPORTLOC/__final/__temp"
+
+          ITERATOR=0
+          find "$IMPORTLOC/__final/prototypes" -name \*.lua -print0 |
+            while read -r -d $'\0' FILE; do
+              cp "$FILE" "$IMPORTLOC/__final/__temp/$ITERATOR.lua"
+              ITERATOR=$(($ITERATOR + 1))
+            done
+
+          mv "$IMPORTLOC/__final/__temp" "$IMPORTLOC/__final/$NVFILE"
+          rm -r "$IMPORTLOC/__final/prototypes"
           rm -r "$IMPORTLOC/$FILE"
         else
           echo "ER: No prototypes found for mod $FILE"
