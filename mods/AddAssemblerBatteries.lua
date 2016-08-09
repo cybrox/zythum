@@ -3,7 +3,7 @@
 --
 -- file: mods/AddAssemblerBatteries.lua
 -- link: https://mods.factorio.com/mods/DRY411S/AddAssemblerBatteries
--- author: cybriox
+-- author: cybrox
 -- refver: 0.13.1
 
 zythum_sort_mod('AddAssemblerBatteries')

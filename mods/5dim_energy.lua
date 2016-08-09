@@ -2,9 +2,9 @@
 -- tidy up your factorio ui
 --
 -- file: mods/5dim_energy.lua
--- link: mods.factorio.com/mods/MODLINK
--- author: YOURNAME
--- refver: REFERENCEVERSION
+-- link: https://mods.factorio.com/mods/McGuten/5dim%5Fenergy
+-- author: cybrox
+-- refver: 0.13.1
 
 zythum_sort_mod('5dim_energy')
 
