@@ -11,7 +11,10 @@ require('config')
 
 if zythum_cfg_enabledebug then
   script.on_event(defines.events.on_player_created, function(event)
-    game.players[event.player_index].insert {
+    local player = game.players[event.player_index];
+
+    player.force.research_all_technologies()
+    player.insert {
       name="filter-inserter",
       count=1
     } 
