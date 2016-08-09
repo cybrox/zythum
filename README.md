@@ -10,7 +10,8 @@ This mod was inspired by [ZGroupChange](https://mods.factorio.com/mods/Progsy/ZG
 [CHANGELOG](https://github.com/cybrox/zythum/blob/master/CHANGELOG.md)
 
 ## Supported mods
-- **base** refv 13.0
+- **base** `>= 13.0 `
+- [BigWoodenPowerPole](https://mods.factorio.com/mods/Klonan/BigWoodenPowerPole) `>= 0.0.3`
 
 ## Item groups 
 The following item groups will be present in the crafting UI when the mod is loaded.

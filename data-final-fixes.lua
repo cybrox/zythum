@@ -18,3 +18,4 @@ require('prototypes.item-groups')
 
 -- Load separate sorting files for mods in order to rearrange them
 require('mods.base')
+require('mods.big-wooden-power-pole')
