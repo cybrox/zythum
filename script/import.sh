@@ -95,8 +95,7 @@ if [[ -e "./info.json" ]]; then
       RESP=`lua ./script/templater.lua "$FILE"`
       NFLN=`echo $RESP | grep "Loaded no prototypes"`
       if [[ "$NFLN" != "" ]]; then
-        #mv "$IMPORTLOC/__final/$FILE" "$IMPORTLOC/__trash/$FILE"
-        echo "a"
+        mv "$IMPORTLOC/__final/$FILE" "$IMPORTLOC/__trash/$FILE"
       fi
 
       echo "$RESP"
