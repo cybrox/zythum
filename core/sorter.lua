@@ -28,10 +28,13 @@ end
 -- names and return its data object. If no recipe is found,
 -- the function will output a message
 -- @param item The name of the item to find
+-- @param force If enabeld, find somethign other than a recipe
 -- @return table Table for the item's data
-function zythum_find (item)
+function zythum_find (item, force)
   for index, filter in pairs(zythum_cfg_datafindgroups) do
-    if data.raw[filter][item] then return filter, item end
+    if force == false or index ~= 1 then
+      if data.raw[filter][item] then return filter, item end
+    end
   end
 
   zythum_log('itm: ' .. item .. ' -> ?')
@@ -48,12 +51,22 @@ end
 function zythum_sort (group, row, order, item)
   local group_final = 'zythum-' .. group .. '-' .. row
   local order_final = zythum_sortmod .. '_' .. zythum_order(order)
-  local data_final, item_final = zythum_find(item)
+  local data_final, item_final = zythum_find(item, false)
 
   zythum_log('itm: ' .. item_final .. ' -> ' .. group_final)
   
   data.raw[data_final][item_final].subgroup = group_final
   data.raw[data_final][item_final].order = order_final
+
+  -- if we sorted a recipe, we also want to sort the item!
+  if data_final == 'recipe' then
+    local data_final, item_final = zythum_find(item, true)
+    if data_final ~= nil then
+      data.raw[data_final][item_final].subgroup = group_final
+      data.raw[data_final][item_final].order = order_final
+      zythum_log('spc: ' .. item_final .. ' -> ' .. group_final)
+    end
+  end
 end
 
 
