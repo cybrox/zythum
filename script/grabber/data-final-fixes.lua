@@ -9,6 +9,8 @@
 
 
 -- Get a list for all keys that can be ignored
+loaded_items = {}
+unique_items = {}
 zythum_list = {
   'railgun-dart',
   'player-port',
@@ -53,7 +55,23 @@ for index, category in pairs(zythum_cfg_datafindgroups) do
     end
 
     if is_basemoditem == false then
-      print('zythumgrab>' .. element.name)
+      table.insert(loaded_items, element.name)
     end
   end
+end
+
+-- Make sure all values in the table are unique
+for index, item in pairs(loaded_items) do
+  does_exist = false
+
+  for _, x in pairs(unique_items) do
+    if x == item then does_exist=true end
+  end
+
+  if does_exist == false then table.insert(unique_items, item) end
+end
+
+-- Output our unique list of items
+for index, item in pairs(unique_items) do
+  print('zythumgrab>' .. item)
 end
