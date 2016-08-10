@@ -1,0 +1,16 @@
+{
+  "name": "zythumgrabber",
+  "title": "zythum grabber",
+  "description": "mod grabber for zythum",
+
+  "version": "1.0.0",
+  "factorio_version": "0.13",
+
+  "author": "cybrox",
+  "contact": "cbrxde@gmail.com",
+  "homepage": "http://zythum.cybrox.eu",
+
+  "dependencies": [
+    "base >= 0.13.0"
+  ]
+}
