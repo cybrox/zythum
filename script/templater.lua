@@ -71,7 +71,7 @@ for _ in pairs(already_processed) do final_count = final_count + 1 end
 if final_count == 0 then
   print('OK: ' .. import_path .. ': Loaded no prototypes for mod')
 else
-  f_output = io.open('mods/' .. import_path .. '.lua', 'w')
+  f_output = io.open('import/' .. import_path .. '.lua', 'w')
   f_output:write(template_string)
   f_output:close()
 end
