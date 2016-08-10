@@ -66,21 +66,29 @@ if [[ -e "./info.json" ]]; then
 
       if [[ -d "$IMPORTLOC/$FILE" ]]; then
         NVFILE=$(mname $FILE)
+        NVPROT=""
 
         if [[ -d "$IMPORTLOC/$FILE/prototypes" ]]; then
+          NVPROT="prototypes"
+        fi
+        if [[ -d "$IMPORTLOC/$FILE/prototype" ]]; then
+          NVPROT="prototype"
+        fi
+
+        if [[ -d "$IMPORTLOC/$FILE/$NVPROT" ]]; then
           echo "OK: Loading prototypes for mod $NVFILE"
-          cp -R "$IMPORTLOC/$FILE/prototypes" "$IMPORTLOC/__final/"
+          cp -R "$IMPORTLOC/$FILE/$NVPROT" "$IMPORTLOC/__final/"
           mkdir -p "$IMPORTLOC/__final/__temp"
 
           ITERATOR=0
-          find "$IMPORTLOC/__final/prototypes" -name \*.lua -print0 |
+          find "$IMPORTLOC/__final/$NVPROT" -name \*.lua -print0 |
             while read -r -d $'\0' FILE; do
               cp "$FILE" "$IMPORTLOC/__final/__temp/$ITERATOR.lua"
               ITERATOR=$(($ITERATOR + 1))
             done
 
           mv "$IMPORTLOC/__final/__temp" "$IMPORTLOC/__final/$NVFILE"
-          rm -r "$IMPORTLOC/__final/prototypes"
+          rm -r "$IMPORTLOC/__final/$NVPROT"
           rm -r "$IMPORTLOC/$FILE"
         else
           echo "ER: No prototypes found for mod $FILE"
