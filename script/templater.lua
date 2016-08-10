@@ -32,7 +32,8 @@ for mod in f:lines() do
     require('import.__final.' .. import_path .. '.' .. import_mods)
   end
 
-  pcall(load_mod)
+  local status, error = pcall(load_mod)
+  if status == false then print('ER: ' .. import_path .. ': Failed to load prototypes from file ' .. import_mods) end
 end
 
 template_file = io.open('mods/_template.lua', 'r')
