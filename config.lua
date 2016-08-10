@@ -9,7 +9,7 @@
 
 
 -- Enable debugging when the mod is loaded
-zythum_cfg_enabledebug = false
+zythum_cfg_enabledebug = true
 
 
 -- Number of subgroups (rows) for every custom group
