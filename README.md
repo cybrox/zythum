@@ -29,8 +29,23 @@ This mod was inspired by [ZGroupChange](https://mods.factorio.com/mods/Progsy/ZG
 - [Advanced-Tanks](https://mods.factorio.com/mods/Neomore/Advanced%2DTanks) `>= 0.1.1`
 - [Afraid Of The Dark](https://mods.factorio.com/mods/binbinhfr/AfraidOfTheDark) `>= 1.0.13`
 - [Agent Orange](https://mods.factorio.com/mods/Ranakastrasz/Agent+Orange) `>= 0.0.6`
+. [Air Filtering](https://mods.factorio.com/mods/Schorty/air%2Dfiltering) `>= 0.4.0`
 - [Aircraft](https://mods.factorio.com/mods/zingo2/Aircraft) `>= 1.0.7`
+- [Algaculture](https://mods.factorio.com/mods/Fortanono/Algaculture) `>= 0.1.3`
+- [Alien Artifacts](https://mods.factorio.com/mods/flonussi/AlienArtifacts) `>= 0.1.1`
+- [AlienEggs](https://mods.factorio.com/mods/binbinhfr/AlienEggs) `>= 1.0.5`
+- [Alien Oil](https://mods.factorio.com/mods/Rseding91/Alien%20Oil) `>= 1.0.9`
+- [Alien Science](https://mods.factorio.com/mods/Delois/alien%2Dscience) `>= 0.1.1`
+- [Alien Wall](https://mods.factorio.com/mods/vedrit/AlienWall) `>= 0.4.3`
+- [All Fluids](https://mods.factorio.com/mods/Delus/AllFluids) `>= 1.0.2`
+- [Alternate Alien Science](https://mods.factorio.com/mods/Delois/Alternate%20Alien%20Science) `>= 0.1.6`
+- [AmmoBox](https://mods.factorio.com/mods/Afforess/AmmoBox) `>= 1.0.1`
+- [Aquifer Drill](https://mods.factorio.com/mods/Align/AquiferDrill) `>= 1.2.0`
 - [Big Wooden Power Pole](https://mods.factorio.com/mods/Klonan/BigWoodenPowerPole) `>= 0.0.3`
+
+## Planned mods
+- andrew mods
+- angel mods
 
 ## Item groups 
 The following item groups will be present in the crafting UI when the mod is loaded.
@@ -91,6 +106,7 @@ The following item groups will be present in the crafting UI when the mod is loa
  - **03** Basic Factories
  - **05** Basic Oil Related Factories
  - **06** Basic Chemical Related Factories
+ - **08** Biological factories
  - **09** Science and research buildings
 
 - **zythum-energy** 
@@ -105,6 +121,7 @@ The following item groups will be present in the crafting UI when the mod is loa
  - **02** Basic intermediate chemical resources
  - **04** Hard chemical items
  - **06** Chemical fuel sources
+ - **08** Biological chemical items
 
 - **zythum-intermediate**
  - **01** Science pack and research related items
@@ -144,6 +161,9 @@ The following item groups will be present in the crafting UI when the mod is loa
 
 - **zythum-alien**
  - **01** Alien artifacts
+ - **03** Alien eggs and other parts
+ - **05** Alien buildings
+ - **07** Alien research
 
 - **zythum-defense**
  - **01** Walls and gates
