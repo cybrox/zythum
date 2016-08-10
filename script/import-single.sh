@@ -66,7 +66,7 @@ while read -r LINE; do
     if [[ $LINE =~ [0-9]+\.[0-9]+\.[0-9]+ ]]; then
       FINAL_VERSION="${BASH_REMATCH[0]}"
     fi
-    if [[ $LINE =~ Loading\ mod\ (.*)[0-9]+\.[0-9]+\.[0-9]+ ]]; then
+    if [[ $LINE =~ Loading\ mod\ (.*)\ [0-9]+\.[0-9]+\.[0-9]+ ]]; then
       FINAL_NAME="${BASH_REMATCH[1]}"
     fi
   fi
