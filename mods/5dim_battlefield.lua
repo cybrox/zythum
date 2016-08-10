@@ -10,6 +10,6 @@ zythum_sort_mod('5dmin_battlefield')
 
 
 -- Recipes for category zythum-defense
-zythum_sort('CATEGORY', 00, 00, '5d-metal-wall')
-zythum_sort('CATEGORY', 00, 00, '5d-gate')
-zythum_sort('CATEGORY', 00, 00, '5d-radar')
+zythum_sort('defense',       01, 01, '5d-metal-wall')
+zythum_sort('defense',       01, 02, '5d-gate')
+zythum_sort('defense',       04, 01, '5d-radar')
