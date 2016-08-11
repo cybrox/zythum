@@ -14,6 +14,7 @@ FACTORIO_TIME=15
 
 IMPORT_FILE=$1
 IMPORT_INEW=$2
+IMPORT_BASE=$3
 IMPORT_NEWF=./
 
 urlencode() {
@@ -56,6 +57,11 @@ if [[ -d "$FACTMODS_PATH" ]]; then
   ls "$FACTMODS_PATH" | while read FILE; do
     rm -rf "$FACTMODS_PATH/$FILE"
   done
+
+  # Copy dependency package, if the user added any
+  if [[ "$IMPORT_BASE" != "" ]]; then
+    cp "$IMPORT_BASE" "$FACTMODS_PATH"
+  fi
 
   cp -r "$FACTMODS_GRAB" "$FACTMODS_PATH"
   mv "$FACTMODS_PATH/grabber" "$FACTMODS_PATH/zythumgrabber_1.0.0"
@@ -142,3 +148,7 @@ done <<< "$MODGRAB_DATA"
 
 # Remove temp unpack dirctory
 rm -rf "$TEMPFILE_DIRS"
+
+# Regenerate README and modpack
+bash ./script/generate-imports.sh
+bash ./script/generate-readme.sh
