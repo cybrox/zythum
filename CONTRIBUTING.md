@@ -1,34 +1,41 @@
 ### Contributing to the source code
 Feel free to create pull request with any kind of changes you want to see implemented in this mod against this repository. Though I doubt that the source code of the mod itself will drastically change in the future (since the functionality of the mod is quite simple), any kind of improvement is welcome.
 
-### Contributing mods
-**If** you use the generator, you can skip step 1 and a lot of thinking!   
-**If** you add a new mod, please make sure that the `/mods/mymod.lua` file is named after the `info.json > name`  
+### Contributing mods 
+**If** you add a new mod, **do not** edit `README.md` or `data-final-fixes.lua`, they can be generated!
 **If** a mod is sorted via zythum, items of the same mod will **always** be next to eachother in the UI.
 
+#####Manually adding mods
 1. Copy `/mods/_template.lua` for the mod you want to add to `/mods/<modname>.lua`
+2. Fill out the template header accordingly, this is important, since a part of the mod is generated from it!
 2. Make sure you change the mod sorting name on top of the file to your mod's name `zythum_sort_mod('<modname>')`
 3. Fill in all the mod details, syntax is `zythum_sort(<group>, <row>, <position>, <item>)`
 3. Require the new mod file in `data-final-fixes.lua` preferably in alphabetical order with all the other mods
 
-### Using the generator
-**zythum** contains a generator that will automatically extract all needed prototypes from a modpack, if they are defined at the right place (`/prototypes`). The generator will load all folders or zip file in a given import directory, unpack them if needed, fetch their prototypes and generate a *zythum mods file* template out of it.
+#####Adding mods with the generator
+1. Run `bash script/import-single.sh <path-to-mod> <is-new> <base-mod>` (see below)
+2. Adjust the details in the created file as needed
+3. Don't update `README.md` or `data-final-fixes.lua`, the import script regenerates them automatically.
 
-To use the generator for your mods simply run the following command from the zythum project root:
-```
-bash scripts/import.sh path/to/folder/that/contains/mods
-```
+### Using the scripts
+**IMPORTANT:** All scripts are designed to be run from the project root. Please note that I work on script compatibility, to make sure, they run on your system too, so far, it's quite experimental.
 
-Example output for the `big-wooden-power-pole` mod
-```
-OK: Found mod BigWoodenPowerPole_0.0.3.zip
-OK: Unzipped and moved mod BigWoodenPowerPole_0.0.3.zip
-OK: Found imported mod BigWoodenPowerPole_0.0.3
-OK: Loading prototypes for mod BigWoodenPowerPole
+#####build.sh
+Running this will pack all important data into a temporary folder and then zip them into a mod archive. **Always** make sure to turn `debug` off in the config before you pack (I need to automate this...)
+This will automatically take the version from `info.json`
 
-OK: Now processing prototypes
-OK: BigWoodenPowerPole: Loaded prototype from file 0 at 1 (electric-pole:big-wooden-pole)
-OK: BigWoodenPowerPole: Loaded prototype from file 1 at 1 (item:big-wooden-pole)
-OK: BigWoodenPowerPole: Loaded prototype from file 2 at 1 (recipe:big-wooden-pole)
-```
+#####generate-imports.sh
+This script will automatically regenerate `data-final-fixes` with all mod includes based on the mod directory `/mods`. This is automatically run by `import-single.sh`
 
+#####generate-readme.sh
+This script will automatically regenerate `README.md` with data from all mod file headers. This is automatically run by `import-single.sh`
+
+#####import-multiple.sh
+Usage: `bash script/import-multiple.sh <path>`
+Give this script a path and it will run `import-single.sh` for every file in that directory. Useful if you want to generate data for a bunch of mods.
+
+#####import-single.sh
+Usage: `bash script/import-singe.sh <path> <new> <base>`
+- `path` The path to the mod zip you want to generate info for
+- `new` If set to "new", the output file will directly be in `/mods` instead of `/import`
+- `base` If set, the generator will load this package into the mods too, in case your mods require a base library.

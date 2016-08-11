@@ -2,6 +2,7 @@
 -- tidy up your factorio ui
 --
 -- file: mods/MODNAME.lua
+-- name: MODTITLE
 -- link: mods.factorio.com/mods/MODLINK
 -- author: YOURNAME
 -- refver: REFERENCEVERSION
