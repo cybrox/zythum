@@ -2,6 +2,7 @@
 -- tidy up your factorio ui
 --
 -- file: mods/AlienWall.lua
+-- name: Alien Wall
 -- link: https://mods.factorio.com/mods/vedrit/AlienWall
 -- author: cybrox
 -- refver: 0.4.3

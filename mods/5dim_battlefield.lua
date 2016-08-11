@@ -2,6 +2,7 @@
 -- tidy up your factorio ui
 --
 -- file: mods/5dmin_battlefield.lua
+-- name: 5dim Battlefield
 -- link: https://mods.factorio.com/mods/McGuten/5dim%5Fbattlefield
 -- author: cybrox
 -- refver: 0.13.1

@@ -2,6 +2,7 @@
 -- tidy up your factorio ui
 --
 -- file: mods/Aircraft.lua
+-- name: Aircraft
 -- link: https://mods.factorio.com/mods/zingo2/Aircraft
 -- author: cybrox
 -- refver: 1.0.7

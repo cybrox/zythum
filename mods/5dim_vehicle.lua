@@ -2,6 +2,7 @@
 -- tidy up your factorio ui
 --
 -- file: mods/5dim_vehicle.lua
+-- name: 5dim Vehicles
 -- link: https://mods.factorio.com/mods/McGuten/5dim%5Fvehicle
 -- author: cybrox
 -- refver: 0.13.1

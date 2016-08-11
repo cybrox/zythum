@@ -2,6 +2,7 @@
 -- tidy up your factorio ui
 --
 -- file: mods/AlienEggs.lua
+-- name: Alien Eggs
 -- link: https://mods.factorio.com/mods/binbinhfr/AlienEggs
 -- author: cybrox
 -- refver: 1.0.5

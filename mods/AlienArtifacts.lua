@@ -2,6 +2,7 @@
 -- tidy up your factorio ui
 --
 -- file: mods/AlienArtifacts.lua
+-- name: Alien Artifacts
 -- link: https://mods.factorio.com/mods/flonussi/AlienArtifacts
 -- author: cybrox
 -- refver: 0.1.1

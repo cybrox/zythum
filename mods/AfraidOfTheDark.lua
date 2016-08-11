@@ -2,6 +2,7 @@
 -- tidy up your factorio ui
 --
 -- file: mods/AfraidOfTheDark.lua
+-- name: Afraid of the Dark
 -- link: https://mods.factorio.com/mods/binbinhfr/AfraidOfTheDark
 -- author: cybrox
 -- refver: 1.0.13

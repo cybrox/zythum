@@ -2,6 +2,7 @@
 -- tidy up your factorio ui
 --
 -- file: mods/Alien+Oil.lua
+-- name: Alien Oil
 -- link: https://mods.factorio.com/mods/Rseding91/Alien%20Oil
 -- author: cybrox
 -- refver: 1.0.9

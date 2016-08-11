@@ -1,7 +1,8 @@
 -- zythum sorter
 -- tidy up your factorio ui
 --
--- file: mods/MODNAME.lua
+-- file: mods/BigWoodenPowerPole.lua
+-- name: Big Wooden Power Pole
 -- link: mods.factorio.com/mods/Klonan/BigWoodenPowerPole
 -- author: cybrox
 -- refver: 0.0.3

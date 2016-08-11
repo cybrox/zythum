@@ -11,38 +11,36 @@ This mod was inspired by [ZGroupChange](https://mods.factorio.com/mods/Progsy/ZG
 
 ## Supported mods
 - **base** `>= 13.0 `
-- [20x20 Armor MK2](https://mods.factorio.com/mods/Neonit/20x20ArmorMK2) `>= 0.0.3`
-- [5dim Automatization](https://mods.factorio.com/mods/McGuten/5dim%5Fautomatization) `>= 0.13.1`
-- [5dim Battlefield](https://mods.factorio.com/mods/McGuten/5dim%5Fbattlefield) `>= 0.13.1`
-- [5dim Decoration](https://mods.factorio.com/mods/McGuten/5dim%5Fdecoration) `>= 0.13.1`
-- [5dim Energy](https://mods.factorio.com/mods/McGuten/5dim%5Fenergy) `>= 0.13.1`
-- [5dim Logistic](https://mods.factorio.com/mods/McGuten/5dim%5Flogistic) `>= 0.13.1`
-- [5dim Mining](https://mods.factorio.com/mods/McGuten/5dim%5Fmining) `>= 0.13.1`
-- [5dim Module](https://mods.factorio.com/mods/McGuten/5dim%5Fmodule) `>= 0.13.1`
-- [5dim Resources](https://mods.factorio.com/mods/McGuten/5dim%5Fresources) `>= 0.13.1`
-- [5dim Vehicle](https://mods.factorio.com/mods/McGuten/5dim%5Fvehicle) `>= 0.13.1`
-- [Additional Oil Refineries](https://mods.factorio.com/mods/IhanaMies/additionaloilrefineries) `>= 1.1.0`
-- [Add Assembler Batteries](https://mods.factorio.com/mods/DRY411S/AddAssemblerBatteries) `>= 0.13.1`
-- [Advanced-Drills](https://mods.factorio.com/mods/Neomore/Advanced%2DDrills) `>= 0.1.7`
-- [Advanced-Electric](https://mods.factorio.com/mods/Neomore/Advanced%2DElectric) `>= 0.1.2`
-- [Advanced-Logistics](https://mods.factorio.com/mods/Neomore/Advanced%2DLogistics) `>= 0.1.1`
-- [Advanced-Tanks](https://mods.factorio.com/mods/Neomore/Advanced%2DTanks) `>= 0.1.1`
-- [Afraid Of The Dark](https://mods.factorio.com/mods/binbinhfr/AfraidOfTheDark) `>= 1.0.13`
-- [Agent Orange](https://mods.factorio.com/mods/Ranakastrasz/Agent+Orange) `>= 0.0.6`
-. [Air Filtering](https://mods.factorio.com/mods/Schorty/air%2Dfiltering) `>= 0.4.0`
-- [Aircraft](https://mods.factorio.com/mods/zingo2/Aircraft) `>= 1.0.7`
-- [Algaculture](https://mods.factorio.com/mods/Fortanono/Algaculture) `>= 0.1.3`
-- [Alien Artifacts](https://mods.factorio.com/mods/flonussi/AlienArtifacts) `>= 0.1.1`
-- [AlienEggs](https://mods.factorio.com/mods/binbinhfr/AlienEggs) `>= 1.0.5`
-- [Alien Oil](https://mods.factorio.com/mods/Rseding91/Alien%20Oil) `>= 1.0.9`
-- [Alien Science](https://mods.factorio.com/mods/Delois/alien%2Dscience) `>= 0.1.1`
-- [Alien Wall](https://mods.factorio.com/mods/vedrit/AlienWall) `>= 0.4.3`
-- [All Fluids](https://mods.factorio.com/mods/Delus/AllFluids) `>= 1.0.2`
-- [Alternate Alien Science](https://mods.factorio.com/mods/Delois/Alternate%20Alien%20Science) `>= 0.1.6`
-- [AmmoBox](https://mods.factorio.com/mods/Afforess/AmmoBox) `>= 1.0.1`
-- [Aquifer Drill](https://mods.factorio.com/mods/Align/AquiferDrill) `>= 1.2.0`
-- [Big Wooden Power Pole](https://mods.factorio.com/mods/Klonan/BigWoodenPowerPole) `>= 0.0.3`
-
+- [ 20x20 Armor MK2](https://mods.factorio.com/mods/Neonit/20x20ArmorMK2) `>= 0.0.3`
+- [ 5dim Automatization](https://mods.factorio.com/mods/McGuten/5dim%5Fautomatization) `>= 0.13.1`
+- [ 5dim Battlefield](https://mods.factorio.com/mods/McGuten/5dim%5Fbattlefield) `>= 0.13.1`
+- [ 5dim Decoration](mods.factorio.com/mods/https://mods.factorio.com/mods/McGuten/5dim%5Fdecoration) `>= 0.13.1`
+- [ 5dim Energy](https://mods.factorio.com/mods/McGuten/5dim%5Fenergy) `>= 0.13.1`
+- [ 5dim Logistic](https://mods.factorio.com/mods/McGuten/5dim%5Flogistic) `>= 0.13.1`
+- [ 5dim Mining](https://mods.factorio.com/mods/McGuten/5dim%5Fmining) `>= 0.13.1`
+- [ 5dim Module](https://mods.factorio.com/mods/McGuten/5dim%5Fmodule) `>= 0.13.1`
+- [ 5dim Resources](mods.factorio.com/mods/https://mods.factorio.com/mods/McGuten/5dim%5Fresources) `>= 0.13.1`
+- [ 5dim Vehicles](https://mods.factorio.com/mods/McGuten/5dim%5Fvehicle) `>= 0.13.1`
+- [ Add Assembler Batteries](https://mods.factorio.com/mods/DRY411S/AddAssemblerBatteries) `>= 0.13.1`
+- [ Advanced Drills](https://mods.factorio.com/mods/Neomore/Advanced%2DDrills) `>= 0.1.7`
+- [ Advanced Electric](https://mods.factorio.com/mods/Neomore/Advanced%2DElectric) `>= 0.1.2`
+- [ Advanced Logistic](https://mods.factorio.com/mods/Neomore/Advanced%2DLogistics) `>= 0.1.1`
+- [ Afraid of the Dark](https://mods.factorio.com/mods/binbinhfr/AfraidOfTheDark) `>= 1.0.13`
+- [ Agent Orange](https://mods.factorio.com/mods/Ranakastrasz/Agent+Orange) `>= 0.0.6`
+- [ Aircraft](https://mods.factorio.com/mods/zingo2/Aircraft) `>= 1.0.7`
+- [ Algaculture](https://mods.factorio.com/mods/Fortanono/Algaculture) `>= 0.1.3`
+- [ Alien Oil](https://mods.factorio.com/mods/Rseding91/Alien%20Oil) `>= 1.0.9`
+- [ Alien Artifacts](https://mods.factorio.com/mods/flonussi/AlienArtifacts) `>= 0.1.1`
+- [ Alien Eggs](https://mods.factorio.com/mods/binbinhfr/AlienEggs) `>= 1.0.5`
+- [ Alien Wall](https://mods.factorio.com/mods/vedrit/AlienWall) `>= 0.4.3`
+- [ All Fluids](https://mods.factorio.com/mods/Delus/AllFluids) `>= 1.0.2`
+- [ Alternate Alien Science](https://mods.factorio.com/mods/Delois/Alternate%20Alien%20Science) `>= 0.1.6`
+- [ Ammo Box](https://mods.factorio.com/mods/Afforess/AmmoBox) `>= 1.0.1`
+- [ Aquifer Drill](https://mods.factorio.com/mods/Align/AquiferDrill) `>= 1.2.0`
+- [ Big Wooden Power Pole](mods.factorio.com/mods/Klonan/BigWoodenPowerPole) `>= 0.0.3`
+- [ Additional Oil Refineries](https://mods.factorio.com/mods/IhanaMies/additionaloilrefineries) `>= 1.1.0`
+- [ Air Filtering](https://mods.factorio.com/mods/Schorty/air%2Dfiltering) `>= 0.4.0`
+- [ Alien Science](https://mods.factorio.com/mods/Delois/alien%2Dscience) `>= 0.1.1`
 ## Planned mods
 - andrew mods
 - angel mods
@@ -188,4 +186,3 @@ The following item groups will be present in the crafting UI when the mod is loa
 
 - **zythum-other**
  - **01** Food
- 

@@ -2,6 +2,7 @@
 -- tidy up your factorio ui
 --
 -- file: mods/5dim_mining.lua
+-- name: 5dim Mining
 -- link: https://mods.factorio.com/mods/McGuten/5dim%5Fmining
 -- author: cybrox
 -- refver: 0.13.1

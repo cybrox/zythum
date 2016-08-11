@@ -2,6 +2,7 @@
 -- tidy up your factorio ui
 --
 -- file: mods/AquiferDrill.lua
+-- name: Aquifer Drill
 -- link: https://mods.factorio.com/mods/Align/AquiferDrill
 -- author: cybrox
 -- refver: 1.2.0

@@ -2,6 +2,7 @@
 -- tidy up your factorio ui
 --
 -- file: mods/AmmoBox.lua
+-- name: Ammo Box
 -- link: https://mods.factorio.com/mods/Afforess/AmmoBox
 -- author: cybrox
 -- refver: 1.0.1

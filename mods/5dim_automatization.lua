@@ -2,6 +2,7 @@
 -- tidy up your factorio ui
 --
 -- file: mods/5dim_automatization.lua
+-- name: 5dim Automatization
 -- link: https://mods.factorio.com/mods/McGuten/5dim%5Fautomatization
 -- author: cybrox
 -- refver: 0.13.1

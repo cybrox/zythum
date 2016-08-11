@@ -24,15 +24,17 @@ else
   done
 
   ls "$MOD_DIR" | while read FILE; do
+    FIND_NAME=$(cat "$MOD_DIR/$FILE" | grep name:)
     FIND_LINK=$(cat "$MOD_DIR/$FILE" | grep link:)
     FIND_VERS=$(cat "$MOD_DIR/$FILE" | grep refver:)
 
     NFIL=$(echo $FILE | sed 's/.lua//g')
+    NAME=$(echo $FIND_NAME| cut -d':' -f 2)
     LINK=$(echo $FIND_LINK| cut -d' ' -f 3)
     VERS=$(echo $FIND_VERS| cut -d' ' -f 3)
 
     if [[ "$NFIL" != "_template" && "$NFIL" != "base" ]]; then
-      echo "- [$NFIL]($LINK) \`>= $VERS\`" >> $README_MD
+      echo "- [$NAME]($LINK) \`>= $VERS\`" >> $README_MD
     fi
   done
 

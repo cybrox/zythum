@@ -2,6 +2,7 @@
 -- tidy up your factorio ui
 --
 -- file: mods/5dim_energy.lua
+-- name: 5dim Energy
 -- link: https://mods.factorio.com/mods/McGuten/5dim%5Fenergy
 -- author: cybrox
 -- refver: 0.13.1

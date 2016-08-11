@@ -2,6 +2,7 @@
 -- tidy up your factorio ui
 --
 -- file: mods/air-filtering.lua
+-- name: Air Filtering
 -- link: https://mods.factorio.com/mods/Schorty/air%2Dfiltering
 -- author: cybrox
 -- refver: 0.4.0

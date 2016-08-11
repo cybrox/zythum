@@ -2,6 +2,7 @@
 -- tidy up your factorio ui
 --
 -- file: mods/additionaloilrefineries.lua
+-- name: Additional Oil Refineries
 -- link: https://mods.factorio.com/mods/IhanaMies/additionaloilrefineries
 -- author: cybrox
 -- refver: 1.1.0

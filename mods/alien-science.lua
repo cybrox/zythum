@@ -2,6 +2,7 @@
 -- tidy up your factorio ui
 --
 -- file: mods/alien-science.lua
+-- name: Alien Science
 -- link: https://mods.factorio.com/mods/Delois/alien%2Dscience
 -- author: cybrox
 -- refver: 0.1.1

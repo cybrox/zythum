@@ -2,6 +2,7 @@
 -- tidy up your factorio ui
 --
 -- file: mods/AllFluids.lua
+-- name: All Fluids
 -- link: https://mods.factorio.com/mods/Delus/AllFluids
 -- author: cybrox
 -- refver: 1.0.2

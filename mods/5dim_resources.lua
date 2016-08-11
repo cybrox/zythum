@@ -2,6 +2,7 @@
 -- tidy up your factorio ui
 --
 -- file: mods/5dim_resources.lua
+-- name: 5dim Resources
 -- link: mods.factorio.com/mods/https://mods.factorio.com/mods/McGuten/5dim%5Fresources
 -- author: cybrox
 -- refver: 0.13.1

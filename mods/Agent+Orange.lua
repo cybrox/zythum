@@ -2,6 +2,7 @@
 -- tidy up your factorio ui
 --
 -- file: mods/Agent+Orange.lua
+-- name: Agent Orange
 -- link: https://mods.factorio.com/mods/Ranakastrasz/Agent+Orange
 -- author: cybrox
 -- refver: 0.0.6

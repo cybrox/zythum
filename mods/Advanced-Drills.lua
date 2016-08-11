@@ -2,6 +2,7 @@
 -- tidy up your factorio ui
 --
 -- file: mods/Advanced-Drills.lua
+-- name: Advanced Drills
 -- link: https://mods.factorio.com/mods/Neomore/Advanced%2DDrills
 -- author: cybrox
 -- refver: 0.1.7

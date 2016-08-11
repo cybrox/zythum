@@ -2,6 +2,7 @@
 -- tidy up your factorio ui
 --
 -- file: mods/Advanced-Logistics.lua
+-- name: Advanced Logistic
 -- link: https://mods.factorio.com/mods/Neomore/Advanced%2DLogistics
 -- author: cybrox
 -- refver: 0.1.1

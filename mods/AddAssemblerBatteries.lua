@@ -2,6 +2,7 @@
 -- tidy up your factorio ui
 --
 -- file: mods/AddAssemblerBatteries.lua
+-- name: Add Assembler Batteries
 -- link: https://mods.factorio.com/mods/DRY411S/AddAssemblerBatteries
 -- author: cybrox
 -- refver: 0.13.1

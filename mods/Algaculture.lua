@@ -2,6 +2,7 @@
 -- tidy up your factorio ui
 --
 -- file: mods/Algaculture.lua
+-- name: Algaculture
 -- link: https://mods.factorio.com/mods/Fortanono/Algaculture
 -- author: cybrox
 -- refver: 0.1.3

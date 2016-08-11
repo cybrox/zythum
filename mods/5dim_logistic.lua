@@ -2,6 +2,7 @@
 -- tidy up your factorio ui
 --
 -- file: mods/5dim_logistic.lua
+-- name: 5dim Logistic
 -- link: https://mods.factorio.com/mods/McGuten/5dim%5Flogistic
 -- author: cybrox
 -- refver: 0.13.1
