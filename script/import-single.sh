@@ -17,6 +17,8 @@ IMPORT_INEW=$2
 IMPORT_BASE=$3
 IMPORT_NEWF=./
 
+DETECT_INDEX=2
+
 urlencode() {
   old_lc_collate=$LC_COLLATE
   LC_COLLATE=C
@@ -61,6 +63,7 @@ if [[ -d "$FACTMODS_PATH" ]]; then
   # Copy dependency package, if the user added any
   if [[ "$IMPORT_BASE" != "" ]]; then
     cp "$IMPORT_BASE" "$FACTMODS_PATH"
+    DETECT_INDEX=3
   fi
 
   cp -r "$FACTMODS_GRAB" "$FACTMODS_PATH"
@@ -115,12 +118,17 @@ FINAL_NAME=""
 
 LOADINDEX=0
 while read -r LINE; do
-  if [[ $LOADINDEX -eq 2 ]]; then
+  if [[ $LOADINDEX -eq $DETECT_INDEX ]]; then
     if [[ $LINE =~ [0-9]+\.[0-9]+\.[0-9]+ ]]; then
       FINAL_VERSION="${BASH_REMATCH[0]}"
     fi
     if [[ $LINE =~ Loading\ mod\ (.*)\ [0-9]+\.[0-9]+\.[0-9]+ ]]; then
       FINAL_NAME="${BASH_REMATCH[1]}"
+      if [[ "$FINAL_NAME" == "zythumgrabber" ]]; then
+        echo "ER: Import mod was not loaded"
+        rm -rf "$TEMPFILE_DIRS"
+        exit 1
+      fi
     fi
   fi
   LOADINDEX=$(($LOADINDEX + 1))
