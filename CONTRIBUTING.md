@@ -41,3 +41,10 @@ Usage: `bash script/import-singe.sh <path> <new> <base>`
 - `base` If set, the generator will load this package into the mods too, in case your mods require a base library.
 
 **config:** This script contains two variables that define the path to your factorio executable and your factorio mod directory, you might need to update those depending on your machine.
+
+### Keeping the mod up to date
+The script `script/update.lua` will query the `mods.factorio.com` API and match all information against the mods in the mod directory. If a new mod (that is not on `script/blacklist.json`) is found or a new version of an existing mod is found, the script will output that information into `update.txt`
+
+The script requires the following luarocks dependencies:
+- [socket](https://luarocks.org/modules/luarocks/luasocket)
+- [lunajson](https://luarocks.org/modules/grafi/lunajson)
