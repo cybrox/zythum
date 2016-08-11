@@ -162,6 +162,7 @@ while read -r LINE; do
   if [[ $ITEM == "" && $ITEM_COUNT -eq 0 ]]; then
     echo "Found empty mod, adding to blacklist"
     IS_IRRELAVANT=true
+    rm "$FILE_NAME"
     break
   fi
 
@@ -178,8 +179,8 @@ if [[ $IS_IRRELAVANT == true ]]; then
   while read LINE; do
     if [[ "$LINE" = *"]"* ]]; then
       echo "    \"$MOD_NAME\"," >> $FACTMODS_JSON
-      echo "$LINE" >> "$FACTMODS_JSON"
     fi
+    echo "$LINE" >> "$FACTMODS_JSON"
   done < $TEMPLIST_PATH
 
   rm "$TEMPLIST_PATH"
