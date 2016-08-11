@@ -7,7 +7,9 @@
 FACTORIO_MODS="https://mods.factorio.com/mods/"
 FACTORIO_PATH=/Applications/factorio.app/Contents/MacOS/factorio
 FACTMODS_PATH=~/Library/Application\ Support/factorio/mods
+FACTMODS_JSON=./script/blacklist.json
 FACTMODS_GRAB=./script/grabber
+TEMPLIST_PATH=./temp.json
 TEMPLOGS_PATH=./temp.log
 TEMPFILE_DIRS=./temp
 FACTORIO_TIME=15
@@ -152,13 +154,37 @@ echo "zythum_sort_mod('$FINAL_NAME')" >> "$FILE_NAME"
 tail -n39 ./mods/_template.lua >> "$FILE_NAME"
 
 # Append all the scanned items to the template
+ITEM_COUNT=0
+IS_IRRELAVANT=false
 while read -r LINE; do
   ITEM=$(echo $LINE| cut -d'>' -f 2)
+
+  if [[ $ITEM == "" && $ITEM_COUNT -eq 0 ]]; then
+    echo "Found empty mod, adding to blacklist"
+    IS_IRRELAVANT=true
+    break
+  fi
+
   echo "zythum_sort('CATEGORY', 00, 00, '$ITEM')" >> "$FILE_NAME"
+  ITEM_COUNT=$(($ITEM_COUNT + 1))
 done <<< "$MODGRAB_DATA"
+
+# Add mod to blacklist if it is irrelevant
+if [[ $IS_IRRELAVANT == true ]]; then
+  mv "$FACTMODS_JSON" "$TEMPLIST_PATH"
+  touch "$FACTMODS_JSON"
+  IFS=''
+  while read LINE; do
+    if [[ "$LINE" = *"]"* ]]; then
+      echo "    \"$MOD_NAME\"," >> $FACTMODS_JSON
+      echo "$LINE" >> "$FACTMODS_JSON"
+    fi
+  done < $TEMPLIST_PATH
+fi
 
 # Remove temp unpack dirctory
 rm -rf "$TEMPFILE_DIRS"
+rm "$TEMPLIST_PATH"
 
 # Regenerate README and modpack
 bash ./script/generate-imports.sh

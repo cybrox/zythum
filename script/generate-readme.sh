@@ -49,7 +49,6 @@ else
       echo $LINE >> $README_MD
     fi
   done < $TEMP_FILE
-  echo "" >> $README_MD
 
   rm "$TEMP_FILE"
 fi
