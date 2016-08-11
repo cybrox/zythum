@@ -44,6 +44,10 @@ Usage: `bash script/import-singe.sh <path> <new> <base>`
 
 **config:** This script contains two variables that define the path to your factorio executable and your factorio mod directory, you might need to update those depending on your machine.
 
+#####import-test.sh
+Usage: `bash script/import-test.sh <all>`
+If the parameter "all" is provided, the script will re-generate the mod files before compiling. It will then compile and start the game for testing.
+
 ### Keeping the mod up to date
 The script `script/update.lua` will query the `mods.factorio.com` API and match all information against the mods in the mod directory. If a new mod (that is not on `script/blacklist.json`) is found or a new version of an existing mod is found, the script will output that information into `update.txt`
 
