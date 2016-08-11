@@ -31,7 +31,7 @@ This script will automatically regenerate `data-final-fixes` with all mod includ
 This script will automatically regenerate `README.md` with data from all mod file headers. This is automatically run by `import-single.sh`
 
 #####import-multiple.sh
-Usage: `bash script/import-multiple.sh <path>`
+Usage: `bash script/import-multiple.sh <path>`    
 Give this script a path and it will run `import-single.sh` for every file in that directory. Useful if you want to generate data for a bunch of mods.
 
 #####import-single.sh
@@ -39,3 +39,5 @@ Usage: `bash script/import-singe.sh <path> <new> <base>`
 - `path` The path to the mod zip you want to generate info for
 - `new` If set to "new", the output file will directly be in `/mods` instead of `/import`
 - `base` If set, the generator will load this package into the mods too, in case your mods require a base library.
+
+**config:** This script contains two variables that define the path to your factorio executable and your factorio mod directory, you might need to update those depending on your machine.
