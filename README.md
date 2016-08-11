@@ -38,9 +38,25 @@ This mod was inspired by [ZGroupChange](https://mods.factorio.com/mods/Progsy/ZG
 - [ Ammo Box](https://mods.factorio.com/mods/Afforess/AmmoBox) `>= 1.0.1`
 - [ Aquifer Drill](https://mods.factorio.com/mods/Align/AquiferDrill) `>= 1.2.0`
 - [ Big Wooden Power Pole](mods.factorio.com/mods/Klonan/BigWoodenPowerPole) `>= 0.0.3`
+- [ Bridge Railway](https://mods.factorio.com/mods/MrP123/BridgeRailway) `>= 2.0.2`
+- [ Burner-Filter-Inserter](https://mods.factorio.com/mods/V453000/Burner-Filter-Inserter) `>= 0.3.0`
+- [ Cargo Rocket (deliver payloads fast and far)](https://mods.factorio.com/mods/BinbinHfr/CargoRocket) `>= 1.0.6`
+- [ Chainsaw](https://mods.factorio.com/mods/devilwarriors/Chainsaw) `>= 0.0.2`
+- [ Charcoal Burner](https://mods.factorio.com/mods/Corvus/CharcoalBurner) `>= 0.0.2`
+- [ Cheaper Ammo... Maybe?](https://mods.factorio.com/mods/UberWaffe/CheaperAmmoMaybe) `>= 0.13.1`
 - [ Additional Oil Refineries](https://mods.factorio.com/mods/IhanaMies/additionaloilrefineries) `>= 1.1.0`
 - [ Air Filtering](https://mods.factorio.com/mods/Schorty/air%2Dfiltering) `>= 0.4.0`
 - [ Alien Science](https://mods.factorio.com/mods/Delois/alien%2Dscience) `>= 0.1.1`
+- [ Bob's Logistics mod](https://mods.factorio.com/mods/Bobingabout/boblogistics) `>= 0.13.7`
+- [ Bob's Mining](https://mods.factorio.com/mods/Bobingabout/bobmining) `>= 0.13.1`
+- [ Bob's Modules](https://mods.factorio.com/mods/Bobingabout/bobmodules) `>= 0.13.0`
+- [ Bob's Ores](https://mods.factorio.com/mods/Bobingabout/bobores) `>= 0.13.1`
+- [ Bob's Metals, Chemicals and Intermediates](https://mods.factorio.com/mods/Bobingabout/bobplates) `>= 0.13.2`
+- [ Bob's Power](https://mods.factorio.com/mods/Bobingabout/bobpower) `>= 0.13.1`
+- [ Bob's Tech](https://mods.factorio.com/mods/Bobingabout/bobtech) `>= 0.13.0`
+- [ Boxing](https://mods.factorio.com/mods/Xecutor./boxing) `>= 0.6.2`
+- [ Bulldozer](https://mods.factorio.com/mods/Cheata%2C/bulldozer) `>= 1.2.6`
+- [ Burn the World.](https://mods.factorio.com/mods/Daid/burn-the-world) `>= 0.1.0`
 
 ## Planned mods
 - **bobwarfare**
