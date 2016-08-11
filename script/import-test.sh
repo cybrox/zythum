@@ -14,6 +14,11 @@ if [[ "$1" == "all" ]]; then
   bash ./script/generate-readme.sh
 fi
 
+# Delete all old mods from the game dir
+ls "$FACTMODS_PATH" | while read FILE; do
+  rm -rf "$FACTMODS_PATH/$FILE"
+done
+
 bash ./script/build.sh
 
 while read FILE; do
