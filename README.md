@@ -11,6 +11,7 @@ This mod was inspired by [ZGroupChange](https://mods.factorio.com/mods/Progsy/ZG
 
 ## Supported mods
 - **base** `>= 13.0 `
+- [ 00 Armor](https://mods.factorio.com/mods/sl/Armor) `>= 0.0.5`
 - [ 20x20 Armor MK2](https://mods.factorio.com/mods/Neonit/20x20ArmorMK2) `>= 0.0.3`
 - [ 5dim Automatization](https://mods.factorio.com/mods/McGuten/5dim%5Fautomatization) `>= 0.13.1`
 - [ 5dim Battlefield](https://mods.factorio.com/mods/McGuten/5dim%5Fbattlefield) `>= 0.13.1`
@@ -37,7 +38,17 @@ This mod was inspired by [ZGroupChange](https://mods.factorio.com/mods/Progsy/ZG
 - [ Alternate Alien Science](https://mods.factorio.com/mods/Delois/Alternate%20Alien%20Science) `>= 0.1.6`
 - [ Ammo Box](https://mods.factorio.com/mods/Afforess/AmmoBox) `>= 1.0.1`
 - [ Aquifer Drill](https://mods.factorio.com/mods/Align/AquiferDrill) `>= 1.2.0`
+- [ Artillery](https://mods.factorio.com/mods/Buhamut/Artillery) `>= 1.2.0`
+- [ Assembly Zero](https://mods.factorio.com/mods/funnysunnybunny/AssemblyZero) `>= 0.1.9`
+- [ Auto Deploy Destroyers](https://mods.factorio.com/mods/slindenau/Auto_Deploy_Destroyers) `>= 0.1.3`
+- [ Automatic Deconstruction](https://mods.factorio.com/mods/slindenau/Auto_Deploy_Destroyers) `>= 0.1.0`
+- [ Avatars](https://mods.factorio.com/mods/DedlySpyder/Avatars) `>= 0.4.1`
+- [ Bergius Process](https://mods.factorio.com/mods/Klonan/Bergius_Process) `>= 0.1.2`
+- [ Bucket Wheel Excavator](https://mods.factorio.com/mods/jorgen19981/BigDrill) `>= 0.3.5`
 - [ Big Wooden Power Pole](mods.factorio.com/mods/Klonan/BigWoodenPowerPole) `>= 0.0.3`
+- [ Big Brother](https://mods.factorio.com/mods/Afforess/Big_Brother) `>= 0.3.2`
+- [ Big Chest](https://mods.factorio.com/mods/creepy_hauz/Big_chest) `>= 0.0.1`
+- [ Biter Gun](https://mods.factorio.com/mods/MrDoomah/Biter-gun) `>= 1.0.0`
 - [ Bridge Railway](https://mods.factorio.com/mods/MrP123/BridgeRailway) `>= 2.0.2`
 - [ Burner-Filter-Inserter](https://mods.factorio.com/mods/V453000/Burner-Filter-Inserter) `>= 0.3.0`
 - [ Cargo Rocket (deliver payloads fast and far)](https://mods.factorio.com/mods/BinbinHfr/CargoRocket) `>= 1.0.6`
@@ -47,6 +58,10 @@ This mod was inspired by [ZGroupChange](https://mods.factorio.com/mods/Progsy/ZG
 - [ Additional Oil Refineries](https://mods.factorio.com/mods/IhanaMies/additionaloilrefineries) `>= 1.1.0`
 - [ Air Filtering](https://mods.factorio.com/mods/Schorty/air%2Dfiltering) `>= 0.4.0`
 - [ Alien Science](https://mods.factorio.com/mods/Delois/alien%2Dscience) `>= 0.1.1`
+- [ Belt Sorter](https://mods.factorio.com/mods/judos/beltSorter) `>= 0.2.1`
+- [ Automatic Belt Planner](https://mods.factorio.com/mods/prg/beltplanner) `>= 0.9.1`
+- [ Blueprint Book](https://mods.factorio.com/mods/andhagg1/blueprint-book-2) `>= 0.13.1`
+- [ Bob's Enemies](https://mods.factorio.com/mods/Bobingabout/bobenemies) `>= 0.13.1`
 - [ Bob's Logistics mod](https://mods.factorio.com/mods/Bobingabout/boblogistics) `>= 0.13.7`
 - [ Bob's Mining](https://mods.factorio.com/mods/Bobingabout/bobmining) `>= 0.13.1`
 - [ Bob's Modules](https://mods.factorio.com/mods/Bobingabout/bobmodules) `>= 0.13.0`
