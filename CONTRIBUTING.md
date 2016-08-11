@@ -31,7 +31,9 @@ This script will automatically regenerate `data-final-fixes` with all mod includ
 This script will automatically regenerate `README.md` with data from all mod file headers. This is automatically run by `import-single.sh`
 
 #####import-multiple.sh
-Usage: `bash script/import-multiple.sh <path>`    
+Usage: `bash script/import-multiple.sh <path> <base>`    
+- `path` The path to the folder with zip's to import
+- `base` If set, the generator will load this package into the mods too, in case your mods require a base library.
 Give this script a path and it will run `import-single.sh` for every file in that directory. Useful if you want to generate data for a bunch of mods.
 
 #####import-single.sh

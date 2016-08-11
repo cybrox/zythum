@@ -19,7 +19,7 @@ if [[ -d "$IMPORT_DIR" ]]; then
 
   ls "$IMPORT_DIR" | while read FILE; do
     echo "OK: Analyzing mod file $CURRN_FILES/$TOTAL_FILES"
-    bash $SINGLE_PATH "$IMPORT_DIR/$FILE" 
+    bash $SINGLE_PATH "$IMPORT_DIR/$FILE" import $2
 
     CURRN_FILES=$(($CURRN_FILES + 1))
   done

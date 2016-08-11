@@ -50,6 +50,9 @@ else
   mkdir -p ./import
 fi
 
+echo "OK: Importing mod $IMPORT_FILE"
+echo "OK: With base file $IMPORT_BASE"
+
 # Copy the file to analize and the mod analyzer to the mod directory
 if [[ -d "$FACTMODS_PATH" ]]; then
   echo "OK: Loading mod file and mod analyzer"
