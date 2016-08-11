@@ -41,6 +41,7 @@ This mod was inspired by [ZGroupChange](https://mods.factorio.com/mods/Progsy/ZG
 - [ Additional Oil Refineries](https://mods.factorio.com/mods/IhanaMies/additionaloilrefineries) `>= 1.1.0`
 - [ Air Filtering](https://mods.factorio.com/mods/Schorty/air%2Dfiltering) `>= 0.4.0`
 - [ Alien Science](https://mods.factorio.com/mods/Delois/alien%2Dscience) `>= 0.1.1`
+
 ## Planned mods
 - andrew mods
 - angel mods
@@ -186,3 +187,4 @@ The following item groups will be present in the crafting UI when the mod is loa
 
 - **zythum-other**
  - **01** Food
+

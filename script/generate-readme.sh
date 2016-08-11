@@ -41,6 +41,7 @@ else
   IFS=''
   while read LINE; do
     if [[ "$LINE" = "## Planned"* ]]; then
+      echo "" >> $README_MD
       IS_STATIC=true
     fi
 
