@@ -7,7 +7,7 @@
 if [[ -e "./info.json" ]]; then
   VERSIONSTR=$(cat info.json | grep \"version\")
   VERSION=$(echo $VERSIONSTR| cut -d'"' -f 4)
-  echo "$VERSION"
+  echo "OK: Building zythum version $VERSION"
 
   mkdir dist
   mkdir dist/mods
@@ -32,7 +32,11 @@ if [[ -e "./info.json" ]]; then
   cp LICENSE.md ./dist/LICENSE
 
   cd ./dist
-  zip -r "../zythum_$VERSION.zip" ./*
+  if type ditto >/dev/null 2>&1; then
+    ditto -ck --rsrc --sequesterRsrc --keepParent ./ "../zythum_$VERSION.zip"
+  else
+    zip -r "../zythum_$VERSION.zip" ./*
+  fi
   cd ..
 
   rm -rf ./dist
