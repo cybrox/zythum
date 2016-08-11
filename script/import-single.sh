@@ -173,6 +173,7 @@ done <<< "$MODGRAB_DATA"
 if [[ $IS_IRRELAVANT == true ]]; then
   mv "$FACTMODS_JSON" "$TEMPLIST_PATH"
   touch "$FACTMODS_JSON"
+  
   IFS=''
   while read LINE; do
     if [[ "$LINE" = *"]"* ]]; then
@@ -180,11 +181,12 @@ if [[ $IS_IRRELAVANT == true ]]; then
       echo "$LINE" >> "$FACTMODS_JSON"
     fi
   done < $TEMPLIST_PATH
+
+  rm "$TEMPLIST_PATH"
 fi
 
 # Remove temp unpack dirctory
 rm -rf "$TEMPFILE_DIRS"
-rm "$TEMPLIST_PATH"
 
 # Regenerate README and modpack
 bash ./script/generate-imports.sh
