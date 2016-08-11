@@ -43,8 +43,8 @@ This mod was inspired by [ZGroupChange](https://mods.factorio.com/mods/Progsy/ZG
 - [ Alien Science](https://mods.factorio.com/mods/Delois/alien%2Dscience) `>= 0.1.1`
 
 ## Planned mods
-- andrew mods
-- angel mods
+- **bobwarfare**
+- **BukketMod**
 
 ## Item groups 
 The following item groups will be present in the crafting UI when the mod is loaded.
