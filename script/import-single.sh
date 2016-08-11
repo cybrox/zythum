@@ -104,7 +104,7 @@ fi
 
 # Run factorio in order to grab all the mod information
 echo "OK: Loading factorio with mod file and mod analyzer"
-gtimeout $FACTORIO_TIME "$FACTORIO_PATH" > "$TEMPLOGS_PATH"
+timeout $FACTORIO_TIME "$FACTORIO_PATH" > "$TEMPLOGS_PATH"
 MODGRAB_DATA=$(cat "$TEMPLOGS_PATH" | grep "zythumgrab>")
 MODGRAB_VERS=$(cat "$TEMPLOGS_PATH" | grep "Loading mod")
 rm $TEMPLOGS_PATH
