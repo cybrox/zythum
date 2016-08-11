@@ -88,6 +88,8 @@ This mod was inspired by [ZGroupChange](https://mods.factorio.com/mods/Progsy/ZG
 ## Planned mods
 - **bobwarfare**
 - **BukketMod**
+- **FlareStack**
+- **Fluidizer**
 
 ## Item groups 
 The following item groups will be present in the crafting UI when the mod is loaded.
