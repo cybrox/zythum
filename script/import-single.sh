@@ -194,7 +194,3 @@ fi
 
 # Remove temp unpack dirctory
 rm -rf "$TEMPFILE_DIRS"
-
-# Regenerate README and modpack
-bash ./script/generate-imports.sh
-bash ./script/generate-readme.sh
