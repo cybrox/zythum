@@ -200,6 +200,10 @@ This mod was inspired by [ZGroupChange](https://mods.factorio.com/mods/Progsy/ZG
 - [ Spawn Belt](https://mods.factorio.com/mods/Barry/spawn-belt) `>= 1.0.2`
 - [ Spawn Pump](https://mods.factorio.com/mods/Barry/spawn-pump) `>= 0.1.0`
 
+## Semi-Supported mods
+Semi-supported mods are mods that, while we could index them in this mod, they are either so big that their own categories are justified or are sorted so well, that their category is absolutely enough.
+- Yuoki
+
 ## Planned mods
 Planned mods are usually bigger modpacks, that I can't simply auto-sort. I will run and look into these in order to provide reasonable sorting.
 - **BukketMod**

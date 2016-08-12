@@ -40,7 +40,7 @@ else
 
   IFS=''
   while read LINE; do
-    if [[ "$LINE" = "## Planned"* ]]; then
+    if [[ "$LINE" = "## Semi-Supp"* ]]; then
       echo "" >> $README_MD
       IS_STATIC=true
     fi
