@@ -160,7 +160,7 @@ while read -r LINE; do
   ITEM=$(echo $LINE| cut -d'>' -f 2)
 
   if [[ $ITEM == "" && $ITEM_COUNT -eq 0 ]]; then
-    echo "Found empty mod, adding to blacklist"
+    echo "OK: Found empty mod, adding to blacklist"
     IS_IRRELAVANT=true
     rm "$FILE_NAME"
     break
@@ -175,9 +175,15 @@ if [[ $IS_IRRELAVANT == true ]]; then
   mv "$FACTMODS_JSON" "$TEMPLIST_PATH"
   touch "$FACTMODS_JSON"
   
+  IS_BLACKLISTED=false
   IFS=''
   while read LINE; do
-    if [[ "$LINE" = *"]"* ]]; then
+    if [[ "$LINE" = *"\"$MODNAME\""* ]]; then
+      IS_BLACKLISTED=true
+      echo "OK: Mod is already blacklisted"
+    fi
+
+    if [[ IS_BLACKLISTED == false && "$LINE" = *"]"* ]]; then
       echo "    \"$MOD_NAME\"," >> $FACTMODS_JSON
     fi
     echo "$LINE" >> "$FACTMODS_JSON"
