@@ -107,6 +107,26 @@ This mod was inspired by [ZGroupChange](https://mods.factorio.com/mods/Progsy/ZG
 - [ Misanthrope](https://mods.factorio.com/mods/Afforess/Misanthrope) `>= 0.6.8`
 - [ Power armor MK3](https://mods.factorio.com/mods/Natha/Mk3) `>= 1.0.1`
 - [ Modular Armor](https://mods.factorio.com/mods/Ranakastrasz/Modular-Armor) `>= 0.2.1`
+- [ Module Inserter](https://mods.factorio.com/mods/Choumiko/ModuleInserter) `>= 0.2.2`
+- [ N.Tech Chemistry](https://mods.factorio.com/mods/Natha/N-Tech) `>= 1.6.1`
+- [ Omnibarrels](https://mods.factorio.com/mods/GotLag/Omnibarrels) `>= 1.0.0`
+- [ OverMods](https://mods.factorio.com/mods/OvermindDL1/OverMods) `>= 0.0.5`
+- [ Oxygen](https://mods.factorio.com/mods/Natha/Oxygen) `>= 1.4.1`
+- [ Peace Mode Ore](https://mods.factorio.com/mods/Emmote/PeaceModeOre) `>= 0.0.2`
+- [ Peppe Bot Start](https://mods.factorio.com/mods/Peppe/PeppeBotStart) `>= 0.13.1`
+- [ PersonalTeleporter](https://mods.factorio.com/mods/WhatheWorld/PersonalTeleporter) `>= 0.1.5`
+- [ Personal Spawns](https://mods.factorio.com/mods/Zinal/Personal_Spawns) `>= 0.13.1`
+- [ Piano player](https://mods.factorio.com/mods/Klonan/Piano_Player) `>= 0.1.2`
+- [ Plasma Shotgun Shells](https://mods.factorio.com/mods/Rseding91/Plasma) `>= 1.0.2`
+- [ Potato](https://mods.factorio.com/mods/Wube/Potato) `>= 1.0.0`
+- [ Power And Armor](https://mods.factorio.com/mods/Corvus/PowerAndArmor) `>= 1.0.8`
+- [ Rail Tanker](https://mods.factorio.com/mods/James/RailTanker) `>= 1.3.32`
+- [ Raven](https://mods.factorio.com/mods/maroder/Raven) `>= 0.0.3`
+- [ Realistic approach to Factorio](https://mods.factorio.com/mods/Furan/Realism) `>= 1.0.0`
+- [ Red Alerts](https://mods.factorio.com/mods/Supercheese/Red) `>= 1.1.1`
+- [ Red Assembling Machine](https://mods.factorio.com/mods/Klonan/Red_Assembling_Machine) `>= 0.1.1`
+- [ Steel Reinforced Walls](https://mods.factorio.com/mods/Michael/Reinforced-Walls) `>= 0.2.3`
+- [ Resource Conversions](https://mods.factorio.com/mods/Master/Resource-Conversions) `>= 0.1.1`
 - [ _M_ Armor](https://mods.factorio.com/mods/M/_M_Armor) `>= 0.0.4`
 - [ Additional Oil Refineries](https://mods.factorio.com/mods/IhanaMies/additionaloilrefineries) `>= 1.1.0`
 - [ Air Filtering](https://mods.factorio.com/mods/Schorty/air%2Dfiltering) `>= 0.4.0`
@@ -139,10 +159,16 @@ This mod was inspired by [ZGroupChange](https://mods.factorio.com/mods/Progsy/ZG
 - [ Makkari Utilities](https://mods.factorio.com/mods/Makkari/makkariutils) `>= 0.0.2`
 - [ Militarization](https://mods.factorio.com/mods/LifeParadox/militarization) `>= 0.0.4`
 - [ Mini Machines Mod](https://mods.factorio.com/mods/Kryzeth/mini-machines) `>= 1.2.1`
+- [ MoIndustry](https://mods.factorio.com/mods/Ludsoe/moindustry) `>= 0.2.1`
+- [ MoMining](https://mods.factorio.com/mods/Ludsoe/momining) `>= 0.1.2`
+- [ MoPower](https://mods.factorio.com/mods/Ludsoe/mopower) `>= 0.5.2`
+- [ MoSurvival](https://mods.factorio.com/mods/Ludsoe/mosurvival) `>= 0.1.42`
+- [ Ore Eraser](https://mods.factorio.com/mods/Tergiver/ore-eraser) `>= 1.3.0`
+- [ Peace Mod](https://mods.factorio.com/mods/Vachu/peacemod) `>= 0.1.2`
+- [ Pollution detector](https://mods.factorio.com/mods/Schorty/pollution-detector) `>= 0.2.1`
 
 ## Planned mods
 Planned mods are usually bigger modpacks, that I can't simply auto-sort. I will run and look into these in order to provide reasonable sorting.
-- **bobwarfare**
 - **BukketMod**
 - **FlareStack**
 - **Fluidizer**
@@ -151,6 +177,11 @@ Planned mods are usually bigger modpacks, that I can't simply auto-sort. I will 
 - **homeworld**
 - **Mobile-suit**
 - **mocombat**
+- **motrans**
+- **more_oil-production**
+- **Natural Evolution**
+- **Nucular**
+- **PipeEverything**
 
 ## Item groups 
 The following item groups will be present in the crafting UI when the mod is loaded.
