@@ -137,6 +137,7 @@ load_ign_mods()
 
 -- Finally, compare all of our modsets against eachother and report changes
 for index, mod in pairs(modsite_mods) do
+  local is_indexed = file_exists(mod.find)
 
   -- Check if the current mod is on any ignore list
   local is_blacklisted = false
@@ -144,24 +145,10 @@ for index, mod in pairs(modsite_mods) do
     if mod.find == bmod then is_blacklisted = true end
   end
 
-  -- If our mod is not blacklisted, check if it exists in our repo
   if is_blacklisted == false then
-    local is_indexed = file_exists(mod.find)
-
-    -- Output a require warning, if the mod was not yet indexed by us
-    if is_indexed == nil then
-      fprint('OK: Found new mod version: ' .. mod.name .. ' ' .. mod.version .. ' > 0.0.0!')
-      fprint('OK: (FV ' .. mod.factorio_version .. ') -> ' .. mod.find)
-      fprint('OK: ' .. mod.link)
-      fprint('OK: ' .. mod.download)
-      fprint('')
-    else
-      if version_is_bigger(mod.version, is_indexed.version) then
-        fprint('OK: Found new mod version: ' .. mod.name .. ' '.. mod.version .. ' > ' .. is_indexed.version) 
-        fprint('OK: ' .. mod.link)
-        fprint('OK: ' .. mod.download)
-        fprint('')
-      end
+    local type_string = (is_indexed and 'NM:' or 'NV:')
+    if is_indexed == nil or version_is_bigger(mod.version, is_indexed.version) then
+      fprint('OK: ' .. type_string .. ': ' .. mod.name .. ' ' .. mod.version .. ' > 0.0.0!' .. '('.. mod.link .. ')')
     end
   end
 end
