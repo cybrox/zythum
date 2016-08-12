@@ -12,6 +12,10 @@ IS_STATIC=false
 if [[ ! -d "$MOD_DIR" ]]; then
   echo "ER: Not running from project root"
 else
+  COUNT_MODS=$(ls mods | wc -l)
+  COUNT_BLACK=$(($(wc -l < script/blacklist.json) - 5))
+  COUNT_TOTAL=$(($COUNT_MODS + $COUNT_BLACK))
+
   mv "$README_MD" "$TEMP_FILE"
   touch "$README_MD"
   cat "$TEMP_FILE" | while read LINE; do
@@ -49,6 +53,15 @@ else
       echo $LINE >> $README_MD
     fi
   done < $TEMP_FILE
+
+  README_PATH=README.md
+  README_LINE=0
+  IFS=''
+  while read LINE; do
+    README_LINE=$(($README_LINE + 1))
+    if [[ "$LINE" = *" Supported mods"* ]]; then break; fi
+  done < $README_PATH 
+  sed -i '' "${README_LINE}s/.*/## Supported mods ($COUNT_TOTAL)/" $README_PATH
 
   rm "$TEMP_FILE"
 fi

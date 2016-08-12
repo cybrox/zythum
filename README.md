@@ -9,7 +9,7 @@ This mod was inspired by [ZGroupChange](https://mods.factorio.com/mods/Progsy/ZG
 [CONTRIBUTING](https://github.com/cybrox/zythum/blob/master/CONTRIBUTING.md) |
 [CHANGELOG](https://github.com/cybrox/zythum/blob/master/CHANGELOG.md)
 
-## Supported mods
+## Supported mods (318)
 - **base** `>= 13.0 `
 - [ 00 Armor](https://mods.factorio.com/mods/sl/Armor) `>= 0.0.5`
 - [ 20x20 Armor MK2](https://mods.factorio.com/mods/Neonit/20x20ArmorMK2) `>= 0.0.3`
