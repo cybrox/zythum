@@ -204,6 +204,8 @@ This mod was inspired by [ZGroupChange](https://mods.factorio.com/mods/Progsy/ZG
 Semi-supported mods are mods that, while we could index them in this mod, they are either so big that their own categories are justified or are sorted so well, that their category is absolutely enough.
 - Yuoki
 
+Additionally, all mods in `script/blacklist.json` have been indexed but don't contain items to sort, they are counted as *supported* too here.
+
 ## Planned mods
 Planned mods are usually bigger modpacks, that I can't simply auto-sort. I will run and look into these in order to provide reasonable sorting.
 - **BukketMod**
