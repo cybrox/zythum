@@ -9,7 +9,7 @@ This mod was inspired by [ZGroupChange](https://mods.factorio.com/mods/Progsy/ZG
 [CONTRIBUTING](https://github.com/cybrox/zythum/blob/master/CONTRIBUTING.md) |
 [CHANGELOG](https://github.com/cybrox/zythum/blob/master/CHANGELOG.md)
 
-## Supported mods (318)
+## Supported mods (350)
 - **base** `>= 13.0 `
 - [ 00 Armor](https://mods.factorio.com/mods/sl/Armor) `>= 0.0.5`
 - [ 20x20 Armor MK2](https://mods.factorio.com/mods/Neonit/20x20ArmorMK2) `>= 0.0.3`
@@ -55,6 +55,19 @@ This mod was inspired by [ZGroupChange](https://mods.factorio.com/mods/Progsy/ZG
 - [ Chainsaw](https://mods.factorio.com/mods/devilwarriors/Chainsaw) `>= 0.0.2`
 - [ Charcoal Burner](https://mods.factorio.com/mods/Corvus/CharcoalBurner) `>= 0.0.2`
 - [ Cheaper Ammo... Maybe?](https://mods.factorio.com/mods/UberWaffe/CheaperAmmoMaybe) `>= 0.13.1`
+- [ CircuitLogger](https://mods.factorio.com/mods/Michal/CircuitLogger) `>= 1.0.0`
+- [ Crack Coal to Heavy](https://mods.factorio.com/mods/Emmote/CoalToHeavy) `>= 0.0.1`
+- [ Combat Units](https://mods.factorio.com/mods/Klonan/Combat_Units) `>= 0.1.3`
+- [ Compression Chests](https://mods.factorio.com/mods/Rseding91/Compression) `>= 1.3.10`
+- [ Concrete Lamppost](https://mods.factorio.com/mods/Klonan/Concrete_Lamppost) `>= 0.1.1`
+- [ Copy Settings Tool (paste-multiple settings at once)](https://mods.factorio.com/mods/BinbinHfr/CopySettingsTool) `>= 1.0.4`
+- [ Cursed Programable Inserters](https://mods.factorio.com/mods/L0771/Cursed-PI) `>= 0.2.3`
+- [ Curved Rail](https://mods.factorio.com/mods/daniel34/CurvedRail) `>= 1.0.0`
+- [ DistancePlus](https://mods.factorio.com/mods/yareczek/DistancePlus) `>= 0.13.2`
+- [ Drones (remote monitor your factory from drones)](https://mods.factorio.com/mods/BinbinHfr/Drones) `>= 1.0.17`
+- [ Epic electric mining drill mod](https://mods.factorio.com/mods/Lejving/EEMD) `>= 0.1.5`
+- [ Electric Furnaces](https://mods.factorio.com/mods/GotLag/Electric) `>= 2.0.0`
+- [ Electric Void (huge consumer/producer/equalizer)](https://mods.factorio.com/mods/BinbinHfr/ElectricVoid) `>= 1.0.7`
 - [ Equalizer Chests](https://mods.factorio.com/mods/Boogieman14/Equalizer_Chests) `>= 1.2.0`
 - [ Explosive Excavation](https://mods.factorio.com/mods/GotLag/Explosive%20Excavation) `>= 1.0.2`
 - [ Explosive Termites](https://mods.factorio.com/mods/Rseding91/Explosive%20Termites) `>= 1.1.8`
@@ -177,6 +190,11 @@ This mod was inspired by [ZGroupChange](https://mods.factorio.com/mods/Progsy/ZG
 - [ Boxing](https://mods.factorio.com/mods/Xecutor./boxing) `>= 0.6.2`
 - [ Bulldozer](https://mods.factorio.com/mods/Cheata%2C/bulldozer) `>= 1.2.6`
 - [ Burn the World.](https://mods.factorio.com/mods/Daid/burn-the-world) `>= 0.1.0`
+- [ Color Coding](https://mods.factorio.com/mods/D3Phoenix%2C/color-coding) `>= 1.1.0`
+- [ Compound Splitters](https://mods.factorio.com/mods/Cmdr_Keen/compoundsplitters) `>= 0.2.7`
+- [ Deforest Planner](https://mods.factorio.com/mods/Jezza/deforest-planner) `>= 0.1.0`
+- [ Dynamic Train Stops](https://mods.factorio.com/mods/Aladrius/dynamic-train-stop) `>= 0.1.2`
+- [ Electric Ghost Car](https://mods.factorio.com/mods/darkfrei/electric_ghost_car) `>= 0.13.4`
 - [ Fish Sandwich](https://mods.factorio.com/mods/bigyihsuan/fish-sandwich) `>= 1.0.0`
 - [ Flame Grenades](https://mods.factorio.com/mods/DaCyclops/flamenades) `>= 0.13.1`
 - [ Flow Network](https://mods.factorio.com/mods/Simdezimon/flownetwork) `>= 0.0.2`
