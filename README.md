@@ -79,6 +79,13 @@ This mod was inspired by [ZGroupChange](https://mods.factorio.com/mods/Progsy/ZG
 - [ Force Fields](https://mods.factorio.com/mods/Rseding91/Force) `>= 1.0.8`
 - [ Fusion Reactor](https://mods.factorio.com/mods/charga600/FusionReactor) `>= 0.1.4`
 - [ Fusion Robots](https://mods.factorio.com/mods/mindmix/FusionRobots) `>= 0.0.2`
+- [ GDIW](https://mods.factorio.com/mods/DaCyclops/GDIW) `>= 0.13.2`
+- [ Glockshna's Bits N Bobs](https://mods.factorio.com/mods/Glockshna/GMod) `>= 0.3.0`
+- [ GeneratorPriority](https://mods.factorio.com/mods/Kassie/GeneratorPriority) `>= 0.1.1`
+- [ Generic Logistic Chest](https://mods.factorio.com/mods/DedlySpyder/Generic_Logistic_Chest) `>= 0.2.1`
+- [ Ground Printer (display huge texts on the map)](https://mods.factorio.com/mods/BinbinHfr/GroundPrinter) `>= 1.0.4`
+- [ Hand Crank Generator](https://mods.factorio.com/mods/eradicator/HandCrankGenerator) `>= 1.0.4`
+- [ Incendiary Munitions](https://mods.factorio.com/mods/daydev/IncendiaryMunitions) `>= 0.2.0`
 - [ Additional Oil Refineries](https://mods.factorio.com/mods/IhanaMies/additionaloilrefineries) `>= 1.1.0`
 - [ Air Filtering](https://mods.factorio.com/mods/Schorty/air%2Dfiltering) `>= 0.4.0`
 - [ Alien Science](https://mods.factorio.com/mods/Delois/alien%2Dscience) `>= 0.1.1`
@@ -104,12 +111,17 @@ This mod was inspired by [ZGroupChange](https://mods.factorio.com/mods/Progsy/ZG
 - [ Flame Grenades](https://mods.factorio.com/mods/DaCyclops/flamenades) `>= 0.13.1`
 - [ Flow Network](https://mods.factorio.com/mods/Simdezimon/flownetwork) `>= 0.0.2`
 - [ Fluid Barrel](https://mods.factorio.com/mods/Firegrenade./fluid-barrel) `>= 1.1.1`
+- [ General Improvements](https://mods.factorio.com/mods/Jouki/gimprovements) `>= 0.4.0`
 
 ## Planned mods
+Planned mods are usually bigger modpacks, that I can't simply auto-sort. I will run and look into these in order to provide reasonable sorting.
 - **bobwarfare**
 - **BukketMod**
 - **FlareStack**
 - **Fluidizer**
+- **hardcorio**
+- **hardCrafting**
+- **homeworld**
 
 ## Item groups 
 The following item groups will be present in the crafting UI when the mod is loaded.
