@@ -14,7 +14,7 @@ This mod was inspired by [ZGroupChange](https://mods.factorio.com/mods/Progsy/ZG
 - [ 00 Armor](https://mods.factorio.com/mods/sl/Armor) `>= 0.0.5`
 - [ 20x20 Armor MK2](https://mods.factorio.com/mods/Neonit/20x20ArmorMK2) `>= 0.0.3`
 - [ 5dim Automatization](https://mods.factorio.com/mods/McGuten/5dim%5Fautomatization) `>= 0.13.1`
-- [ 5dim Battlefield](https://mods.factorio.com/mods/McGuten/5dim%5Fbattlefield) `>= 0.13.1`
+- [ 5dim's Mod - Battlefield](https://mods.factorio.com/mods/McGuten/5dim_battlefield) `>= 0.13.1`
 - [ 5dim Decoration](mods.factorio.com/mods/https://mods.factorio.com/mods/McGuten/5dim%5Fdecoration) `>= 0.13.1`
 - [ 5dim Energy](https://mods.factorio.com/mods/McGuten/5dim%5Fenergy) `>= 0.13.1`
 - [ 5dim Logistic](https://mods.factorio.com/mods/McGuten/5dim%5Flogistic) `>= 0.13.1`
@@ -59,6 +59,7 @@ This mod was inspired by [ZGroupChange](https://mods.factorio.com/mods/Progsy/ZG
 - [ Explosive Excavation](https://mods.factorio.com/mods/GotLag/Explosive%20Excavation) `>= 1.0.2`
 - [ Explosive Termites](https://mods.factorio.com/mods/Rseding91/Explosive%20Termites) `>= 1.1.8`
 - [ Extendo-Reach](https://mods.factorio.com/mods/ntm/ExtendoReach) `>= 0.0.2`
+- [ Fully Automated Rail Layer](https://mods.factorio.com/mods/Choumiko/FARL) `>= 0.5.36`
 - [ FactorioExtended-Core](https://mods.factorio.com/mods/Nath/FactorioExtended-Core) `>= 0.1.9`
 - [ FactorioExtended-Equipment](https://mods.factorio.com/mods/Nath/FactorioExtended-Equipment) `>= 0.1.9`
 - [ FactorioExtended-Logistics](https://mods.factorio.com/mods/Nath/FactorioExtended-Logistics) `>= 0.1.9`
@@ -67,13 +68,27 @@ This mod was inspired by [ZGroupChange](https://mods.factorio.com/mods/Progsy/ZG
 - [ FactorioExtended-Transport](https://mods.factorio.com/mods/Nath/FactorioExtended-Transport) `>= 0.1.9`
 - [ FactorioExtended-Weaponry](https://mods.factorio.com/mods/Nath/FactorioExtended-Weaponry) `>= 0.1.9`
 - [ Factorissimo](https://mods.factorio.com/mods/MagmaMcFry/Factorissimo) `>= 0.1.6`
+- [ Factorissimo Plus](https://mods.factorio.com/mods/Articulating/Factorissimo_Plus) `>= 0.1.0`
+- [ Fast Long Inserter Mod](https://mods.factorio.com/mods/Maser/Fast_Long_Inserter) `>= 0.0.4`
+- [ Faster Trains](https://mods.factorio.com/mods/Vicio/FasterTrains) `>= 0.1.0`
+- [ Fire Mine Mod](https://mods.factorio.com/mods/jason03272002/Fire_Mine) `>= 0.1.2`
+- [ Flare](https://mods.factorio.com/mods/Ranakastrasz/Flare) `>= 0.0.2`
+- [ Flow Control](https://mods.factorio.com/mods/GotLag/Flow) `>= 2.0.0`
+- [ Fluid Void](https://mods.factorio.com/mods/Rseding91/Fluid) `>= 1.0.3`
+- [ FlyTox (alien insecticide with diffusors)](https://mods.factorio.com/mods/BinbinHfr/FlyTox) `>= 1.0.4`
+- [ Force Fields](https://mods.factorio.com/mods/Rseding91/Force) `>= 1.0.8`
+- [ Fusion Reactor](https://mods.factorio.com/mods/charga600/FusionReactor) `>= 0.1.4`
+- [ Fusion Robots](https://mods.factorio.com/mods/mindmix/FusionRobots) `>= 0.0.2`
 - [ Additional Oil Refineries](https://mods.factorio.com/mods/IhanaMies/additionaloilrefineries) `>= 1.1.0`
 - [ Air Filtering](https://mods.factorio.com/mods/Schorty/air%2Dfiltering) `>= 0.4.0`
 - [ Alien Science](https://mods.factorio.com/mods/Delois/alien%2Dscience) `>= 0.1.1`
 - [ Belt Sorter](https://mods.factorio.com/mods/judos/beltSorter) `>= 0.2.1`
 - [ Automatic Belt Planner](https://mods.factorio.com/mods/prg/beltplanner) `>= 0.9.1`
 - [ Blueprint Book](https://mods.factorio.com/mods/andhagg1/blueprint-book-2) `>= 0.13.1`
+- [ Bob's Assembling machines](https://mods.factorio.com/mods/Bobingabout/bobassembly) `>= 0.13.0`
+- [ Bob's Electronics](https://mods.factorio.com/mods/Bobingabout/bobelectronics) `>= 0.13.1`
 - [ Bob's Enemies](https://mods.factorio.com/mods/Bobingabout/bobenemies) `>= 0.13.1`
+- [ Bob's Greenhouse mod](https://mods.factorio.com/mods/Bobingabout/bobgreenhouse) `>= 0.13.2`
 - [ Bob's Logistics mod](https://mods.factorio.com/mods/Bobingabout/boblogistics) `>= 0.13.7`
 - [ Bob's Mining](https://mods.factorio.com/mods/Bobingabout/bobmining) `>= 0.13.1`
 - [ Bob's Modules](https://mods.factorio.com/mods/Bobingabout/bobmodules) `>= 0.13.0`
@@ -81,9 +96,14 @@ This mod was inspired by [ZGroupChange](https://mods.factorio.com/mods/Progsy/ZG
 - [ Bob's Metals, Chemicals and Intermediates](https://mods.factorio.com/mods/Bobingabout/bobplates) `>= 0.13.2`
 - [ Bob's Power](https://mods.factorio.com/mods/Bobingabout/bobpower) `>= 0.13.1`
 - [ Bob's Tech](https://mods.factorio.com/mods/Bobingabout/bobtech) `>= 0.13.0`
+- [ Bob's Warfare](https://mods.factorio.com/mods/Bobingabout/bobwarfare) `>= 0.13.4`
 - [ Boxing](https://mods.factorio.com/mods/Xecutor./boxing) `>= 0.6.2`
 - [ Bulldozer](https://mods.factorio.com/mods/Cheata%2C/bulldozer) `>= 1.2.6`
 - [ Burn the World.](https://mods.factorio.com/mods/Daid/burn-the-world) `>= 0.1.0`
+- [ Fish Sandwich](https://mods.factorio.com/mods/bigyihsuan/fish-sandwich) `>= 1.0.0`
+- [ Flame Grenades](https://mods.factorio.com/mods/DaCyclops/flamenades) `>= 0.13.1`
+- [ Flow Network](https://mods.factorio.com/mods/Simdezimon/flownetwork) `>= 0.0.2`
+- [ Fluid Barrel](https://mods.factorio.com/mods/Firegrenade./fluid-barrel) `>= 1.1.1`
 
 ## Planned mods
 - **bobwarfare**
