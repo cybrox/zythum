@@ -10,5 +10,5 @@
 zythum_sort_mod('Fluid+Void')
 
 
--- Recipes for category zythum-collecting
-zythum_sort('collecting',    08, 01, 'void-pipe')
+-- Recipes for category zythum-transport
+zythum_sort('transport',     09, 01, 'void-pipe')

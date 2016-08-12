@@ -86,6 +86,28 @@ This mod was inspired by [ZGroupChange](https://mods.factorio.com/mods/Progsy/ZG
 - [ Ground Printer (display huge texts on the map)](https://mods.factorio.com/mods/BinbinHfr/GroundPrinter) `>= 1.0.4`
 - [ Hand Crank Generator](https://mods.factorio.com/mods/eradicator/HandCrankGenerator) `>= 1.0.4`
 - [ Incendiary Munitions](https://mods.factorio.com/mods/daydev/IncendiaryMunitions) `>= 0.2.0`
+- [ Interface Chest](https://mods.factorio.com/mods/Peppe/InterfaceChest) `>= 1.13.2`
+- [ Inventory Sensor](https://mods.factorio.com/mods/Optera/Inventory) `>= 1.0.3`
+- [ Item Collectors](https://mods.factorio.com/mods/Rseding91/Item) `>= 1.1.7`
+- [ Item Destroyer](https://mods.factorio.com/mods/ficolas%2C/K-ItemDestroyer) `>= 1.2.0`
+- [ LIQUADO](https://mods.factorio.com/mods/EinBerliner/LIQUADO) `>= 0.1.1`
+- [ Landfill](https://mods.factorio.com/mods/Rseding91/Landfill) `>= 2.1.10`
+- [ Large Chests](https://mods.factorio.com/mods/Ranakastrasz/Large-Chests) `>= 0.0.11`
+- [ Lejv armor](https://mods.factorio.com/mods/Lejving/Lejv-armor) `>= 0.0.1`
+- [ Loader Furnace](https://mods.factorio.com/mods/darkfrei/Loader-Furnace) `>= 1.0.3`
+- [ Logistics Mining](https://mods.factorio.com/mods/Afforess/LogisticsMining) `>= 1.0.4`
+- [ Longer Underground Pipes](https://mods.factorio.com/mods/Swadius/Longer_Underground_Pipes) `>= 0.0.2`
+- [ MK2 Mod](https://mods.factorio.com/mods/Riley/MK2-Mod) `>= 1.0.2`
+- [ MagneticFloor](https://mods.factorio.com/mods/kiba/MagneticFloor) `>= 0.1.3`
+- [ Megamind (control alien brains)](https://mods.factorio.com/mods/BinbinHfr/Megamind) `>= 1.0.9`
+- [ Military Research 5](https://mods.factorio.com/mods/Klonan/Military_Research_5) `>= 0.1.0`
+- [ Basic Starting Equipment](https://mods.factorio.com/mods/Minizbot2012/MiniBasicStart) `>= 0.0.2`
+- [ Mini Roboports](https://mods.factorio.com/mods/master6545/MiniPorts) `>= 0.2.2`
+- [ Mining Tools (+dynamites to provide new resources)](https://mods.factorio.com/mods/BinbinHfr/MiningTools) `>= 1.0.25`
+- [ Misanthrope](https://mods.factorio.com/mods/Afforess/Misanthrope) `>= 0.6.8`
+- [ Power armor MK3](https://mods.factorio.com/mods/Natha/Mk3) `>= 1.0.1`
+- [ Modular Armor](https://mods.factorio.com/mods/Ranakastrasz/Modular-Armor) `>= 0.2.1`
+- [ _M_ Armor](https://mods.factorio.com/mods/M/_M_Armor) `>= 0.0.4`
 - [ Additional Oil Refineries](https://mods.factorio.com/mods/IhanaMies/additionaloilrefineries) `>= 1.1.0`
 - [ Air Filtering](https://mods.factorio.com/mods/Schorty/air%2Dfiltering) `>= 0.4.0`
 - [ Alien Science](https://mods.factorio.com/mods/Delois/alien%2Dscience) `>= 0.1.1`
@@ -112,6 +134,11 @@ This mod was inspired by [ZGroupChange](https://mods.factorio.com/mods/Progsy/ZG
 - [ Flow Network](https://mods.factorio.com/mods/Simdezimon/flownetwork) `>= 0.0.2`
 - [ Fluid Barrel](https://mods.factorio.com/mods/Firegrenade./fluid-barrel) `>= 1.1.1`
 - [ General Improvements](https://mods.factorio.com/mods/Jouki/gimprovements) `>= 0.4.0`
+- [ Launch Control](https://mods.factorio.com/mods/catalyst518/launch-control) `>= 0.2.0`
+- [ Magnet](https://mods.factorio.com/mods/Loren1350%2C/magnet) `>= 1.4.1`
+- [ Makkari Utilities](https://mods.factorio.com/mods/Makkari/makkariutils) `>= 0.0.2`
+- [ Militarization](https://mods.factorio.com/mods/LifeParadox/militarization) `>= 0.0.4`
+- [ Mini Machines Mod](https://mods.factorio.com/mods/Kryzeth/mini-machines) `>= 1.2.1`
 
 ## Planned mods
 Planned mods are usually bigger modpacks, that I can't simply auto-sort. I will run and look into these in order to provide reasonable sorting.
@@ -122,6 +149,8 @@ Planned mods are usually bigger modpacks, that I can't simply auto-sort. I will 
 - **hardcorio**
 - **hardCrafting**
 - **homeworld**
+- **Mobile-suit**
+- **mocombat**
 
 ## Item groups 
 The following item groups will be present in the crafting UI when the mod is loaded.

@@ -32,6 +32,7 @@ zythum_sort('intermediate',  03, 01, 'basic-circuit-board')
 zythum_sort('intermediate',  03, 02, 'circuit-board')
 zythum_sort('intermediate',  03, 03, 'superior-circuit-board')
 zythum_sort('intermediate',  03, 04, 'multi-layer-circuit-board')
+zythum_sort('intermediate',  03, 05, 'solder')
 
 -- Recipes for category zythum-resources
 zythum_sort('resources',     01, 01, 'synthetic-wood')
@@ -40,6 +41,10 @@ zythum_sort('resources',     01, 03, 'rubber')
 zythum_sort('resources',     01, 04, 'bob-rubber')
 zythum_sort('resources',     01, 05, 'bob-resin-wood')
 zythum_sort('resources',     01, 06, 'bob-resin-oil')
+
+-- Recipes for category zythum-plates
+zythum_sort('plates',        02, 01, 'solder-alloy')
+zythum_sort('plates',        02, 01, 'solder-alloy-lead')
 
 -- Recipes for category zythum-logistics
 zythum_sort('logistics',     06, 01, 'insulated-cable')
