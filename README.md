@@ -120,6 +120,7 @@ This mod was inspired by [ZGroupChange](https://mods.factorio.com/mods/Progsy/ZG
 - [ Plasma Shotgun Shells](https://mods.factorio.com/mods/Rseding91/Plasma) `>= 1.0.2`
 - [ Potato](https://mods.factorio.com/mods/Wube/Potato) `>= 1.0.0`
 - [ Power And Armor](https://mods.factorio.com/mods/Corvus/PowerAndArmor) `>= 1.0.8`
+- [ Extended Range](https://mods.factorio.com/mods/Nori/RFM-transport) `>= 0.9.3`
 - [ Rail Tanker](https://mods.factorio.com/mods/James/RailTanker) `>= 1.3.32`
 - [ Raven](https://mods.factorio.com/mods/maroder/Raven) `>= 0.0.3`
 - [ Realistic approach to Factorio](https://mods.factorio.com/mods/Furan/Realism) `>= 1.0.0`
@@ -127,6 +128,33 @@ This mod was inspired by [ZGroupChange](https://mods.factorio.com/mods/Progsy/ZG
 - [ Red Assembling Machine](https://mods.factorio.com/mods/Klonan/Red_Assembling_Machine) `>= 0.1.1`
 - [ Steel Reinforced Walls](https://mods.factorio.com/mods/Michael/Reinforced-Walls) `>= 0.2.3`
 - [ Resource Conversions](https://mods.factorio.com/mods/Master/Resource-Conversions) `>= 0.1.1`
+- [ RoadWorks](https://mods.factorio.com/mods/JoCKeR-iL/RoadWorks) `>= 3.1.0`
+- [ Robot Charging Station](https://mods.factorio.com/mods//Robo-Charge) `>= 0.3.3`
+- [ Satellite Uplink Station](https://mods.factorio.com/mods/Supercheese/Satellite) `>= 1.0.0`
+- [ Satellite Radar](https://mods.factorio.com/mods/catalyst518/SatelliteRadar) `>= 0.4.1`
+- [ ScienceCostTweaker Mod](https://mods.factorio.com/mods/UberWaffe/ScienceCostTweaker) `>= 0.13.2`
+- [ Screenshot_tool](https://mods.factorio.com/mods/Klonan/Screenshot_Tool) `>= 0.1.0`
+- [ Sensor](https://mods.factorio.com/mods/Optera/Sensor) `>= 0.1.1`
+- [ Shevan Solar](https://mods.factorio.com/mods/DracoKartu/ShevanSolar) `>= 1.1.0`
+- [ Shinys parkingzone](https://mods.factorio.com/mods/ShinyAfro/Shinys-parkingzone) `>= 1.0.0`
+- [ Ships](https://mods.factorio.com/mods/IceDev/Ships) `>= 0.0.2`
+- [ Shuttle Train](https://mods.factorio.com/mods/Simwir/ShuttleTrain) `>= 1.1.2`
+- [ Signposts](https://mods.factorio.com/mods/IceDev/Signposts) `>= 0.0.2`
+- [ Smart Display (circuit network signal display on map)](https://mods.factorio.com/mods/BinbinHfr/SmartDisplay) `>= 1.0.12`
+- [ SmartSplitters](https://mods.factorio.com/mods/Tjalmann/SmartSplitters) `>= 1.0.0`
+- [ Space Extension Mod](https://mods.factorio.com/mods/Alastair/SpaceMod) `>= 0.1.11`
+- [ Stainless Steel Wagon](https://mods.factorio.com/mods/Rseding91/Stainless) `>= 1.0.1`
+- [ Strange Matter](https://mods.factorio.com/mods/5cript/StrangeMatter) `>= 0.1.2`
+- [ Suit Plug](https://mods.factorio.com/mods/SirIntellegence/Suit-Plug) `>= 0.1.0`
+- [ SuperChest Mod](https://mods.factorio.com/mods/Heliogenesis/SuperChest) `>= 0.1.2`
+- [ Super Tank (a boosted red tank)](https://mods.factorio.com/mods/BinbinHfr/SuperTank) `>= 1.0.9`
+- [ Tank Gun](https://mods.factorio.com/mods/Dr./Tank) `>= 0.1.0`
+- [ Tank Wagon](https://mods.factorio.com/mods/GotLag/Tank) `>= 1.0.2`
+- [ TankRoboport](https://mods.factorio.com/mods/IceDev/TankRoboport) `>= 0.0.3`
+- [ Tape Measure](https://mods.factorio.com/mods/Rseding91/Tape) `>= 1.0.2`
+- [ Tesseract](https://mods.factorio.com/mods/Slad3/Tesseract) `>= 0.1.0`
+- [ The Long Nauvis](https://mods.factorio.com/mods/Luke/TheLongNauvis) `>= 0.0.1`
+- [ The Lab](https://mods.factorio.com/mods/Klonan/The_Lab) `>= 0.1.1`
 - [ _M_ Armor](https://mods.factorio.com/mods/M/_M_Armor) `>= 0.0.4`
 - [ Additional Oil Refineries](https://mods.factorio.com/mods/IhanaMies/additionaloilrefineries) `>= 1.1.0`
 - [ Air Filtering](https://mods.factorio.com/mods/Schorty/air%2Dfiltering) `>= 0.4.0`
@@ -166,6 +194,11 @@ This mod was inspired by [ZGroupChange](https://mods.factorio.com/mods/Progsy/ZG
 - [ Ore Eraser](https://mods.factorio.com/mods/Tergiver/ore-eraser) `>= 1.3.0`
 - [ Peace Mod](https://mods.factorio.com/mods/Vachu/peacemod) `>= 0.1.2`
 - [ Pollution detector](https://mods.factorio.com/mods/Schorty/pollution-detector) `>= 0.2.1`
+- [ Robot Army](https://mods.factorio.com/mods/Kyran/robotarmy) `>= 0.2.2`
+- [ Security cameras](https://mods.factorio.com/mods/Loren1350/security-camera) `>= 0.2.2`
+- [ Space platform.](https://mods.factorio.com/mods/Daid/space-platform) `>= 0.1.1`
+- [ Spawn Belt](https://mods.factorio.com/mods/Barry/spawn-belt) `>= 1.0.2`
+- [ Spawn Pump](https://mods.factorio.com/mods/Barry/spawn-pump) `>= 0.1.0`
 
 ## Planned mods
 Planned mods are usually bigger modpacks, that I can't simply auto-sort. I will run and look into these in order to provide reasonable sorting.
@@ -182,6 +215,9 @@ Planned mods are usually bigger modpacks, that I can't simply auto-sort. I will 
 - **Natural Evolution**
 - **Nucular**
 - **PipeEverything**
+- **reverse-factory**
+- **tanks_for_bob**
+
 
 ## Item groups 
 The following item groups will be present in the crafting UI when the mod is loaded.
