@@ -7,6 +7,7 @@
 source ./script/_config.sh
 
 MODPACKS_PATH=""
+FACTMODS_GRAB=./script/grabber
 
 # Allow us to do everything at once
 if [[ "$1" == "all" ]]; then
@@ -15,9 +16,11 @@ if [[ "$1" == "all" ]]; then
 fi
 
 # Delete all old mods from the game dir
-ls "$FACTMODS_PATH" | while read FILE; do
-  rm -rf "$FACTMODS_PATH/$FILE"
-done
+if [[ "$1" != "keep" ]]; then
+  ls "$FACTMODS_PATH" | while read FILE; do
+    rm -rf "$FACTMODS_PATH/$FILE"
+  done
+fi
 
 bash ./script/build.sh
 
@@ -26,5 +29,12 @@ while read FILE; do
   break
 done < <(find . -name "*.zip" )
 
+cp ./mods/base.lua "$FACTMODS_GRAB/baseset.lua"
+cp ./config.lua "$FACTMODS_GRAB/config.lua"
+cp -r "$FACTMODS_GRAB" "$FACTMODS_PATH"
+mv "$FACTMODS_PATH/grabber" "$FACTMODS_PATH/zythumgrabber_1.0.0"
+rm "$FACTMODS_GRAB/baseset.lua"
+rm "$FACTMODS_GRAB/config.lua"
 mv "$MODPACKS_PATH" "$FACTMODS_PATH"
+
 $FACTORIO_PATH

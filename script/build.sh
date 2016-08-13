@@ -38,13 +38,14 @@ if [[ -e "./info.json" ]]; then
     CFG_LINE=$(($CFG_LINE + 1))
     if [[ "$LINE" = "zythum_cfg_enabledebug = true"* ]]; then break; fi
   done < $CFG_PATH 
-  sed -i '' "${CFG_LINE}s/.*/zythum_cfg_enabledebug \= false/" $CFG_PATH
+  sed -i "${CFG_LINE}s/.*/zythum_cfg_enabledebug \= false/" $CFG_PATH
+  #sed -i '' "${CFG_LINE}s/.*/zythum_cfg_enabledebug \= false/" $CFG_PATH
 
   cd ./dist
   if type ditto >/dev/null 2>&1; then
     ditto -ck --rsrc --sequesterRsrc --keepParent ./ "../zythum_$VERSION.zip"
-  elif type p7zip >/dev/null 2>&1; then
-    p7zip a -tzip -mx=0 "../zythum_$VERSION.zip" ./*
+  elif type 7z >/dev/null 2>&1; then
+    7z a -tzip -mx=0 "../zythum_$VERSION.zip" ./*
   else
     zip -r "../zythum_$VERSION.zip" ./*
   fi
