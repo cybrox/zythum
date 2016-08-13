@@ -17,3 +17,6 @@ zythum_sort('collecting',    03, 03, '5d-mining-drill-speed-3')
 zythum_sort('collecting',    04, 01, '5d-mining-drill-range-2')
 zythum_sort('collecting',    04, 02, '5d-mining-drill-range-1')
 zythum_sort('collecting',    04, 03, '5d-mining-drill-range-3')
+
+zythum_sort('collecting',    05, 01, '5d-pumpjack-2')
+zythum_sort('collecting',    05, 02, '5d-pumpjack-3')

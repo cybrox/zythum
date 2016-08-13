@@ -46,3 +46,11 @@ zythum_sort('automation',    04, 08, '5d-extreme-inserter-left-90d')
 zythum_sort('automation',    04, 09, '5d-extreme-inserter-left-90d-close')
 zythum_sort('automation',    04, 10, '5d-extreme-inserter-right-90d')
 zythum_sort('automation',    04, 11, '5d-extreme-inserter-right-90d-close')
+
+-- Recipes for category zythum-production
+zythum_sort('production',    03, 01, '5d-assembling-machine-4')
+zythum_sort('production',    03, 01, '5d-assembling-machine-5')
+zythum_sort('production',    05, 01, '5d-oil-refinery-2')
+zythum_sort('production',    05, 01, '5d-oil-refinery-3')
+zythum_sort('production',    06, 01, '5d-chemical-plant-2')
+zythum_sort('production',    06, 01, '5d-chemical-plant-3')
