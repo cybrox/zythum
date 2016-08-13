@@ -17,13 +17,27 @@ if [[ -e "./info.json" ]]; then
   cp -R ./locale ./dist
   cp -R ./prototypes ./dist
 
+  MODCOUNT=1
+  MODTOTAL=$(ls mods | wc -l)
   echo "-- zythum compiled mod library" > ./dist/mods/compiled.lua
   ls ./mods | while read FILE; do
     if [[ "$FILE" =~ \.gitkeep || "$FILE" =~ \_template ]]; then
       continue
     fi
 
-    cat "./mods/$FILE" | grep zythum_sort >> ./dist/mods/compiled.lua
+    echo "OK: Compiling mod $MODCOUNT/$MODTOTAL"
+    while read LINE; do
+      if [[ "$LINE" == "zythum_sort_mod"* ]]; then
+        echo "$LINE" >> ./dist/mods/compiled.lua
+      else
+        ITEM=$(echo $LINE | cut -d',' -f 4 | sed -r "s/\)//g")
+        OLDS=$(cat ./dist/mods/compiled.lua | grep "$ITEM")
+        if [[ "$OLDS" == "" ]]; then
+          echo $LINE >> ./dist/mods/compiled.lua
+        fi
+      fi
+    done < <(cat "./mods/$FILE" | grep zythum_sort)
+    MODCOUNT=$(($MODCOUNT + 1))
   done
 
   cp info.json ./dist/
