@@ -16,11 +16,15 @@ if [[ "$1" == "all" ]]; then
 fi
 
 # Delete all old mods from the game dir
-if [[ "$1" != "keep" ]]; then
-  ls "$FACTMODS_PATH" | while read FILE; do
+ls "$FACTMODS_PATH" | while read FILE; do
+  if [[ "$1" == "keep" ]]; then
+    if [[ "$FILE" == "zythumgrabber_1.0.0.zip" || "$FILE" == "zythum_"* || "$FILE" == "mod-list.json" ]]; then
+      rm -rf "$FACTMODS_PATH/$FILE"
+    fi
+  else
     rm -rf "$FACTMODS_PATH/$FILE"
-  done
-fi
+  fi
+done
 
 bash ./script/build.sh
 
@@ -40,6 +44,7 @@ cp -r "$FACTMODS_GRAB" "$FACTMODS_PATH"
 mv "$FACTMODS_PATH/grabber" "$FACTMODS_PATH/zythumgrabber_1.0.0"
 rm "$FACTMODS_GRAB/baseset.lua"
 rm "$FACTMODS_GRAB/config.lua"
-mv "$MODPACKS_PATH" "$FACTMODS_PATH"
+unzip "$MODPACKS_PATH" -d "$FACTMODS_PATH/zythum_1.0.0"
+rm $MODPACKS_PATH
 
 $FACTORIO_PATH
