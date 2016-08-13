@@ -4,9 +4,9 @@
 # Load a single mod into the game and analyze it
 #
 
+source _config.sh
+
 FACTORIO_MODS="https://mods.factorio.com/mods/"
-FACTORIO_PATH=/Applications/factorio.app/Contents/MacOS/factorio
-FACTMODS_PATH=~/Library/Application\ Support/factorio/mods
 FACTMODS_JSON=./script/blacklist.json
 FACTMODS_GRAB=./script/grabber
 TEMPLIST_PATH=./temp.json

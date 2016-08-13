@@ -4,8 +4,8 @@
 # Load the packed mod into the factorio mods dir in order to test it
 #
 
-FACTORIO_PATH=/Applications/factorio.app/Contents/MacOS/factorio
-FACTMODS_PATH=~/Library/Application\ Support/factorio/mods
+source _config.sh
+
 MODPACKS_PATH=""
 
 # Allow us to do everything at once
