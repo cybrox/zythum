@@ -4,7 +4,7 @@
 # Load a single mod into the game and analyze it
 #
 
-source _config.sh
+source ./script/_config.sh
 
 FACTORIO_MODS="https://mods.factorio.com/mods/"
 FACTMODS_JSON=./script/blacklist.json

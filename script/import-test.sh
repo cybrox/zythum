@@ -4,7 +4,7 @@
 # Load the packed mod into the factorio mods dir in order to test it
 #
 
-source _config.sh
+source ./script/_config.sh
 
 MODPACKS_PATH=""
 
