@@ -9,6 +9,10 @@ This mod was inspired by [ZGroupChange](https://mods.factorio.com/mods/Progsy/ZG
 [CONTRIBUTING](https://github.com/cybrox/zythum/blob/master/CONTRIBUTING.md) |
 [CHANGELOG](https://github.com/cybrox/zythum/blob/master/CHANGELOG.md)
 
+## Fully supported modpacks
+- 5dim's mods
+- Bob's mods
+
 ## Supported mods (350)
 - **base** `>= 13.0 `
 - [ 00 Armor](https://mods.factorio.com/mods/sl/Armor) `>= 0.0.5`
@@ -221,6 +225,7 @@ This mod was inspired by [ZGroupChange](https://mods.factorio.com/mods/Progsy/ZG
 ## Semi-Supported mods
 Semi-supported mods are mods that, while we could index them in this mod, they are either so big that their own categories are justified or are sorted so well, that their category is absolutely enough.
 - Yuoki
+- Mobile-suit
 
 Additionally, all mods in `script/blacklist.json` have been indexed but don't contain items to sort, they are counted as *supported* too here.
 
@@ -232,7 +237,6 @@ Planned mods are usually bigger modpacks, that I can't simply auto-sort. I will 
 - **hardcorio**
 - **hardCrafting**
 - **homeworld**
-- **Mobile-suit**
 - **mocombat**
 - **motrans**
 - **more_oil-production**

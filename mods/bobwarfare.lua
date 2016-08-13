@@ -29,7 +29,9 @@ zythum_sort('logistics',     03, 04, 'bob-laser-robot')
 zythum_sort('chemistry',     02, 01, 'glycerol')
 zythum_sort('chemistry',     02, 02, 'nitroglycerin')
 zythum_sort('chemistry',     02, 03, 'petroleum-jelly')
+zythum_sort('chemistry',     02, 04, 'sulfuric-nitric-acid')
 zythum_sort('chemistry',     04, 01, 'gun-cotton')
+zythum_sort('chemistry',     04, 01, 'gun-cotton-synthetic')
 zythum_sort('chemistry',     04, 02, 'cordite')
 
 -- Recipes for category zythum-intermediate
