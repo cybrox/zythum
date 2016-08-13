@@ -28,6 +28,7 @@ This mod was inspired by [ZGroupChange](https://mods.factorio.com/mods/Progsy/ZG
 - [ 5dim Logistic](https://mods.factorio.com/mods/McGuten/5dim%5Flogistic) `>= 0.13.1`
 - [ 5dim Mining](https://mods.factorio.com/mods/McGuten/5dim%5Fmining) `>= 0.13.1`
 - [ 5dim Module](https://mods.factorio.com/mods/McGuten/5dim%5Fmodule) `>= 0.13.1`
+- [ 5dim Ores](https://mods.factorio.com/mods/McGuten/5dim_ores) `>= 0.13.1`
 - [ 5dim Resources](mods.factorio.com/mods/https://mods.factorio.com/mods/McGuten/5dim%5Fresources) `>= 0.13.1`
 - [ 5dim's Mod - Transport](https://mods.factorio.com/mods/5Dim/5dim_transport) `>= 0.13.1`
 - [ 5dim Vehicles](https://mods.factorio.com/mods/McGuten/5dim%5Fvehicle) `>= 0.13.1`
