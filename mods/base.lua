@@ -7,7 +7,7 @@
 -- refver: 0.13
 
 -- Tricking a bit here to enforce base as first sorting order
-zythum_sort_mod('aaaaa-base')
+zythum_sort_mod('000000-base')
 
 
 -- Recipes for category zythum-collecting
