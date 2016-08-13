@@ -21,8 +21,9 @@ Feel free to create pull request with any kind of changes you want to see implem
 **IMPORTANT:** All scripts are designed to be run from the project root. Please note that I work on script compatibility, to make sure, they run on your system too, so far, it's quite experimental.
 
 #####build.sh
-Running this will pack all important data into a temporary folder and then zip them into a mod archive. **Always** make sure to turn `debug` off in the config before you pack (I need to automate this...)
-This will automatically take the version from `info.json`
+Usage: `bash script/build.sh <test>`    
+- `test` If present, `control.lua` will be copied in order to get a test filter inserter
+Running this will pack all important data into a temporary folder and then zip them into a mod archive. This will automatically take the version from `info.json`
 
 #####generate-imports.sh
 This script will automatically regenerate `data-final-fixes` with all mod includes based on the mod directory `/mods`. This is automatically run by `import-single.sh`

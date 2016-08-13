@@ -50,11 +50,16 @@ require('baseset')
 for index, category in pairs(zythum_cfg_datafindgroups) do
   for index, element in pairs(data.raw[category]) do
     local is_basemoditem = false
+    local is_sortedalready = false
     for i, item in pairs(zythum_list) do
       if item == element.name then is_basemoditem = true end
     end
 
-    if is_basemoditem == false then
+    if element.subgroup ~= nil then
+      if string.sub(element.subgroup, 1, 6) == 'zythum' then is_sortedalready = true end
+    end
+    
+    if is_basemoditem == false and is_sortedalready == false then
       table.insert(loaded_items, element.name)
     end
   end

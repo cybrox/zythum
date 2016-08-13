@@ -31,6 +31,10 @@ if [[ -e "./info.json" ]]; then
   cp data-final-fixes.lua ./dist/
   cp LICENSE.md ./dist/LICENSE
 
+  if [[ "$1" == "test" ]]; then
+    cp control.lua ./dist/
+  fi
+
   CFG_PATH=dist/config.lua
   CFG_LINE=0
   IFS=''

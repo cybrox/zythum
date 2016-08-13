@@ -18,7 +18,7 @@ fi
 # Delete all old mods from the game dir
 ls "$FACTMODS_PATH" | while read FILE; do
   if [[ "$1" == "keep" ]]; then
-    if [[ "$FILE" == "zythumgrabber_1.0.0.zip" || "$FILE" == "zythum_"* || "$FILE" == "mod-list.json" ]]; then
+    if [[ "$FILE" == "zythum"* || "$FILE" == "mod-list.json" ]]; then
       rm -rf "$FACTMODS_PATH/$FILE"
     fi
   else
@@ -26,7 +26,7 @@ ls "$FACTMODS_PATH" | while read FILE; do
   fi
 done
 
-bash ./script/build.sh
+bash ./script/build.sh test
 
 while read FILE; do
   MODPACKS_PATH="$FILE"
