@@ -13,6 +13,8 @@ This mod was inspired by [ZGroupChange](https://mods.factorio.com/mods/Progsy/ZG
 - 5dim's mods
 - Andrew's mods
 - Bob's mods
+- Versepelles's mods
+- Yuoki (not resorted)
 
 ## Supported mods (404)
 - **base** `>= 13.0 `
