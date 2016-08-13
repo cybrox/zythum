@@ -11,6 +11,7 @@ This mod was inspired by [ZGroupChange](https://mods.factorio.com/mods/Progsy/ZG
 
 ## Fully supported modpacks
 - 5dim's mods
+- Andrew's mods
 - Bob's mods
 
 ## Supported mods (350)
