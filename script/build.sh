@@ -27,6 +27,11 @@ if [[ -e "./info.json" ]]; then
 
     echo "OK: Compiling mod $MODCOUNT/$MODTOTAL"
     while read LINE; do
+      if [[ "$LINE" == *"'CATEGORY'"* ]];then
+        echo "ER: Found unsorted item in mod $FILE"
+        continue
+      fi
+
       if [[ "$LINE" == "zythum_sort_mod"* ]]; then
         echo "$LINE" >> ./dist/mods/compiled.lua
       else
