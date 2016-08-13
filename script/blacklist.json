@@ -144,7 +144,6 @@
     "endless-resources",
     "EndlessResourcesWithFullYield",
     "Armageddon",
-    "5dim_ores",
     "AmmoBox_Autorequest",
     "artifact-hatch",
     "00 Unlimited HP",
@@ -166,6 +165,6 @@
     "Yuoki",
     "z_yira_american",
     "z_yira_UP",
-    "z_yira_yuokirails",
+    "z_yira_yuokirails"
   ]
 }
