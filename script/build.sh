@@ -43,6 +43,8 @@ if [[ -e "./info.json" ]]; then
   cd ./dist
   if type ditto >/dev/null 2>&1; then
     ditto -ck --rsrc --sequesterRsrc --keepParent ./ "../zythum_$VERSION.zip"
+  elif type p7zip >/dev/null 2>&1; then
+    p7zip a -tzip -mx=0 "../zythum_$VERSION.zip" ./*
   else
     zip -r "../zythum_$VERSION.zip" ./*
   fi
