@@ -29,6 +29,11 @@ while read FILE; do
   break
 done < <(find . -name "*.zip" )
 
+if [[ "$MODPACKS_PATH" == "" ]]; then
+  echo "ER: Build failed, no output package found"
+  exit 1
+fi
+
 cp ./mods/base.lua "$FACTMODS_GRAB/baseset.lua"
 cp ./config.lua "$FACTMODS_GRAB/config.lua"
 cp -r "$FACTMODS_GRAB" "$FACTMODS_PATH"
