@@ -110,6 +110,10 @@ function fprint (str)
   updates_mods = updates_mods .. str .. '\n'
 end
 
+-- Load all mods from the ignore list
+print('OK: Fetching local blacklist database')
+load_ign_mods()
+
 
 -- Request first page in order to get data and number of pages
 print('OK: Fetching factorio mod database 0/?')
@@ -117,6 +121,7 @@ data = load_api_page(1)
 napi = data.pagination.page_count
 store_api_page(data.results)
 print('OK: Fetching factorio mod database 1/' .. napi)
+
 
 -- Request the remaining pages in order to get all mod information
 if do_single == false then
@@ -127,12 +132,6 @@ if do_single == false then
     print('OK: Fetching factorio mod database ' .. i .. '/' .. napi)
   end
 end
-
--- Load all mods from the ignore list
-print('OK: Fetching local blacklist database')
-load_ign_mods()
-
-
 
 
 -- Finally, compare all of our modsets against eachother and report changes
@@ -146,12 +145,13 @@ for index, mod in pairs(modsite_mods) do
   end
 
   if is_blacklisted == false then
-    local type_string = (is_indexed and 'NM:' or 'NV:')
+    local type_string = ((is_indexed == nil) and 'NM' or 'NV')
     if is_indexed == nil or version_is_bigger(mod.version, is_indexed.version) then
       fprint('OK: ' .. type_string .. ': ' .. mod.name .. ' ' .. mod.version .. ' > 0.0.0!' .. '('.. mod.link .. ')')
     end
   end
 end
+
 
 -- Write generated mod update report into temporary file
 print('OK: Writing update report file in project root')
