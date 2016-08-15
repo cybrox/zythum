@@ -103,8 +103,8 @@ if [[ -e "$MODPATH/info.json" ]]; then
   if [[ "$MOD_OWNER" == "" ]]; then MODNAME="unknown"; fi
 
 
-  MOD_OWNER_E=$(urlencode $MOD_OWNER)
-  MOD_NAME_E=$(urlencode $MOD_NAME)
+  MOD_OWNER_E=$(urlencode "$MOD_OWNER")
+  MOD_NAME_E=$(urlencode "$MOD_NAME")
   MOD_LINK="$FACTORIO_MODS$MOD_OWNER_E/$MOD_NAME_E"
 else
   echo "ER: Mod file does not contain an info.json"
@@ -139,12 +139,13 @@ while read -r LINE; do
   LOADINDEX=$(($LOADINDEX + 1))
 done <<< "$MODGRAB_VERS"
 
-FILE_NAME="$IMPORT_NEWF$FINAL_NAME.lua"
+ENCD_NAME=$(echo "$FINAL_NAME" | sed 's/ /+/g')
+FILE_NAME="$IMPORT_NEWF$ENCD_NAME.lua"
 
 echo "-- zythum sorter" > "$FILE_NAME"
 echo "-- tidy up your factorio ui" >> "$FILE_NAME"
 echo "--" >> "$FILE_NAME"
-echo "-- file: mods/$FINAL_NAME.lua" >> "$FILE_NAME"
+echo "-- file: mods/$ENCD_NAME.lua" >> "$FILE_NAME"
 echo "-- name: $MOD_TITLE" >> "$FILE_NAME"
 echo "-- link: $MOD_LINK" >> "$FILE_NAME"
 echo "-- author: cybrox" >> "$FILE_NAME"
