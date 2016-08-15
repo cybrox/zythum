@@ -27,7 +27,7 @@ else
     fi
   done
 
-  ls "$MOD_DIR" | while read FILE; do
+  ls "$MOD_DIR" | sort -f | while read FILE; do
     FIND_NAME=$(cat "$MOD_DIR/$FILE" | grep name:)
     FIND_LINK=$(cat "$MOD_DIR/$FILE" | grep link:)
     FIND_VERS=$(cat "$MOD_DIR/$FILE" | grep refver:)

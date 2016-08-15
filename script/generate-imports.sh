@@ -27,7 +27,7 @@ else
 
   rm "$TEMP_FILE"
 
-  ls "$MOD_DIR" | while read FILE; do
+  ls "$MOD_DIR" | sort -f | while read FILE; do
     NFIL=$(echo $FILE | sed 's/.lua//g')
 
     if [[ "$NFIL" != "_template" ]]; then
