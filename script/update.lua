@@ -14,7 +14,8 @@ modsite_mods = {}
 ignored_mods = {}
 updates_mods = ''
 
-do_single = (arg[1] == 'single')
+do_single = (arg[1] ~= '')
+do_page = (do_single and arg[1] or 1)
 
 
 function load_ign_mods ()
@@ -117,7 +118,7 @@ load_ign_mods()
 
 -- Request first page in order to get data and number of pages
 print('OK: Fetching factorio mod database 0/?')
-data = load_api_page(1)
+data = load_api_page(do_page)
 napi = data.pagination.page_count
 store_api_page(data.results)
 print('OK: Fetching factorio mod database 1/' .. napi)
@@ -146,8 +147,10 @@ for index, mod in pairs(modsite_mods) do
 
   if is_blacklisted == false then
     local type_string = ((is_indexed == nil) and 'NM' or 'NV')
+    local vers_string = ((is_indexed == nil) and ' ' or ' > ' .. is_indexed.version .. ' ')
+
     if is_indexed == nil or version_is_bigger(mod.version, is_indexed.version) then
-      fprint('OK: ' .. type_string .. ': ' .. mod.name .. ' ' .. mod.version .. ' > 0.0.0!' .. '('.. mod.link .. ')')
+      fprint('OK: ' .. type_string .. ': ' .. mod.name .. ' ' .. mod.version .. vers_string .. '('.. mod.link .. ')')
     end
   end
 end
