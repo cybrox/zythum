@@ -1,13 +1,13 @@
 -- zythum sorter
 -- tidy up your factorio ui
 --
--- file: mods/N-Tech Chemistry.lua
+-- file: mods/N-Tech+Chemistry.lua
 -- name: N.Tech Chemistry
 -- link: https://mods.factorio.com/mods/Natha/N-Tech
 -- author: cybrox
 -- refver: 1.6.1
 
-zythum_sort_mod('N-Tech Chemistry')
+zythum_sort_mod('N-Tech+Chemistry')
 
 
 -- Recipes for category zythum-chemistry

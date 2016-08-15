@@ -16,7 +16,7 @@ This mod was inspired by [ZGroupChange](https://mods.factorio.com/mods/Progsy/ZG
 - Versepelles's mods
 - Yuoki (not resorted)
 
-## Supported mods (404)
+## Supported mods (405)
 - **base** `>= 13.0 `
 - [ 00 Armor](https://mods.factorio.com/mods/sl/Armor) `>= 0.0.5`
 - [ 00 Water Pump](https://mods.factorio.com/mods/M/00) `>= 0.0.2`
@@ -40,13 +40,13 @@ This mod was inspired by [ZGroupChange](https://mods.factorio.com/mods/Progsy/ZG
 - [ Advanced Personal Roboports](https://mods.factorio.com/mods/Klonan/Advanced_Personal_Roboports) `>= 0.1.1`
 - [ Afraid of the Dark](https://mods.factorio.com/mods/binbinhfr/AfraidOfTheDark) `>= 1.0.13`
 - [ Agent Orange](https://mods.factorio.com/mods/Ranakastrasz/Agent+Orange) `>= 0.0.6`
-- [ Aircraft](https://mods.factorio.com/mods/zingo2/Aircraft) `>= 1.0.7`
 - [ Air Filtering](https://mods.factorio.com/mods/Schorty/air%2Dfiltering) `>= 0.4.0`
+- [ Aircraft](https://mods.factorio.com/mods/zingo2/Aircraft) `>= 1.0.7`
 - [ Algaculture](https://mods.factorio.com/mods/Fortanono/Algaculture) `>= 0.1.3`
-- [ Alien Artifacts](https://mods.factorio.com/mods/flonussi/AlienArtifacts) `>= 0.1.1`
-- [ Alien Eggs](https://mods.factorio.com/mods/binbinhfr/AlienEggs) `>= 1.0.5`
 - [ Alien Oil](https://mods.factorio.com/mods/Rseding91/Alien%20Oil) `>= 1.0.9`
 - [ Alien Science](https://mods.factorio.com/mods/Delois/alien%2Dscience) `>= 0.1.1`
+- [ Alien Artifacts](https://mods.factorio.com/mods/flonussi/AlienArtifacts) `>= 0.1.1`
+- [ Alien Eggs](https://mods.factorio.com/mods/binbinhfr/AlienEggs) `>= 1.0.5`
 - [ Alien Wall](https://mods.factorio.com/mods/vedrit/AlienWall) `>= 0.4.3`
 - [ All Fluids](https://mods.factorio.com/mods/Delus/AllFluids) `>= 1.0.2`
 - [ Alternate Alien Science](https://mods.factorio.com/mods/Delois/Alternate%20Alien%20Science) `>= 0.1.6`
@@ -58,16 +58,16 @@ This mod was inspired by [ZGroupChange](https://mods.factorio.com/mods/Progsy/ZG
 - [ Aquifer Drill](https://mods.factorio.com/mods/Align/AquiferDrill) `>= 1.2.0`
 - [ Artillery](https://mods.factorio.com/mods/Buhamut/Artillery) `>= 1.2.0`
 - [ Assembly Zero](https://mods.factorio.com/mods/funnysunnybunny/AssemblyZero) `>= 0.1.9`
-- [ Auto Deploy Destroyers](https://mods.factorio.com/mods/slindenau/Auto_Deploy_Destroyers) `>= 0.1.3`
 - [ Automatic Deconstruction](https://mods.factorio.com/mods/slindenau/Auto_Deploy_Destroyers) `>= 0.1.0`
+- [ Auto Deploy Destroyers](https://mods.factorio.com/mods/slindenau/Auto_Deploy_Destroyers) `>= 0.1.3`
 - [ Avatars](https://mods.factorio.com/mods/DedlySpyder/Avatars) `>= 0.4.1`
 - [ Automatic Belt Planner](https://mods.factorio.com/mods/prg/beltplanner) `>= 0.9.1`
 - [ Belt Sorter](https://mods.factorio.com/mods/judos/beltSorter) `>= 0.2.1`
 - [ Bergius Process](https://mods.factorio.com/mods/Klonan/Bergius_Process) `>= 0.1.2`
-- [ Big Brother](https://mods.factorio.com/mods/Afforess/Big_Brother) `>= 0.3.2`
-- [ Big Chest](https://mods.factorio.com/mods/creepy_hauz/Big_chest) `>= 0.0.1`
 - [ Bucket Wheel Excavator](https://mods.factorio.com/mods/jorgen19981/BigDrill) `>= 0.3.5`
 - [ Big Wooden Power Pole](mods.factorio.com/mods/Klonan/BigWoodenPowerPole) `>= 0.0.3`
+- [ Big Brother](https://mods.factorio.com/mods/Afforess/Big_Brother) `>= 0.3.2`
+- [ Big Chest](https://mods.factorio.com/mods/creepy_hauz/Big_chest) `>= 0.0.1`
 - [ Biter Gun](https://mods.factorio.com/mods/MrDoomah/Biter-gun) `>= 1.0.0`
 - [ Blueprint Book](https://mods.factorio.com/mods/andhagg1/blueprint-book-2) `>= 0.13.1`
 - [ Bob's Assembling machines](https://mods.factorio.com/mods/Bobingabout/bobassembly) `>= 0.13.0`
@@ -85,8 +85,8 @@ This mod was inspired by [ZGroupChange](https://mods.factorio.com/mods/Progsy/ZG
 - [ Boxing](https://mods.factorio.com/mods/Xecutor./boxing) `>= 0.6.2`
 - [ Bridge Railway](https://mods.factorio.com/mods/MrP123/BridgeRailway) `>= 2.0.2`
 - [ Bulldozer](https://mods.factorio.com/mods/Cheata%2C/bulldozer) `>= 1.2.6`
-- [ Burner-Filter-Inserter](https://mods.factorio.com/mods/V453000/Burner-Filter-Inserter) `>= 0.3.0`
 - [ Burn the World.](https://mods.factorio.com/mods/Daid/burn-the-world) `>= 0.1.0`
+- [ Burner-Filter-Inserter](https://mods.factorio.com/mods/V453000/Burner-Filter-Inserter) `>= 0.3.0`
 - [ Cargo Rocket (deliver payloads fast and far)](https://mods.factorio.com/mods/BinbinHfr/CargoRocket) `>= 1.0.6`
 - [ Chainsaw](https://mods.factorio.com/mods/devilwarriors/Chainsaw) `>= 0.0.2`
 - [ Charcoal Burner](https://mods.factorio.com/mods/Corvus/CharcoalBurner) `>= 0.0.2`
@@ -107,8 +107,8 @@ This mod was inspired by [ZGroupChange](https://mods.factorio.com/mods/Progsy/ZG
 - [ Dynamic Train Stops](https://mods.factorio.com/mods/Aladrius/dynamic-train-stop) `>= 0.1.2`
 - [ Epic electric mining drill mod](https://mods.factorio.com/mods/Lejving/EEMD) `>= 0.1.5`
 - [ Electric Furnaces](https://mods.factorio.com/mods/GotLag/Electric) `>= 2.0.0`
-- [ Electric Ghost Car](https://mods.factorio.com/mods/darkfrei/electric_ghost_car) `>= 0.13.4`
 - [ Electric Void (huge consumer/producer/equalizer)](https://mods.factorio.com/mods/BinbinHfr/ElectricVoid) `>= 1.0.7`
+- [ Electric Ghost Car](https://mods.factorio.com/mods/darkfrei/electric_ghost_car) `>= 0.13.4`
 - [ Equalizer Chests](https://mods.factorio.com/mods/Boogieman14/Equalizer_Chests) `>= 1.2.0`
 - [ Explosive Excavation](https://mods.factorio.com/mods/GotLag/Explosive%20Excavation) `>= 1.0.2`
 - [ Explosive Termites](https://mods.factorio.com/mods/Rseding91/Explosive%20Termites) `>= 1.1.8`
@@ -131,8 +131,8 @@ This mod was inspired by [ZGroupChange](https://mods.factorio.com/mods/Progsy/ZG
 - [ Flare](https://mods.factorio.com/mods/Ranakastrasz/Flare) `>= 0.0.2`
 - [ Flow Control](https://mods.factorio.com/mods/GotLag/Flow) `>= 2.0.0`
 - [ Flow Network](https://mods.factorio.com/mods/Simdezimon/flownetwork) `>= 0.0.2`
-- [ Fluid Barrel](https://mods.factorio.com/mods/Firegrenade./fluid-barrel) `>= 1.1.1`
 - [ Fluid Void](https://mods.factorio.com/mods/Rseding91/Fluid) `>= 1.0.3`
+- [ Fluid Barrel](https://mods.factorio.com/mods/Firegrenade./fluid-barrel) `>= 1.1.1`
 - [ FlyTox (alien insecticide with diffusors)](https://mods.factorio.com/mods/BinbinHfr/FlyTox) `>= 1.0.4`
 - [ Force Fields](https://mods.factorio.com/mods/Rseding91/Force) `>= 1.0.8`
 - [ Fusion Reactor](https://mods.factorio.com/mods/charga600/FusionReactor) `>= 0.1.4`
@@ -157,15 +157,14 @@ This mod was inspired by [ZGroupChange](https://mods.factorio.com/mods/Progsy/ZG
 - [ Loader Furnace](https://mods.factorio.com/mods/darkfrei/Loader-Furnace) `>= 1.0.3`
 - [ Logistics Mining](https://mods.factorio.com/mods/Afforess/LogisticsMining) `>= 1.0.4`
 - [ Longer Underground Pipes](https://mods.factorio.com/mods/Swadius/Longer_Underground_Pipes) `>= 0.0.2`
-- [ MagneticFloor](https://mods.factorio.com/mods/kiba/MagneticFloor) `>= 0.1.3`
 - [ Magnet](https://mods.factorio.com/mods/Loren1350%2C/magnet) `>= 1.4.1`
+- [ MagneticFloor](https://mods.factorio.com/mods/kiba/MagneticFloor) `>= 0.1.3`
 - [ Makkari Utilities](https://mods.factorio.com/mods/Makkari/makkariutils) `>= 0.0.2`
-- [ _M_ Armor](https://mods.factorio.com/mods/M/_M_Armor) `>= 0.0.4`
 - [ Megamind (control alien brains)](https://mods.factorio.com/mods/BinbinHfr/Megamind) `>= 1.0.9`
 - [ Militarization](https://mods.factorio.com/mods/LifeParadox/militarization) `>= 0.0.4`
 - [ Military Research 5](https://mods.factorio.com/mods/Klonan/Military_Research_5) `>= 0.1.0`
-- [ Basic Starting Equipment](https://mods.factorio.com/mods/Minizbot2012/MiniBasicStart) `>= 0.0.2`
 - [ Mini Machines Mod](https://mods.factorio.com/mods/Kryzeth/mini-machines) `>= 1.2.1`
+- [ Basic Starting Equipment](https://mods.factorio.com/mods/Minizbot2012/MiniBasicStart) `>= 0.0.2`
 - [ Mining Tools (+dynamites to provide new resources)](https://mods.factorio.com/mods/BinbinHfr/MiningTools) `>= 1.0.25`
 - [ Mini Roboports](https://mods.factorio.com/mods/master6545/MiniPorts) `>= 0.2.2`
 - [ Misanthrope](https://mods.factorio.com/mods/Afforess/Misanthrope) `>= 0.6.8`
@@ -182,11 +181,11 @@ This mod was inspired by [ZGroupChange](https://mods.factorio.com/mods/Progsy/ZG
 - [ Ore Eraser](https://mods.factorio.com/mods/Tergiver/ore-eraser) `>= 1.3.0`
 - [ OverMods](https://mods.factorio.com/mods/OvermindDL1/OverMods) `>= 0.0.5`
 - [ Oxygen](https://mods.factorio.com/mods/Natha/Oxygen) `>= 1.4.1`
-- [ Peace Mode Ore](https://mods.factorio.com/mods/Emmote/PeaceModeOre) `>= 0.0.2`
 - [ Peace Mod](https://mods.factorio.com/mods/Vachu/peacemod) `>= 0.1.2`
+- [ Peace Mode Ore](https://mods.factorio.com/mods/Emmote/PeaceModeOre) `>= 0.0.2`
 - [ Peppe Bot Start](https://mods.factorio.com/mods/Peppe/PeppeBotStart) `>= 0.13.1`
-- [ Personal Spawns](https://mods.factorio.com/mods/Zinal/Personal_Spawns) `>= 0.13.1`
 - [ PersonalTeleporter](https://mods.factorio.com/mods/WhatheWorld/PersonalTeleporter) `>= 0.1.5`
+- [ Personal Spawns](https://mods.factorio.com/mods/Zinal/Personal_Spawns) `>= 0.13.1`
 - [ Piano player](https://mods.factorio.com/mods/Klonan/Piano_Player) `>= 0.1.2`
 - [ Plasma Shotgun Shells](https://mods.factorio.com/mods/Rseding91/Plasma) `>= 1.0.2`
 - [ Pollution detector](https://mods.factorio.com/mods/Schorty/pollution-detector) `>= 0.2.1`
@@ -203,8 +202,8 @@ This mod was inspired by [ZGroupChange](https://mods.factorio.com/mods/Progsy/ZG
 - [ RoadWorks](https://mods.factorio.com/mods/JoCKeR-iL/RoadWorks) `>= 3.1.0`
 - [ Robot Charging Station](https://mods.factorio.com/mods//Robo-Charge) `>= 0.3.3`
 - [ Robot Army](https://mods.factorio.com/mods/Kyran/robotarmy) `>= 0.2.2`
-- [ Satellite Radar](https://mods.factorio.com/mods/catalyst518/SatelliteRadar) `>= 0.4.1`
 - [ Satellite Uplink Station](https://mods.factorio.com/mods/Supercheese/Satellite) `>= 1.0.0`
+- [ Satellite Radar](https://mods.factorio.com/mods/catalyst518/SatelliteRadar) `>= 0.4.1`
 - [ ScienceCostTweaker Mod](https://mods.factorio.com/mods/UberWaffe/ScienceCostTweaker) `>= 0.13.2`
 - [ Screenshot_tool](https://mods.factorio.com/mods/Klonan/Screenshot_Tool) `>= 0.1.0`
 - [ Security cameras](https://mods.factorio.com/mods/Loren1350/security-camera) `>= 0.2.2`
@@ -216,8 +215,8 @@ This mod was inspired by [ZGroupChange](https://mods.factorio.com/mods/Progsy/ZG
 - [ Signposts](https://mods.factorio.com/mods/IceDev/Signposts) `>= 0.0.2`
 - [ Smart Display (circuit network signal display on map)](https://mods.factorio.com/mods/BinbinHfr/SmartDisplay) `>= 1.0.12`
 - [ SmartSplitters](https://mods.factorio.com/mods/Tjalmann/SmartSplitters) `>= 1.0.0`
-- [ Space Extension Mod](https://mods.factorio.com/mods/Alastair/SpaceMod) `>= 0.1.11`
 - [ Space platform.](https://mods.factorio.com/mods/Daid/space-platform) `>= 0.1.1`
+- [ Space Extension Mod](https://mods.factorio.com/mods/Alastair/SpaceMod) `>= 0.1.11`
 - [ Spawn Belt](https://mods.factorio.com/mods/Barry/spawn-belt) `>= 1.0.2`
 - [ Spawn Pump](https://mods.factorio.com/mods/Barry/spawn-pump) `>= 0.1.0`
 - [ Stainless Steel Wagon](https://mods.factorio.com/mods/Rseding91/Stainless) `>= 1.0.1`
@@ -226,20 +225,20 @@ This mod was inspired by [ZGroupChange](https://mods.factorio.com/mods/Progsy/ZG
 - [ SuperChest Mod](https://mods.factorio.com/mods/Heliogenesis/SuperChest) `>= 0.1.2`
 - [ Super Tank (a boosted red tank)](https://mods.factorio.com/mods/BinbinHfr/SuperTank) `>= 1.0.9`
 - [ Tank Gun](https://mods.factorio.com/mods/Dr./Tank) `>= 0.1.0`
-- [ TankRoboport](https://mods.factorio.com/mods/IceDev/TankRoboport) `>= 0.0.3`
 - [ Tank Wagon](https://mods.factorio.com/mods/GotLag/Tank) `>= 1.0.2`
+- [ TankRoboport](https://mods.factorio.com/mods/IceDev/TankRoboport) `>= 0.0.3`
 - [ Tape Measure](https://mods.factorio.com/mods/Rseding91/Tape) `>= 1.0.2`
 - [ Tesseract](https://mods.factorio.com/mods/Slad3/Tesseract) `>= 0.1.0`
-- [ The Lab](https://mods.factorio.com/mods/Klonan/The_Lab) `>= 0.1.1`
 - [ The Long Nauvis](https://mods.factorio.com/mods/Luke/TheLongNauvis) `>= 0.0.1`
+- [ The Lab](https://mods.factorio.com/mods/Klonan/The_Lab) `>= 0.1.1`
 - [ Time Tools (+game speed +clock combinators)](https://mods.factorio.com/mods/BinbinHfr/TimeTools) `>= 1.0.23`
 - [ Torches](https://mods.factorio.com/mods/Klonan/Torches) `>= 0.2.3`
 - [ TradingChests (exchanges between forces)](https://mods.factorio.com/mods/BinbinHfr/TradingChests) `>= 1.0.0`
 - [ Train Speed Limit](https://mods.factorio.com/mods/IceDev/TrainSpeedLimit) `>= 1.0.7`
 - [ Treefarm-Lite](https://mods.factorio.com/mods/drs%2C/Treefarm-Lite) `>= 0.5.2`
 - [ JJtJJ's Tree Planting Mod](https://mods.factorio.com/mods/JJtJJ/TreeSeeds) `>= 1.0.1`
-- [ Upgrade](https://mods.factorio.com/mods/FlamingFox/Upgrade) `>= 2.2.0`
 - [ Upgrade Builder and Planner](https://mods.factorio.com/mods/malk0lm/upgrade-planner) `>= 1.2.4`
+- [ Upgrade](https://mods.factorio.com/mods/FlamingFox/Upgrade) `>= 2.2.0`
 - [ Useful Space Industry](https://mods.factorio.com/mods/Jorgen/usefulSpace) `>= 0.2.4`
 - [ Versepelles' Alien Farm](https://mods.factorio.com/mods/Versepelles/VersepellesAlienFarm) `>= 1.1.1`
 - [ Chunk Markers](https://mods.factorio.com/mods/Versepelles/VersepellesChunkMarkers) `>= 1.2.0`
@@ -255,6 +254,7 @@ This mod was inspired by [ZGroupChange](https://mods.factorio.com/mods/Progsy/ZG
 - [ Wooden Walls](https://mods.factorio.com/mods/Flying/WoodenWalls) `>= 0.13.14`
 - [ Yet Another Resource Monitor Fork](https://mods.factorio.com/mods/Octav/YARM) `>= 0.7.104`
 - [ Recycling Machines](https://mods.factorio.com/mods/DRY411S/ZRecycling) `>= 0.13.20`
+- [ _M_ Armor](https://mods.factorio.com/mods/M/_M_Armor) `>= 0.0.4`
 
 ## Semi-Supported mods
 Semi-supported mods are mods that, while we could index them in this mod, they are either so big that their own categories are justified or are sorted so well, that their category is absolutely enough.

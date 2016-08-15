@@ -1,13 +1,13 @@
 -- zythum sorter
 -- tidy up your factorio ui
 --
--- file: mods/Stainless Steel Wagon.lua
+-- file: mods/Stainless+Steel+Wagon.lua
 -- name: Stainless Steel Wagon
 -- link: https://mods.factorio.com/mods/Rseding91/Stainless
 -- author: cybrox
 -- refver: 1.0.1
 
-zythum_sort_mod('Stainless Steel Wagon')
+zythum_sort_mod('Stainless+Steel+Wagon')
 
 
 -- Recipes for category zythum-vehicles

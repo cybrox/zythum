@@ -1,13 +1,13 @@
 -- zythum sorter
 -- tidy up your factorio ui
 --
--- file: mods/Red Alerts.lua
+-- file: mods/Red+Alerts.lua
 -- name: Red Alerts
 -- link: https://mods.factorio.com/mods/Supercheese/Red
 -- author: cybrox
 -- refver: 1.1.1
 
-zythum_sort_mod('Red Alerts')
+zythum_sort_mod('Red+Alerts')
 
 
 -- Recipes for category zythum-logistics
