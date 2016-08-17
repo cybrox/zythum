@@ -99,6 +99,7 @@ else
   require('mods.CharcoalBurner')
   require('mods.CheaperAmmoMaybe')
   require('mods.CI-automation')
+  require('mods.CircuitAlerter')
   require('mods.CircuitLogger')
   require('mods.CoalToHeavy')
   require('mods.color-coding')

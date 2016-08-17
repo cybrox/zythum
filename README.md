@@ -16,7 +16,7 @@ This mod was inspired by [ZGroupChange](https://mods.factorio.com/mods/Progsy/ZG
 - Versepelles's mods
 - Yuoki (not resorted)
 
-## Supported mods (492)
+## Supported mods (493)
 - **base** `>= 13.0 `
 - [ 00 Armor](https://mods.factorio.com/mods/sl/Armor) `>= 0.0.5`
 - [ 00 Water Pump](https://mods.factorio.com/mods/M/00) `>= 0.0.2`
@@ -96,6 +96,7 @@ This mod was inspired by [ZGroupChange](https://mods.factorio.com/mods/Progsy/ZG
 - [ Charcoal Burner](https://mods.factorio.com/mods/Corvus/CharcoalBurner) `>= 0.0.2`
 - [ Cheaper Ammo... Maybe?](https://mods.factorio.com/mods/UberWaffe/CheaperAmmoMaybe) `>= 0.13.1`
 - [ Cartmen Automation Extension](https://mods.factorio.com/mods/Cartmen180/CI-automation) `>= 0.1.0`
+- [ Circuit Alerter](mods.factorio.com/mods/Nexela/CircuitAlerter) `>= 0.0.2`
 - [ CircuitLogger](https://mods.factorio.com/mods/Michal/CircuitLogger) `>= 1.0.0`
 - [ Crack Coal to Heavy](https://mods.factorio.com/mods/Emmote/CoalToHeavy) `>= 0.0.1`
 - [ Color Coding](https://mods.factorio.com/mods/D3Phoenix%2C/color-coding) `>= 1.1.0`
