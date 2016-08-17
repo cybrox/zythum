@@ -58,6 +58,7 @@ else
   require('mods.andew-modules')
   require('mods.andrew-library')
   require('mods.andrew-power-armor')
+  require('mods.angelsprocessing')
   require('mods.AquiferDrill')
   require('mods.Artillery')
   require('mods.AssemblyZero')

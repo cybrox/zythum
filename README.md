@@ -16,7 +16,7 @@ This mod was inspired by [ZGroupChange](https://mods.factorio.com/mods/Progsy/ZG
 - Versepelles's mods
 - Yuoki (not resorted)
 
-## Supported mods (492)
+## Supported mods (493)
 - **base** `>= 13.0 `
 - [ 00 Armor](https://mods.factorio.com/mods/sl/Armor) `>= 0.0.5`
 - [ 00 Water Pump](https://mods.factorio.com/mods/M/00) `>= 0.0.2`
@@ -56,6 +56,7 @@ This mod was inspired by [ZGroupChange](https://mods.factorio.com/mods/Progsy/ZG
 - [ Andrew Modules](https://mods.factorio.com/mods/andhagg1/andrew-modules) `>= 0.13.5`
 - [ Andrew Library](https://mods.factorio.com/mods/andhagg1/andrew-library) `>= 0.13.7`
 - [ Andrew Power Armor](https://mods.factorio.com/mods/andhagg1/andrew-power-armor) `>= 0.13.4`
+- [ angelsprocessing](mods.factorio.com/mods/Arch666Angel/angelsprocessing) `>= 0.2.0`
 - [ Aquifer Drill](https://mods.factorio.com/mods/Align/AquiferDrill) `>= 1.2.0`
 - [ Artillery](https://mods.factorio.com/mods/Buhamut/Artillery) `>= 1.2.0`
 - [ Assembly Zero](https://mods.factorio.com/mods/funnysunnybunny/AssemblyZero) `>= 0.1.9`
