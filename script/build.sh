@@ -30,7 +30,7 @@ if [[ -e "./info.json" ]]; then
       continue
     fi
 
-    echo "OK: Compiling mod $MODCOUNT/$MODTOTAL"
+    echo "OK: Compiling mod $MODCOUNT/$MODTOTAL $FILE"
     while read LINE; do
       if [[ "$LINE" == *"'CATEGORY'"* ]];then
         echo "ER: Found unsorted item in mod $FILE"
