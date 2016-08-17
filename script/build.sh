@@ -5,6 +5,7 @@
 #
 
 if [[ -e "./info.json" ]]; then
+  FILTERCATS=18
   VERSIONSTR=$(cat info.json | grep \"version\")
   VERSION=$(echo $VERSIONSTR| cut -d'"' -f 4)
   DISTDIR="zythum_$VERSION"
@@ -19,6 +20,8 @@ if [[ -e "./info.json" ]]; then
   cp -R ./locale ./$DISTDIR
   cp -R ./prototypes ./$DISTDIR
 
+  MODCATGS="x"
+  CATCOUNT=0
   MODCOUNT=1
   MODTOTAL=$(ls mods | wc -l)
   echo "-- zythum compiled mod library" > ./$DISTDIR/mods/compiled.lua
@@ -38,7 +41,19 @@ if [[ -e "./info.json" ]]; then
         echo "$LINE" >> ./$DISTDIR/mods/compiled.lua
       else
         ITEM=$(echo $LINE | cut -d',' -f 4 | sed 's/)//g')
+        SORT=$(echo $LINE | cut -d"'" -f 2)
         OLDS=$(cat ./$DISTDIR/mods/compiled.lua | grep "$ITEM")
+
+        if [[ ! "$MODCATGS" =~ "-$SORT-" ]]; then
+          MODCATGS="$MODCATGS-$SORT-"
+          CATCOUNT=$(($CATCOUNT + 1))
+          if [[ "$CATCOUNT" -gt "$FILTERCATS" ]]; then
+            echo "ER: Found too many categories in $MODCATGS"
+            rm -rf ./$DISTDIR
+            exit 1 # only exits the subshell
+          fi
+        fi
+
         if [[ "$OLDS" == "" ]]; then
           echo $LINE >> ./$DISTDIR/mods/compiled.lua
         fi
@@ -46,6 +61,10 @@ if [[ -e "./info.json" ]]; then
     done < <(cat "./mods/$FILE" | grep zythum_sort)
     MODCOUNT=$(($MODCOUNT + 1))
   done
+
+  if [[ ! -d $DISTDIR ]]; then
+    exit 1
+  fi
 
   cp info.json ./$DISTDIR/
   cp config.lua ./$DISTDIR/

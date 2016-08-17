@@ -23,7 +23,7 @@ Feel free to create pull request with any kind of changes you want to see implem
 #####build.sh
 Usage: `bash script/build.sh <test>`    
 - `test` If present, `control.lua` will be copied in order to get a test filter inserter
-Running this will pack all important data into a temporary folder and then zip them into a mod archive. This will automatically take the version from `info.json`
+Running this will pack all important data into a temporary folder and then zip them into a mod archive. This will automatically take the version from `info.json` (Please note: The build script has been improved out of laziness, I am aware that it is extremely inefficient, but at least compatible for lots of people)
 
 #####generate-imports.sh
 This script will automatically regenerate `data-final-fixes` with all mod includes based on the mod directory `/mods`. This is automatically run by `import-single.sh`
