@@ -11,4 +11,4 @@ zythum_sort_mod('VersepellesAquaFarm')
 
 
 -- Recipes for category zythum-collecting
-zythum_sort('collecting',    01, 01, 'aquafarm')
+zythum_sort('collecting',    03, 01, 'aquafarm')
