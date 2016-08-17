@@ -7,19 +7,21 @@
 if [[ -e "./info.json" ]]; then
   VERSIONSTR=$(cat info.json | grep \"version\")
   VERSION=$(echo $VERSIONSTR| cut -d'"' -f 4)
+  DISTDIR="zythum_$VERSION"
+
   echo "OK: Building zythum version $VERSION"
 
-  mkdir dist
-  mkdir dist/mods
+  mkdir $DISTDIR
+  mkdir $DISTDIR/mods
 
-  cp -R ./assets ./dist
-  cp -R ./core ./dist
-  cp -R ./locale ./dist
-  cp -R ./prototypes ./dist
+  cp -R ./assets ./$DISTDIR
+  cp -R ./core ./$DISTDIR
+  cp -R ./locale ./$DISTDIR
+  cp -R ./prototypes ./$DISTDIR
 
   MODCOUNT=1
   MODTOTAL=$(ls mods | wc -l)
-  echo "-- zythum compiled mod library" > ./dist/mods/compiled.lua
+  echo "-- zythum compiled mod library" > ./$DISTDIR/mods/compiled.lua
   ls ./mods | while read FILE; do
     if [[ "$FILE" =~ \.gitkeep || "$FILE" =~ \_template ]]; then
       continue
@@ -33,38 +35,38 @@ if [[ -e "./info.json" ]]; then
       fi
 
       if [[ "$LINE" == "zythum_sort_mod"* ]]; then
-        echo "$LINE" >> ./dist/mods/compiled.lua
+        echo "$LINE" >> ./$DISTDIR/mods/compiled.lua
       else
-        ITEM=$(echo $LINE | cut -d',' -f 4 | sed -r "s/\)//g")
-        OLDS=$(cat ./dist/mods/compiled.lua | grep "$ITEM")
+        ITEM=$(echo $LINE | cut -d',' -f 4 | sed 's/)//g')
+        OLDS=$(cat ./$DISTDIR/mods/compiled.lua | grep "$ITEM")
         if [[ "$OLDS" == "" ]]; then
-          echo $LINE >> ./dist/mods/compiled.lua
+          echo $LINE >> ./$DISTDIR/mods/compiled.lua
         fi
       fi
     done < <(cat "./mods/$FILE" | grep zythum_sort)
     MODCOUNT=$(($MODCOUNT + 1))
   done
 
-  cp info.json ./dist/
-  cp config.lua ./dist/
-  cp data-final-fixes.lua ./dist/
-  cp LICENSE.md ./dist/LICENSE
+  cp info.json ./$DISTDIR/
+  cp config.lua ./$DISTDIR/
+  cp data-final-fixes.lua ./$DISTDIR/
+  cp LICENSE.md ./$DISTDIR/LICENSE
 
   if [[ "$1" == "test" ]]; then
-    cp control.lua ./dist/
+    cp control.lua ./$DISTDIR/
   fi
 
-  CFG_PATH=dist/config.lua
+  CFG_PATH=$DISTDIR/config.lua
   CFG_LINE=0
   IFS=''
   while read LINE; do
     CFG_LINE=$(($CFG_LINE + 1))
     if [[ "$LINE" = "zythum_cfg_enabledebug = true"* ]]; then break; fi
   done < $CFG_PATH 
-  sed -i "${CFG_LINE}s/.*/zythum_cfg_enabledebug \= false/" $CFG_PATH
-  #sed -i '' "${CFG_LINE}s/.*/zythum_cfg_enabledebug \= false/" $CFG_PATH
+  #sed -i "${CFG_LINE}s/.*/zythum_cfg_enabledebug \= false/" $CFG_PATH
+  sed -i '' "${CFG_LINE}s/.*/zythum_cfg_enabledebug \= false/" $CFG_PATH
 
-  cd ./dist
+  cd ./$DISTDIR
   if type ditto >/dev/null 2>&1; then
     ditto -ck --rsrc --sequesterRsrc --keepParent ./ "../zythum_$VERSION.zip"
   elif type 7z >/dev/null 2>&1; then
@@ -74,7 +76,7 @@ if [[ -e "./info.json" ]]; then
   fi
   cd ..
 
-  rm -rf ./dist
+  rm -rf ./$DISTDIR
 else
   echo "Not running from project root!"
 fi
