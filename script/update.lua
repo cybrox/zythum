@@ -1,4 +1,3 @@
---!/bin/bash
 --
 -- Update script for zythum
 -- Compare factorio modbase and local mod support
