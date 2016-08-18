@@ -44,7 +44,7 @@ cp -r "$FACTMODS_GRAB" "$FACTMODS_PATH"
 mv "$FACTMODS_PATH/grabber" "$FACTMODS_PATH/zythumgrabber_1.0.0"
 rm "$FACTMODS_GRAB/baseset.lua"
 rm "$FACTMODS_GRAB/config.lua"
-unzip "$MODPACKS_PATH" -d "$FACTMODS_PATH/zythum_1.0.0"
-rm $MODPACKS_PATH
+cp "$MODPACKS_PATH" "$FACTMODS_PATH"
+rm "$MODPACKS_PATH"
 
 $FACTORIO_PATH
