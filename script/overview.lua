@@ -10,13 +10,13 @@ function zythum_sort_mod(mod) end
 function zythum_sort(cat, row, pos, item)
   if item_list[cat] == nil then
     item_list[cat] = {}
-  else
-    if item_list[cat][row] == nil then
-      item_list[cat][row] = {}
-    else
-      table.insert(item_list[cat][row], item)
-    end
   end
+
+  if item_list[cat][row] == nil then
+    item_list[cat][row] = {}
+  end
+
+  table.insert(item_list[cat][row], item)
 end
 
 local f = io.popen("ls ./mods | sed 's/.lua//g'")
