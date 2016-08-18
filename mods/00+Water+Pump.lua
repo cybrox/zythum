@@ -11,7 +11,7 @@ zythum_sort_mod('00+Water+Pump')
 
 
 -- Recipes for category zythum-collecting
-zythum_sort('collecting',    01, 01, 'water-pump')
+zythum_sort('collecting',    05, 01, 'water-pump')
 
 -- Recipes for category zythum-liquids
 zythum_sort('liquids',       09, 01, 'ground-water')

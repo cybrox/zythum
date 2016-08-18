@@ -35,7 +35,7 @@ zythum_sort('transport',     03, 02, 'fast-splitter')
 zythum_sort('transport',     03, 03, 'express-splitter')
 zythum_sort('transport',     06, 01, 'pipe')
 zythum_sort('transport',     07, 01, 'pipe-to-ground')
-zythum_sort('collecting',    08, 01, 'small-pump')    
+zythum_sort('transport',     08, 01, 'small-pump')    
 
 -- Recipes for category zythum-logistics
 zythum_sort('logistics',      01, 01, 'blueprint-book')
@@ -50,10 +50,10 @@ zythum_sort('logistics',      04, 03, 'logistic-chest-passive-provider')
 zythum_sort('logistics',      04, 04, 'logistic-chest-active-provider')
 zythum_sort('logistics',      06, 02, 'red-wire')
 zythum_sort('logistics',      06, 03, 'green-wire')
-zythum_sort('logistics',      07, 01, 'arithmetic-combinator')
-zythum_sort('logistics',      07, 02, 'decider-combinator')
-zythum_sort('logistics',      07, 03, 'constant-combinator')
-zythum_sort('logistics',      07, 04, 'power-switch')
+zythum_sort('logistics',      06, 04, 'arithmetic-combinator')
+zythum_sort('logistics',      06, 05, 'decider-combinator')
+zythum_sort('logistics',      06, 06, 'constant-combinator')
+zythum_sort('logistics',      06, 07, 'power-switch')
 
 -- Recipes for category zythum-automation
 zythum_sort('automation',    01, 01, 'burner-inserter')

@@ -11,7 +11,7 @@ zythum_sort_mod('Winterio')
 
 
 -- Recipes for category zythum-collecting
-zythum_sort('collecting',    01, 01, 'snow-pump')
+zythum_sort('collecting',    05, 01, 'snow-pump')
 
 -- Recipes for category zythum-production
 zythum_sort('production',    01, 01, 'snow-furnace')

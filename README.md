@@ -349,16 +349,22 @@ The following item groups will be present in the crafting UI when the mod is loa
  - **01** Transport belts
  - **02** Underground transport belts
  - **03** Transport belt splitter
+ - **04** Special belt items
+ - **05** Special pipe items
  - **06** Pipes
  - **07** Underground pipes
  - **08** Fluid pumps
+ - **09** Overflows, valves, voids
 
 - **zythum-logistics**
  - **01** Blueprints and blueprint handling
  - **02** Logistic robot related buildings and charging stations
  - **03** Logistic robot parts and assets
  - **04** Logistic storage chests and warehouse
- - **06** Wires and connector for logistics networks
+ - **06** Wires, connector and combinators for logistics networks
+ - **07** Detectors and intelligences
+ - **08** Logistic robot tools
+ - **09** Logistic enhancements and parts
 
 - **zythum-automation** 
  - **01** Base level inserters, nothing fancy here
@@ -416,6 +422,7 @@ The following item groups will be present in the crafting UI when the mod is loa
  - **03** Charcoal, Coakcoal and similar
  - **04** Basic but a bit more processed materials
  - **08** Crushed materials and dusts
+ - **09** Resource processing and cracking
 
 - **zythum-plates**
  - **01** Basic first level plates
@@ -430,9 +437,11 @@ The following item groups will be present in the crafting UI when the mod is loa
 
 - **zythum-alien**
  - **01** Alien artifacts
+ - **02** Alien products (small artifacts, goo etc.)
  - **03** Alien eggs and other parts
  - **05** Alien buildings
- - **07** Alien research
+ - **07** Alien research and growth
+ - **09** Alien artifact crafting recipes
 
 - **zythum-defense**
  - **01** Walls and gates

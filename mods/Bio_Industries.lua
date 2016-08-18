@@ -17,11 +17,11 @@ zythum_sort('collecting',    03, 01, 'bi-burner-mining-drill-disassemble')
 zythum_sort('production',    01, 01, 'bi-steel-furnace-disassemble')
 zythum_sort('production',    04, 01, 'bi-stone-crusher')
 zythum_sort('production',    04, 02, 'bi-cokery')
-zythum_sort('production',    04, 03, 'bi-Bio_Garden')
+zythum_sort('production',    04, 03, 'bi_bio_farm')
+zythum_sort('production',    04, 04, 'bi-Bio_Garden')
 
 -- Recipes for category zythum-energy
 zythum_sort('energy',        02, 01, 'bi_bio_Solar_Farm')
-zythum_sort('energy',        03, 01, 'bi_bio_farm')
 zythum_sort('energy',        03, 02, 'bi-bioreactor')
 zythum_sort('energy',        06, 01, 'bi-big-wooden-pole')
 

@@ -11,4 +11,4 @@ zythum_sort_mod('VoidChestInstant')
 
 
 -- Recipes for category zythum-collecting
-zythum_sort('collecting',    01, 01, 'void-chest')
+zythum_sort('collecting',    07, 01, 'void-chest')

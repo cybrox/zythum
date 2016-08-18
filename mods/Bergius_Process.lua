@@ -10,8 +10,8 @@
 zythum_sort_mod('Bergius_Process')
 
 
--- Recipes for category zythum-collecting
-zythum_sort('collecting',   03, 01, 'liquefied-coal')
+-- Recipes for category zythum-resources
+zythum_sort('resources',    03, 01, 'liquefied-coal')
 
 -- Recipes for category zythum-production
 zythum_sort('production',   05, 01, 'bergius-process')

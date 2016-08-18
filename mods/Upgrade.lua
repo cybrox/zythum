@@ -11,7 +11,7 @@ zythum_sort_mod('Upgrade')
 
 
 -- Recipes for category zythum-collecting
-zythum_sort('collecting',    01, 01, 'drill-burner-electric')
+zythum_sort('collecting',    03, 01, 'drill-burner-electric')
 
 -- Recipes for category zythum-automation
 zythum_sort('automation',    01, 01, 'inserter-burner-basic')
