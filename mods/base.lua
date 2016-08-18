@@ -63,6 +63,9 @@ zythum_sort('automation',    01, 04, 'filter-inserter')
 zythum_sort('automation',    01, 05, 'long-handed-inserter')
 zythum_sort('automation',    02, 01, 'stack-inserter')
 zythum_sort('automation',    02, 02, 'stack-filter-inserter')
+zythum_sort('automation',    08, 01, 'loader')
+zythum_sort('automation',    08, 01, 'fast-loader')
+zythum_sort('automation',    08, 01, 'express-loader')
 
 -- Recipes for category zythum-production
 zythum_sort('production',    01, 01, 'stone-furnace')

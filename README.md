@@ -16,7 +16,7 @@ This mod was inspired by [ZGroupChange](https://mods.factorio.com/mods/Progsy/ZG
 - Versepelles's mods
 - Yuoki (not resorted)
 
-## Supported mods (493)
+## Supported mods (494)
 - **base** `>= 13.0 `
 - [ 00 Armor](https://mods.factorio.com/mods/sl/Armor) `>= 0.0.5`
 - [ 00 Water Pump](https://mods.factorio.com/mods/M/00) `>= 0.0.2`
@@ -176,7 +176,6 @@ This mod was inspired by [ZGroupChange](https://mods.factorio.com/mods/Progsy/ZG
 - [ Military Research 5](https://mods.factorio.com/mods/Klonan/Military_Research_5) `>= 0.1.0`
 - [ Mini Machines Mod](https://mods.factorio.com/mods/Kryzeth/mini-machines) `>= 1.2.1`
 - [ Basic Starting Equipment](https://mods.factorio.com/mods/Minizbot2012/MiniBasicStart) `>= 0.0.2`
-- [ Mining Tools (+dynamites to provide new resources)](https://mods.factorio.com/mods/BinbinHfr/MiningTools) `>= 1.0.25`
 - [ Mini Roboports](https://mods.factorio.com/mods/master6545/MiniPorts) `>= 0.2.2`
 - [ Misanthrope](https://mods.factorio.com/mods/Afforess/Misanthrope) `>= 0.6.8`
 - [ MK2 Mod](https://mods.factorio.com/mods/Riley/MK2-Mod) `>= 1.0.2`
@@ -240,7 +239,7 @@ This mod was inspired by [ZGroupChange](https://mods.factorio.com/mods/Progsy/ZG
 - [ Signposts](https://mods.factorio.com/mods/IceDev/Signposts) `>= 0.0.2`
 - [ Smart Display (circuit network signal display on map)](https://mods.factorio.com/mods/BinbinHfr/SmartDisplay) `>= 1.0.12`
 - [ SmartSplitters](https://mods.factorio.com/mods/Tjalmann/SmartSplitters) `>= 1.0.0`
-- [ Smart Trains](github.com/Choumiko/SmartTrains) `>= 0.4.7`
+- [ Smart Trains](https://github.com/Choumiko/SmartTrains) `>= 0.4.7`
 - [ Space platform.](https://mods.factorio.com/mods/Daid/space-platform) `>= 0.1.1`
 - [ Space Extension Mod](https://mods.factorio.com/mods/Alastair/SpaceMod) `>= 0.1.11`
 - [ Spawn Belt](https://mods.factorio.com/mods/Barry/spawn-belt) `>= 1.0.2`
@@ -291,6 +290,7 @@ This mod was inspired by [ZGroupChange](https://mods.factorio.com/mods/Progsy/ZG
 Semi-supported mods are mods that, while we could index them in this mod, they are either so big that their own categories are justified or are sorted so well, that their category is absolutely enough.
 - Yuoki
 - Mobile-suit
+- Mining Tools
 
 Additionally, all mods in `script/blacklist.json` have been indexed but don't contain items to sort, they are counted as *supported* too here.
 
