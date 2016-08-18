@@ -243,6 +243,7 @@ else
   require('mods.Signposts')
   require('mods.SmartDisplay')
   require('mods.SmartSplitters')
+  require('mods.SmartTrains')
   require('mods.space-platform')
   require('mods.SpaceMod')
   require('mods.spawn-belt')
