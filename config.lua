@@ -12,6 +12,10 @@
 zythum_cfg_enabledebug = true
 
 
+-- Enable color in the item categories
+zythum_cfg_enablecoloricons = true
+
+
 -- Number of subgroups (rows) for every custom group
 zythum_cfg_numsubgroups = 10
 
