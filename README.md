@@ -291,6 +291,7 @@ This mod was inspired by [ZGroupChange](https://mods.factorio.com/mods/Progsy/ZG
 Semi-supported mods are mods that, while we could index them in this mod, they are either so big that their own categories are justified or are sorted so well, that their category is absolutely enough.
 - Yuoki
 - Mobile-suit
+- Mining Tools
 
 Additionally, all mods in `script/blacklist.json` have been indexed but don't contain items to sort, they are counted as *supported* too here.
 
@@ -312,7 +313,7 @@ Planned mods are usually bigger modpacks, that I can't simply auto-sort. I will 
 - **tanks_for_bob**
 
 
-## Item groups 
+## Item groups
 The following item groups will be present in the crafting UI when the mod is loaded.
 
 - **zythum-collecting** Items related to collecting and gathering basic resources from the game world
@@ -334,7 +335,7 @@ The following item groups will be present in the crafting UI when the mod is loa
 - **zythum-decorative** Decorative items
 - **zythum-other** Items that don't fit it any category
 
-## Item subgroups 
+## Item subgroups
 - **zythum-collecting**
  - **01** Hand tools for mining and destruction
  - **02** Hand tools for repairing and constructing
@@ -345,28 +346,34 @@ The following item groups will be present in the crafting UI when the mod is loa
  - **08** Large storage chests and warehouses
  - **09** Fluid storage
 
-- **zythum-transport** 
+- **zythum-transport**
  - **01** Transport belts
  - **02** Underground transport belts
  - **03** Transport belt splitter
+ - **04** Special belt items
+ - **05** Special pipe items
  - **06** Pipes
  - **07** Underground pipes
  - **08** Fluid pumps
+ - **09** Overflows, valves, voids
 
 - **zythum-logistics**
  - **01** Blueprints and blueprint handling
  - **02** Logistic robot related buildings and charging stations
  - **03** Logistic robot parts and assets
  - **04** Logistic storage chests and warehouse
- - **06** Wires and connector for logistics networks
+ - **06** Wires, connector and combinators for logistics networks
+ - **07** Detectors and intelligences
+ - **08** Logistic robot tools
+ - **09** Logistic enhancements and parts
 
-- **zythum-automation** 
+- **zythum-automation**
  - **01** Base level inserters, nothing fancy here
  - **02** Stack inserters
  - **03** Smart inserters
  - **04** 90° inserters
 
-- **zythum-production** 
+- **zythum-production**
  - **01** Basic Furnaces / Mashers
  - **03** Basic Factories
  - **05** Basic Oil Related Factories
@@ -374,10 +381,12 @@ The following item groups will be present in the crafting UI when the mod is loa
  - **08** Biological factories
  - **09** Science and research buildings
 
-- **zythum-energy** 
+- **zythum-energy**
  - **01** Steam power related items
- - **02** Other type of power generators
+ - **02** Solar power related items
+ - **03** Other type of power generators
  - **04** Energy storage and accumulators
+ - **05** Other influences on electrical networks
  - **06** Energy distribution items
  - **08** Energy containing items (fuel value providers)
 
@@ -409,9 +418,12 @@ The following item groups will be present in the crafting UI when the mod is loa
  - **07** All kind of vehicle ammunition
 
 - **zythum-resources**
- - **01** Wood and synthetic wood related items
+ - **01** Wood, Synthetic Wood, Resin and Rubber
  - **02** Basic resources and minerals
+ - **03** Charcoal, Coakcoal and similar
  - **04** Basic but a bit more processed materials
+ - **08** Crushed materials and dusts
+ - **09** Resource processing and cracking
 
 - **zythum-plates**
  - **01** Basic first level plates
@@ -426,9 +438,11 @@ The following item groups will be present in the crafting UI when the mod is loa
 
 - **zythum-alien**
  - **01** Alien artifacts
+ - **02** Alien products (small artifacts, goo etc.)
  - **03** Alien eggs and other parts
  - **05** Alien buildings
- - **07** Alien research
+ - **07** Alien research and growth
+ - **09** Alien artifact crafting recipes
 
 - **zythum-defense**
  - **01** Walls and gates
@@ -453,4 +467,3 @@ The following item groups will be present in the crafting UI when the mod is loa
 
 - **zythum-other**
  - **01** Food
-
