@@ -11,7 +11,7 @@ zythum_sort_mod('peacemod')
 
 
 -- Recipes for category zythum-resources
-zythum_sort('resources',     01, 01, 'alien-ore')
+zythum_sort('resources',     02, 01, 'alien-ore')
 
 -- Recipes for category zythum-alien
 zythum_sort('alien',         02, 01, 'alien-shard')

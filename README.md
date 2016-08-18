@@ -376,8 +376,10 @@ The following item groups will be present in the crafting UI when the mod is loa
 
 - **zythum-energy** 
  - **01** Steam power related items
- - **02** Other type of power generators
+ - **02** Solar power related items
+ - **03** Other type of power generators
  - **04** Energy storage and accumulators
+ - **05** Other influences on electrical networks
  - **06** Energy distribution items
  - **08** Energy containing items (fuel value providers)
 
@@ -409,9 +411,11 @@ The following item groups will be present in the crafting UI when the mod is loa
  - **07** All kind of vehicle ammunition
 
 - **zythum-resources**
- - **01** Wood and synthetic wood related items
+ - **01** Wood, Synthetic Wood, Resin and Rubber
  - **02** Basic resources and minerals
+ - **03** Charcoal, Coakcoal and similar
  - **04** Basic but a bit more processed materials
+ - **08** Crushed materials and dusts
 
 - **zythum-plates**
  - **01** Basic first level plates

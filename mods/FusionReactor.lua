@@ -11,7 +11,7 @@ zythum_sort_mod('FusionReactor')
 
 
 -- Recipes for category zythum-energy
-zythum_sort('energy',        02, 01, 'fusion-reactor')
+zythum_sort('energy',        03, 01, 'fusion-reactor')
 
 -- Recipes for category zythum-intermediate
 zythum_sort('intermediate',  04, 01, 'deuterium-capsule')

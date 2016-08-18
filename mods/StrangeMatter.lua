@@ -23,4 +23,4 @@ zythum_sort('chemistry',     09, 06, 'iron-synthesis')
 zythum_sort('chemistry',     09, 07, 'artifact-synthesis')
 
 -- Recipes for category zythum-resources
-zythum_sort('resources',     01, 01, 'strange-matter')
+zythum_sort('resources',     02, 01, 'strange-matter')

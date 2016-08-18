@@ -11,6 +11,6 @@ zythum_sort_mod('ElectricVoid')
 
 
 -- Recipes for category zythum-energy
-zythum_sort('energy',        04, 01, 'electric-consumer')
-zythum_sort('energy',        04, 01, 'electric-equalizer')
-zythum_sort('energy',        04, 01, 'electric-producer')
+zythum_sort('energy',        05, 01, 'electric-consumer')
+zythum_sort('energy',        05, 01, 'electric-equalizer')
+zythum_sort('energy',        05, 01, 'electric-producer')

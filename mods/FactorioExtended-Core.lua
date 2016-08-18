@@ -16,10 +16,10 @@ zythum_sort('collecting',    02, 01, 'repair-pack-mk2')
 zythum_sort('collecting',    02, 02, 'repair-pack-mk3')
 
 -- Recipes for category zythum-intermediate
-zythum_sort('intermediate',  01, 01, 'pollution-filter')
+zythum_sort('intermediate',  04, 01, 'pollution-filter')
 
 -- Recipes for category zythum-resources
-zythum_sort('resources',     01, 01, 'titanium-ore')
+zythum_sort('resources',     02, 01, 'titanium-ore')
 
 -- Recipes for category zythum-plates
 zythum_sort('plates',        01, 01, 'titanium-plate')

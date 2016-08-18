@@ -26,8 +26,8 @@ zythum_sort('vehicles',      05, 01, 'exploration-vehicle')
 zythum_sort('resources',     02, 01, 'promethian-ore')
 zythum_sort('resources',     02, 02, 'novitian-ore')
 
-zythum_sort('resources',     03, 01, 'electrolyzed-promethian-dust')
-zythum_sort('resources',     03, 02, 'electrolyzed-novitian-dust')
+zythum_sort('resources',     08, 01, 'electrolyzed-promethian-dust')
+zythum_sort('resources',     08, 02, 'electrolyzed-novitian-dust')
 
 -- Recipes for category zythum-plates
 zythum_sort('plates',        01, 01, 'promethian-plate')
