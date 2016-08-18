@@ -3,7 +3,7 @@
 --
 -- file: mods/SmartTrains.lua
 -- name: Smart Trains
--- link: github.com/Choumiko/SmartTrains
+-- link: https://github.com/Choumiko/SmartTrains
 -- author: Aes Sedai
 -- refver: 0.4.7
 
