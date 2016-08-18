@@ -11,6 +11,6 @@ zythum_sort_mod('nixie-tubes')
 
 
 -- Recipes for category zythum-logistics
-zythum_sort('logistics',     07, 01, 'nixie-tube')
-zythum_sort('logistics',     07, 02, 'nixie-tube-small')
-zythum_sort('logistics',     07, 03, 'nixie-tube-alpha')
+zythum_sort('logistics',     06, 01, 'nixie-tube')
+zythum_sort('logistics',     06, 02, 'nixie-tube-small')
+zythum_sort('logistics',     06, 03, 'nixie-tube-alpha')

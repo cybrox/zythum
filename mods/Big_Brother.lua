@@ -11,4 +11,4 @@ zythum_sort_mod('Big_Brother')
 
 
 -- Recipes for category zythum-defense
-zythum_sort('defense',      04, 01, 'big_brothersurveillance-center')
+zythum_sort('defense',      04, 01, 'big_brother-surveillance-center')

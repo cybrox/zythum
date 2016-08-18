@@ -11,7 +11,7 @@ zythum_sort_mod('fish-sandwich')
 
 
 -- Recipes for category zythum-collecting
-zythum_sort('collecting',    01, 01, 'repair-pack-2')
+zythum_sort('collecting',    02, 01, 'repair-pack-2')
 
 -- Recipes for category zythum-other
 zythum_sort('other',         01, 01, 'bark')

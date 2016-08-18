@@ -25,7 +25,7 @@ if [[ -e "./info.json" ]]; then
   MODCOUNT=1
   MODTOTAL=$(ls mods | wc -l)
   echo "-- zythum compiled mod library" > ./$DISTDIR/mods/compiled.lua
-  ls ./mods | while read FILE; do
+  ls ./mods | sort -f | while read FILE; do
     if [[ "$FILE" =~ \.gitkeep || "$FILE" =~ \_template ]]; then
       continue
     fi

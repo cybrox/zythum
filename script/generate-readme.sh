@@ -1,7 +1,7 @@
 #!/bin/bash
 #
 # Generator script for zythum
-# Generate the imports for the mod
+# Generate the readme for the mod
 #
 
 MOD_DIR=./mods

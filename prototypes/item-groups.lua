@@ -9,12 +9,14 @@
 
 
 -- Automatically generate item groups from config
+icondir = (zythum_cfg_enablecoloricons and 'colored' or 'grayscale')
+
 for index, group in pairs(zythum_cfg_newitemgroups) do
   data:extend({{
     type = "item-group",
     name = group,
-    order = 'zy_' .. zythum_order(index),
-    icon = '__zythum__/assets/categories/' .. group .. '.png',
+    order = '0zy_' .. zythum_order(index),
+    icon = '__zythum__/assets/categories/' .. icondir .. '/' .. group .. '.png',
   }})
 end
 

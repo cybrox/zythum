@@ -11,4 +11,4 @@ zythum_sort_mod('super_coal')
 
 
 -- Recipes for category zythum-resources
-zythum_sort('resources',     02, 01, 'super_coal')
+zythum_sort('resources',     03, 01, 'super_coal')

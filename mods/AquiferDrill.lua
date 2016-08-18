@@ -11,7 +11,7 @@ zythum_sort_mod('AquiferDrill')
 
 
 -- Recipes for category zythum-collecting
-zythum_sort('collecting',    08, 01, 'aquifer-drill')
+zythum_sort('collecting',    06, 01, 'aquifer-drill')
 
 -- Recipes for category zythum-liquids
 zythum_sort('liquids',       01, 01, 'aquifer-water')

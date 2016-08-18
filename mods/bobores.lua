@@ -20,10 +20,10 @@ zythum_sort('resources',     02, 06, 'gold-ore')
 zythum_sort('resources',     02, 07, 'bauxite-ore')
 zythum_sort('resources',     02, 08, 'rutile-ore')
 zythum_sort('resources',     02, 09, 'tungsten-ore')
-zythum_sort('resources',     03, 01, 'nickel-ore')
-zythum_sort('resources',     03, 02, 'cobalt-ore')
+zythum_sort('resources',     02, 10, 'nickel-ore')
+zythum_sort('resources',     02, 11, 'cobalt-ore')
 
-zythum_sort('resources',     03, 03, 'sort-gem-ore')
+zythum_sort('resources',     09, 01, 'sort-gem-ore')
 
 zythum_sort('resources',     04, 01, 'gem-ore')
 zythum_sort('resources',     04, 02, 'ruby-ore')

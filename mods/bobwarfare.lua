@@ -90,10 +90,6 @@ zythum_sort('defense',       04, 02, 'radar-3')
 zythum_sort('defense',       04, 03, 'radar-4')
 zythum_sort('defense',       04, 04, 'radar-5')
 
-zythum_sort('defense',       06, 01, 'poison-artillery-shell')
-zythum_sort('defense',       06, 02, 'explosive-artillery-shell')
-zythum_sort('defense',       06, 03, 'distractor-artillery-shell')
-
 zythum_sort('defense',       07, 01, 'bullet')
 zythum_sort('defense',       07, 02, 'ap-bullet')
 zythum_sort('defense',       07, 03, 'he-bullet')
@@ -142,6 +138,10 @@ zythum_sort('armory',        04, 05, 'shotgun-flame-shell')
 zythum_sort('armory',        04, 06, 'shotgun-acid-shell')
 zythum_sort('armory',        04, 07, 'shotgun-poison-shell')
 zythum_sort('armory',        04, 08, 'scatter-cannon-shell')
+
+zythum_sort('armory',        04, 09, 'poison-artillery-shell')
+zythum_sort('armory',        04, 10, 'explosive-artillery-shell')
+zythum_sort('armory',        04, 11, 'distractor-artillery-shell')
 
 zythum_sort('armory',        05, 01, 'poison-mine')
 zythum_sort('armory',        05, 02, 'slowdown-mine')

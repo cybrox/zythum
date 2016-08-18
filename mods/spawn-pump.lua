@@ -12,4 +12,4 @@ zythum_sort_mod('spawn-pump')
 
 -- Recipes for category zythum-transport
 zythum_sort('transport',     06, 01, 'spawn-pump')
-zythum_sort('transport',     06, 02, 'void-pump')
+zythum_sort('transport',     09, 01, 'void-pump')

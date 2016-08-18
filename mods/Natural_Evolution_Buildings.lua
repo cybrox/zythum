@@ -60,10 +60,8 @@ zythum_sort('alien',         08, 07, 'NE_enhanced-nutrient-solution')
 
 -- Recipes for category zythum-defense
 zythum_sort('defense',       01, 01, 'ne-living-wall')
+zythum_sort('defense',       02, 01, 'TerraformingStation')
 
 -- Recipes for category zythum-armory
 zythum_sort('armory',        02, 01, 'attractor-on')
 zythum_sort('armory',        02, 02, 'attractor-off')
-
--- Recipes for category zythum-decorative
-zythum_sort('decorative',    02, 01, 'TerraformingStation')

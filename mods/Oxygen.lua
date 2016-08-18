@@ -25,5 +25,5 @@ zythum_sort('liquids',       07, 03, 'oxygen-bottle')
 -- Recipes for category zythum-armory
 zythum_sort('armory',        06, 01, 'gas-mask')
 
--- Recipes for category zythum-other
-zythum_sort('other',         00, 00, 'oxygen-dispenser')
+-- Recipes for category zythum-defense
+zythum_sort('defense',       02, 01, 'oxygen-dispenser')

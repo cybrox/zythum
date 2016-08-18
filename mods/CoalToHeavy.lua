@@ -11,4 +11,4 @@ zythum_sort_mod('CoalToHeavy')
 
 
 -- Recipes for category zythum-resources
-zythum_sort('resources',    04, 01, 'coal-cracking')
+zythum_sort('resources',    09, 01, 'coal-cracking')

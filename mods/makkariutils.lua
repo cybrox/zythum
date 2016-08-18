@@ -11,5 +11,5 @@ zythum_sort_mod('makkariutils')
 
 
 -- Recipes for category zythum-resources
-zythum_sort('resources',     01, 01, 'charcoal-pile')
-zythum_sort('resources',     01, 02, 'makkari-basic-charcoal-cycle')
+zythum_sort('resources',     03, 01, 'charcoal-pile')
+zythum_sort('resources',     03, 02, 'makkari-basic-charcoal-cycle')

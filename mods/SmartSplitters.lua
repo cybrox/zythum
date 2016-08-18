@@ -11,4 +11,4 @@ zythum_sort_mod('SmartSplitters')
 
 
 -- Recipes for category zythum-transport
-zythum_sort('transport',     02, 01, 'smartsplitter')
+zythum_sort('transport',     03, 01, 'smartsplitter')

@@ -17,8 +17,8 @@ zythum_sort('production',    01, 03, '5d-masher')
 zythum_sort('production',    01, 04, '5d-masher-2')
 
 -- Recipes for category zythum-resources
-zythum_sort('resources',    03, 01, '5d-copper-dust')
-zythum_sort('resources',    03, 02, '5d-iron-dust')
+zythum_sort('resources',    08, 01, '5d-copper-dust')
+zythum_sort('resources',    08, 02, '5d-iron-dust')
 
 -- Recipes for category zythum-plates
 zythum_sort('plates',       01, 01, '5d-copper-plate')

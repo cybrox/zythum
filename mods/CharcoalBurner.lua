@@ -11,5 +11,5 @@ zythum_sort_mod('CharcoalBurner')
 
 
 -- Recipes for category zythum-resources
-zythum_sort('resources',     01, 01, 'charcoal-preparate')
-zythum_sort('resources',     01, 02, 'charcoal')
+zythum_sort('resources',     03, 01, 'charcoal-preparate')
+zythum_sort('resources',     03, 02, 'charcoal')

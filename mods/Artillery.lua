@@ -11,5 +11,7 @@ zythum_sort_mod('Artillery')
 
 
 -- Recipes for category zythum-defense
-zythum_sort('defense', 02, 01, 'artillery')
-zythum_sort('defense', 06, 01, 'artilleryshell')
+zythum_sort('defense',       02, 01, 'artillery')
+
+-- Recipes for category zythum-armory
+zythum_sort('armory',        04, 01, 'artilleryshell')

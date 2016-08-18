@@ -11,8 +11,8 @@ zythum_sort_mod('FactorioExtended-Power')
 
 
 -- Recipes for category zythum-energy
-zythum_sort('energy',        01, 01, 'solar-panel-mk2')
-zythum_sort('energy',        01, 02, 'solar-panel-mk3')
+zythum_sort('energy',        02, 01, 'solar-panel-mk2')
+zythum_sort('energy',        02, 02, 'solar-panel-mk3')
 
 zythum_sort('energy',        04, 01, 'accumulator-mk2')
 zythum_sort('energy',        04, 02, 'accumulator-mk3')

@@ -11,4 +11,4 @@ zythum_sort_mod('HandCrankGenerator')
 
 
 -- Recipes for category zythum-energy
-zythum_sort('energy',        02, 01, 'hand-crank-generator')
+zythum_sort('energy',        03, 01, 'hand-crank-generator')
