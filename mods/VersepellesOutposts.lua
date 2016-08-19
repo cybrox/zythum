@@ -15,10 +15,6 @@ zythum_sort('chemistry',     06, 01, 'modified-rocket-fuel')
 zythum_sort('chemistry',     03, 01, 'extracted-biogas')
 zythum_sort('chemistry',     03, 02, 'artifact-fragment')
 
--- Recipes for category zythum-intermediate
-zythum_sort('intermediate',  04, 01, 'reactive-alien-alloy')
-zythum_sort('intermediate',  04, 02, 'novitian-alloy')
-
 -- Recipes for category zythum-vehicles
 zythum_sort('vehicles',      05, 01, 'exploration-vehicle')
 
@@ -32,3 +28,5 @@ zythum_sort('resources',     08, 02, 'electrolyzed-novitian-dust')
 -- Recipes for category zythum-plates
 zythum_sort('plates',        01, 01, 'promethian-plate')
 zythum_sort('plates',        01, 02, 'novitian-plate')
+zythum_sort('plates',        04, 01, 'reactive-alien-alloy')
+zythum_sort('plates',        04, 02, 'novitian-alloy')

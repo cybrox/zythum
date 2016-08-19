@@ -34,8 +34,10 @@ zythum_sort('intermediate',  03, 06, 'intergrated-electronics')
 zythum_sort('intermediate',  03, 07, 'processing-electronics')
 zythum_sort('intermediate',  03, 08, 'advanced-processing-unit')
 zythum_sort('intermediate',  03, 09, 'solder')
-zythum_sort('intermediate',  02, 07, 'solder-alloy')
-zythum_sort('intermediate',  02, 08, 'solder-alloy-lead')
+
+-- Recipes for category zythum-plates
+zythum_sort('plates',        04, 01, 'solder-alloy')
+zythum_sort('plates',        04, 02, 'solder-alloy-lead')
 
 -- Recipes for category zythum-resources
 zythum_sort('resources',     01, 01, 'synthetic-wood')

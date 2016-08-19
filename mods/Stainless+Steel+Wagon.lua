@@ -14,4 +14,4 @@ zythum_sort_mod('Stainless+Steel+Wagon')
 zythum_sort('vehicles',      01, 01, 'stainless-steel-wagon')
 
 -- Recipes for category zythum-plates
-zythum_sort('plates',        04, 01, 'stainless-steel-plate')
+zythum_sort('plates',        03, 01, 'stainless-steel-plate')

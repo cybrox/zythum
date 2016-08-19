@@ -291,6 +291,7 @@ Semi-supported mods are mods that, while we could index them in this mod, they a
 - Yuoki
 - Mobile-suit
 - Mining Tools
+- ZRecycling
 
 Additionally, all mods in `script/blacklist.json` have been indexed but don't contain items to sort, they are counted as *supported* too here.
 
