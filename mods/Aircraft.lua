@@ -16,4 +16,5 @@ zythum_sort('vehicles',      05, 02, 'cargo-plane')
 zythum_sort('vehicles',      05, 03, 'gunship')
 zythum_sort('vehicles',      05, 04, 'flying-fortress')
 
-zythum_sort('vehicles',      07, 01, 'high-explosive-cannon-shell')
+-- Recipes for category zythum-armory
+zythum_sort('armory',        03, 01, 'high-explosive-cannon-shell')

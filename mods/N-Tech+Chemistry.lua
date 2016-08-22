@@ -11,17 +11,16 @@ zythum_sort_mod('N-Tech+Chemistry')
 
 
 -- Recipes for category zythum-chemistry
-zythum_sort('chemistry',     01, 01, 'seawater')
-zythum_sort('chemistry',     01, 02, 'hydrogen')
-zythum_sort('chemistry',     01, 03, 'nitrogen')
-zythum_sort('chemistry',     01, 04, 'oxygen')
-zythum_sort('chemistry',     01, 05, 'ammonia')
-zythum_sort('chemistry',     01, 06, 'methanol')
-zythum_sort('chemistry',     01, 07, 'carbon-dioxide')
-
-zythum_sort('chemistry',     02, 01, 'air-cracking')
-zythum_sort('chemistry',     02, 02, 'water-electrolysis')
-zythum_sort('chemistry',     02, 03, 'water-purification')
+zythum_sort('chemistry',     02, 01, 'seawater')
+zythum_sort('chemistry',     02, 02, 'hydrogen')
+zythum_sort('chemistry',     02, 03, 'nitrogen')
+zythum_sort('chemistry',     02, 04, 'oxygen')
+zythum_sort('chemistry',     02, 05, 'ammonia')
+zythum_sort('chemistry',     02, 06, 'methanol')
+zythum_sort('chemistry',     02, 07, 'carbon-dioxide')
+zythum_sort('chemistry',     02, 08, 'air-cracking')
+zythum_sort('chemistry',     02, 09, 'water-electrolysis')
+zythum_sort('chemistry',     02, 10, 'water-purification')
 
 zythum_sort('chemistry',     03, 01, 'methylamine')
 zythum_sort('chemistry',     03, 02, 'dimethylamine')

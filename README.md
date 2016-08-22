@@ -392,7 +392,7 @@ The following item groups will be present in the crafting UI when the mod is loa
  - **08** Energy containing items (fuel value providers)
 
 - **zythum-chemistry**
- - **01** Basic chemical resource processing
+ - **01** Oil and lubricant processing
  - **02** Basic intermediate chemical resources
  - **04** Hard chemical items
  - **06** Chemical fuel sources

@@ -11,10 +11,10 @@ zythum_sort_mod('air-filtering')
 
 
 -- Recipes for category zythum-production
-zythum_sort('production',    04, 01, 'old-air-filter-machine')
-zythum_sort('production',    04, 02, 'air-filter-machine')
-zythum_sort('production',    04, 03, 'air-filter-machine-mk2')
-zythum_sort('production',    04, 04, 'air-filter-machine-mk3')
+zythum_sort('production',    02, 01, 'old-air-filter-machine')
+zythum_sort('production',    02, 02, 'air-filter-machine')
+zythum_sort('production',    02, 03, 'air-filter-machine-mk2')
+zythum_sort('production',    02, 04, 'air-filter-machine-mk3')
 
 -- Recipes for category zythum-intermediate
 zythum_sort('intermediate',  05, 01, 'air-filter')

@@ -13,4 +13,6 @@ zythum_sort_mod('Alien-Industry-Missile-Chariot')
 -- Recipes for category zythum-vehicles
 zythum_sort('vehicles',      05, 01, 'missile-car')
 zythum_sort('vehicles',      06, 01, 'vehicle-missile-launcher')
-zythum_sort('vehicles',      07, 01, 'car-missile')
+
+-- Recipes for category zythum-armory
+zythum_sort('armory',        03, 01, 'car-missile')

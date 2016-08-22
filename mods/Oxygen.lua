@@ -11,7 +11,7 @@ zythum_sort_mod('Oxygen')
 
 
 -- Recipes for category zythum-chemistry
-zythum_sort('chemistry',     01, 01, 'oxygen')
+zythum_sort('chemistry',     02, 01, 'oxygen')
 
 -- Recipes for category zythum-liquids
 zythum_sort('liquids',       01, 01, 'big-oxygen-bottle')

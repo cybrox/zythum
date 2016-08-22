@@ -26,4 +26,6 @@ zythum_sort('defense',       02, 03, '5d-gun-turret-small')
 zythum_sort('defense',       02, 04, '5d-gun-turret-big')
 
 zythum_sort('defense',       02, 05, '5d-artillery')
-zythum_sort('defense',       06, 02, 'artillery-shell')
+
+-- Recipes for category zythum-armory
+zythum_sort('armory',        03, 01, 'artillery-shell')

@@ -11,6 +11,6 @@ zythum_sort_mod('CircuitAlerter')
 
 
 -- Recipes for category zythum-logistics
-zythum_sort('logistics',      07, 01, 'circuit-alerter')
-zythum_sort('logistics',      07, 02, 'small-circuit-pole')
-zythum_sort('logistics',      07, 03, 'medium-circuit-pole')
+zythum_sort('logistics',     06, 01, 'circuit-alerter')
+zythum_sort('logistics',     06, 02, 'small-circuit-pole')
+zythum_sort('logistics',     06, 03, 'medium-circuit-pole')
