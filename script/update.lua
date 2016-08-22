@@ -13,7 +13,7 @@ modsite_mods = {}
 ignored_mods = {}
 updates_mods = ''
 
-do_single = (arg[1] ~= '')
+do_single = (arg[1] ~= nil)
 do_page = (do_single and arg[1] or 1)
 
 
@@ -116,12 +116,11 @@ load_ign_mods()
 
 
 -- Request first page in order to get data and number of pages
-print('OK: Fetching factorio mod database 0/?')
+print('OK: Fetching factorio mod database ' .. do_page .. '/?')
 data = load_api_page(do_page)
 napi = data.pagination.page_count
 store_api_page(data.results)
 print('OK: Fetching factorio mod database 1/' .. napi)
-
 
 -- Request the remaining pages in order to get all mod information
 if do_single == false then
