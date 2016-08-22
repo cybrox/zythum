@@ -5,6 +5,14 @@
 #
 
 if [[ -e "./info.json" ]]; then
+  # Generate assets first!
+  echo "OK: Generating imports in data fixes"
+  bash ./script/generate-imports.sh
+  echo "OK: Generating README.md file"
+  bash ./script/generate-readme.sh
+  echo "OK: Generating MODNFO.md file"
+  bash ./script/generate-modpage.sh
+
   FILTERCATS=18
   VERSIONSTR=$(cat info.json | grep \"version\")
   VERSION=$(echo $VERSIONSTR| cut -d'"' -f 4)
