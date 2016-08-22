@@ -16,7 +16,7 @@ This mod was inspired by [ZGroupChange](https://mods.factorio.com/mods/Progsy/ZG
 - Versepelles's mods
 - Yuoki (not resorted)
 
-## Supported mods (494)
+## Supported mods (495)
 - **base** `>= 13.0 `
 - [ 00 Armor](https://mods.factorio.com/mods/sl/Armor) `>= 0.0.5`
 - [ 00 Water Pump](https://mods.factorio.com/mods/M/00) `>= 0.0.2`
@@ -96,6 +96,7 @@ This mod was inspired by [ZGroupChange](https://mods.factorio.com/mods/Progsy/ZG
 - [ Charcoal Burner](https://mods.factorio.com/mods/Corvus/CharcoalBurner) `>= 0.0.2`
 - [ Cheaper Ammo... Maybe?](https://mods.factorio.com/mods/UberWaffe/CheaperAmmoMaybe) `>= 0.13.1`
 - [ Cartmen Automation Extension](https://mods.factorio.com/mods/Cartmen180/CI-automation) `>= 0.1.0`
+- [ Circuit Alerter](mods.factorio.com/mods/Nexela/CircuitAlerter) `>= 0.0.2`
 - [ CircuitLogger](https://mods.factorio.com/mods/Michal/CircuitLogger) `>= 1.0.0`
 - [ Crack Coal to Heavy](https://mods.factorio.com/mods/Emmote/CoalToHeavy) `>= 0.0.1`
 - [ Color Coding](https://mods.factorio.com/mods/D3Phoenix%2C/color-coding) `>= 1.1.0`
@@ -313,7 +314,7 @@ Planned mods are usually bigger modpacks, that I can't simply auto-sort. I will 
 - **tanks_for_bob**
 
 
-## Item groups 
+## Item groups
 The following item groups will be present in the crafting UI when the mod is loaded.
 
 - **zythum-collecting** Items related to collecting and gathering basic resources from the game world
@@ -335,7 +336,7 @@ The following item groups will be present in the crafting UI when the mod is loa
 - **zythum-decorative** Decorative items
 - **zythum-other** Items that don't fit it any category
 
-## Item subgroups 
+## Item subgroups
 - **zythum-collecting**
  - **01** Hand tools for mining and destruction
  - **02** Hand tools for repairing and constructing
@@ -346,7 +347,7 @@ The following item groups will be present in the crafting UI when the mod is loa
  - **08** Large storage chests and warehouses
  - **09** Fluid storage
 
-- **zythum-transport** 
+- **zythum-transport**
  - **01** Transport belts
  - **02** Underground transport belts
  - **03** Transport belt splitter
@@ -367,13 +368,13 @@ The following item groups will be present in the crafting UI when the mod is loa
  - **08** Logistic robot tools
  - **09** Logistic enhancements and parts
 
-- **zythum-automation** 
+- **zythum-automation**
  - **01** Base level inserters, nothing fancy here
  - **02** Stack inserters
  - **03** Smart inserters
  - **04** 90° inserters
 
-- **zythum-production** 
+- **zythum-production**
  - **01** Basic Furnaces / Mashers
  - **03** Basic Factories
  - **05** Basic Oil Related Factories
@@ -381,7 +382,7 @@ The following item groups will be present in the crafting UI when the mod is loa
  - **08** Biological factories
  - **09** Science and research buildings
 
-- **zythum-energy** 
+- **zythum-energy**
  - **01** Steam power related items
  - **02** Solar power related items
  - **03** Other type of power generators
@@ -467,4 +468,3 @@ The following item groups will be present in the crafting UI when the mod is loa
 
 - **zythum-other**
  - **01** Food
-
