@@ -90,9 +90,11 @@ zythum_sort('energy',        06, 04, 'substation')
 zythum_sort('energy',        08, 01, 'solid-fuel')
 
 -- Recipes for category zythum-chemistry
-zythum_sort('chemistry',     01, 01, 'heavy-oil-cracking')
-zythum_sort('chemistry',     01, 02, 'light-oil-cracking')
-zythum_sort('chemistry',     01, 03, 'lubricant')
+zythum_sort('chemistry',     01, 01, 'basic-oil-processing')
+zythum_sort('chemistry',     01, 02, 'advanced-oil-processing')
+zythum_sort('chemistry',     01, 03, 'heavy-oil-cracking')
+zythum_sort('chemistry',     01, 04, 'light-oil-cracking')
+zythum_sort('chemistry',     01, 05, 'lubricant')
 zythum_sort('chemistry',     02, 01, 'sulfur')
 zythum_sort('chemistry',     02, 02, 'sulfuric-acid')
 zythum_sort('chemistry',     04, 01, 'plastic-bar')
@@ -168,8 +170,6 @@ zythum_sort('liquids',       01, 01, 'empty-barrel')
 zythum_sort('liquids',       02, 01, 'fill-crude-oil-barrel')
 zythum_sort('liquids',       04, 01, 'empty-crude-oil-barrel')
 zythum_sort('liquids',       06, 01, 'crude-oil-barrel')
-zythum_sort('liquids',       07, 01, 'basic-oil-processing')
-zythum_sort('liquids',       07, 02, 'advanced-oil-processing')
 
 -- Recipes for category zythum-alien
 zythum_sort('alien',         01, 01, 'alien-artifact')
