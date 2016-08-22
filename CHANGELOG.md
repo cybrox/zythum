@@ -1,5 +1,5 @@
 #### 1.0.2
-- **ADD** Added support for SmartTrains, BigBrother and Circuit alerter
+- **ADD** Added support for SmartTrains, BigBrother, Circuit Alerter, ZRecycling, Loaders and Loader furnaces
 - **ADD** Added colored items in order to fit in with unsorted mods
 - **ADD** Resorted *ALL* current mods in order to balance categories
 - **FIX** Fixed some internals (automated scripts, workflows etc.)

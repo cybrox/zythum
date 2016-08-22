@@ -114,6 +114,7 @@ else
   require('mods.CurvedRail')
   require('mods.deforest-planner')
   require('mods.DistancePlus')
+  require('mods.DoubleFurnace')
   require('mods.DrillingPumpjack')
   require('mods.Drones')
   require('mods.dynamic-train-stop')
@@ -288,5 +289,6 @@ else
   require('mods.WoodenWalls')
   require('mods.YARM')
   require('mods.ZCS-Trash-Landfill')
+  require('mods.ZRecycling')
   require('mods._M_Armor')
 end

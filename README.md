@@ -16,7 +16,7 @@ This mod was inspired by [ZGroupChange](https://mods.factorio.com/mods/Progsy/ZG
 - Versepelles's mods
 - Yuoki (not resorted)
 
-## Supported mods (495)
+## Supported mods (497)
 - **base** `>= 13.0 `
 - [ 00 Armor](https://mods.factorio.com/mods/sl/Armor) `>= 0.0.5`
 - [ 00 Water Pump](https://mods.factorio.com/mods/M/00) `>= 0.0.2`
@@ -111,6 +111,7 @@ This mod was inspired by [ZGroupChange](https://mods.factorio.com/mods/Progsy/ZG
 - [ Curved Rail](https://mods.factorio.com/mods/daniel34/CurvedRail) `>= 1.0.0`
 - [ Deforest Planner](https://mods.factorio.com/mods/Jezza/deforest-planner) `>= 0.1.0`
 - [ DistancePlus](https://mods.factorio.com/mods/yareczek/DistancePlus) `>= 0.13.2`
+- [ Double Furnace](https://mods.factorio.com/mods/raid/DoubleFurnace) `>= 0.1.5`
 - [ The Drilling Pumpjack](https://mods.factorio.com/mods/Nerze/DrillingPumpjack) `>= 1.1.1`
 - [ Drones (remote monitor your factory from drones)](https://mods.factorio.com/mods/BinbinHfr/Drones) `>= 1.0.17`
 - [ Dynamic Train Stops](https://mods.factorio.com/mods/Aladrius/dynamic-train-stop) `>= 0.1.2`
@@ -285,6 +286,7 @@ This mod was inspired by [ZGroupChange](https://mods.factorio.com/mods/Progsy/ZG
 - [ Wooden Walls](https://mods.factorio.com/mods/Flying/WoodenWalls) `>= 0.13.14`
 - [ Yet Another Resource Monitor Fork](https://mods.factorio.com/mods/Octav/YARM) `>= 0.7.104`
 - [ Trash Landfill](https://mods.factorio.com/mods/zackman0010/ZCS-Trash-Landfill) `>= 0.13.15`
+- [ Recycling Machines](https://mods.factorio.com/mods/DRY411S/ZRecycling) `>= 0.13.20`
 - [ _M_ Armor](https://mods.factorio.com/mods/M/_M_Armor) `>= 0.0.4`
 
 ## Semi-Supported mods
